@@ -16,7 +16,6 @@ const { page: renderPage, formatDate } = require("./_build/layout");
 const ROOT = __dirname;
 
 const home = require("./_build/pages/home");
-const contacto = require("./_build/pages/contacto");
 const guiasIndex = require("./_build/pages/guias-index");
 const guiaPage = require("./_build/pages/guia");
 const blogIndex = require("./_build/pages/blog-index");
@@ -31,7 +30,6 @@ FOOT.columnas[1].enlaces = ARTICLES.map((a) => ({ label: a.title, href: `/blog/$
 
 const pages = [
   home(),
-  contacto(),
   guiasIndex(),
   ...GUIDES.map(guiaPage),
   blogIndex(),
