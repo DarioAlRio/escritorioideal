@@ -35,7 +35,6 @@ const SITE = {
 const NAV = [
   { label: "Guías de compra", href: "/guias/" },
   { label: "Blog", href: "/blog/" },
-  { label: "Sobre mí", href: "/sobre-mi.html" },
   { label: "Contacto", href: "/contacto.html" },
 ];
 
