@@ -1,13 +1,26 @@
 "use strict";
 
 const { SITE } = require("../nav");
-const { GUIDES, ARTICLES } = require("../data");
-const { icon, guideCard, articleCard } = require("../lib");
+const { GUIDES, ARTICLES, FEATURED } = require("../data");
+const { icon, escapeHtml, guideCard, articleCard, amazonProductUrl } = require("../lib");
 const { pageHero, ctaBand } = require("../layout");
+
+// Las 4 tarjetas del hero muestran una foto real de producto (no un icono
+// decorativo): mismo orden que las guías principales, sin "organización"
+// porque el hero solo tiene sitio para 4 tarjetas.
+const HERO_LABELS = {
+  "sillas-ergonomicas": "Silla",
+  monitores: "Monitor",
+  "teclados-y-raton": "Teclado",
+  "iluminacion-escritorio": "Luz",
+};
 
 function home() {
   const featuredGuides = GUIDES.slice(0, 4).map(guideCard).join("\n");
   const featuredArticles = ARTICLES.slice(0, 3).map(articleCard).join("\n");
+  const heroProducts = Object.keys(HERO_LABELS)
+    .map((slug) => FEATURED.find((p) => p.category === slug))
+    .filter(Boolean);
 
   const html = `
   <section class="hero">
@@ -25,11 +38,15 @@ function home() {
           <a class="btn btn-ghost" href="/blog/">Leer el blog</a>
         </div>
       </div>
-      <div class="hero-art" aria-hidden="true">
-        <div class="hero-art-card">${icon("chair")}<span>Silla</span></div>
-        <div class="hero-art-card">${icon("monitor")}<span>Monitor</span></div>
-        <div class="hero-art-card">${icon("keyboard")}<span>Teclado</span></div>
-        <div class="hero-art-card">${icon("lamp")}<span>Luz</span></div>
+      <div class="hero-art">
+        ${heroProducts
+          .map(
+            (p) => `<a class="hero-art-card" href="${amazonProductUrl(p.asin)}" target="_blank" rel="nofollow sponsored noopener">
+          <img src="${p.img}" alt="${escapeHtml(p.title)}" loading="lazy" width="140" height="140">
+          <span>${HERO_LABELS[p.category]}</span>
+        </a>`
+          )
+          .join("\n")}
       </div>
     </div>
   </section>
