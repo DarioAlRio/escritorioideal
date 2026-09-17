@@ -86,6 +86,24 @@ function amazonProductUrl(asin) {
   return `https://www.amazon.es/dp/${asin}?tag=escritorioide-21`;
 }
 
+// Una tarjeta de producto individual. `p` es {asin, title, note, price, rating,
+// category?, categoryTitle?}. Si trae category/categoryTitle añade un enlace a
+// la guía correspondiente (se usa en el bloque de destacados fuera de guías).
+function productCard(p) {
+  return `<a class="product-card" href="${amazonProductUrl(p.asin)}" target="_blank" rel="nofollow sponsored noopener">
+        <img class="product-card-img" src="${p.img}" alt="${escapeHtml(p.title)}" loading="lazy" width="240" height="240">
+        <div class="product-card-body">
+          <p class="product-card-title">${escapeHtml(p.title)}</p>
+          ${p.note ? `<p class="product-card-note">${escapeHtml(p.note)}</p>` : ""}
+          <div class="product-card-meta">
+            ${p.rating ? `<span class="product-card-rating">${escapeHtml(p.rating)}</span>` : ""}
+            ${p.price ? `<span class="product-card-price">desde ${escapeHtml(p.price)} €</span>` : ""}
+          </div>
+          <span class="btn btn-accent product-card-cta">Ver en Amazon ${icon("arrow")}</span>
+        </div>
+      </a>`;
+}
+
 // Grid de productos concretos recomendados dentro de una guía. `products` es
 // [{asin, title, note, price, rating}]. El precio se muestra como orientativo
 // (capturado al escribir la guía), nunca como precio en vivo: este sitio es
@@ -99,24 +117,36 @@ function productGrid(products) {
       orientativos en la fecha de esta guía: compruébalo siempre en la ficha de Amazon.
     </p>
     <div class="product-grid">
-      ${products
-        .map(
-          (p) => `<a class="product-card" href="${amazonProductUrl(p.asin)}" target="_blank" rel="nofollow sponsored noopener">
-        <img class="product-card-img" src="${p.img}" alt="${escapeHtml(p.title)}" loading="lazy" width="240" height="240">
-        <div class="product-card-body">
-          <p class="product-card-title">${escapeHtml(p.title)}</p>
-          ${p.note ? `<p class="product-card-note">${escapeHtml(p.note)}</p>` : ""}
-          <div class="product-card-meta">
-            ${p.rating ? `<span class="product-card-rating">${escapeHtml(p.rating)}</span>` : ""}
-            ${p.price ? `<span class="product-card-price">desde ${escapeHtml(p.price)} €</span>` : ""}
-          </div>
-          <span class="btn btn-accent product-card-cta">Ver en Amazon ${icon("arrow")}</span>
-        </div>
-      </a>`
-        )
-        .join("\n")}
+      ${products.map(productCard).join("\n")}
     </div>
   </div>`;
+}
+
+// Bloque de "destacados" que se inserta en TODAS las páginas (home, sobre mí,
+// contacto, blog, legal, 404...), no solo en las guías. `excludeCategory`
+// evita repetir la categoría de la guía en la que ya está este mismo bloque
+// específico (ver productGrid) cuando se muestra dentro de esa guía.
+function featuredProductsSection(featured, excludeCategory) {
+  const list = (featured || []).filter((p) => p.category !== excludeCategory);
+  if (!list.length) return "";
+  return `<section class="section featured-products">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Lo más recomendado de EscritorioIdeal</h2>
+        <p>Un producto destacado por categoría, sacado directamente de nuestras guías de compra.</p>
+      </div>
+      <div class="product-grid">
+        ${list
+          .map(
+            (p) => `<div class="product-card-wrap">
+          ${productCard(p)}
+          ${p.category ? `<a class="product-card-guide-link" href="/guias/${p.category}.html">Ver guía de ${escapeHtml(p.categoryTitle)} ${icon("arrow")}</a>` : ""}
+        </div>`
+          )
+          .join("\n")}
+      </div>
+    </div>
+  </section>`;
 }
 
 module.exports = {
@@ -130,4 +160,5 @@ module.exports = {
   amazonSearchBox,
   amazonProductUrl,
   productGrid,
+  featuredProductsSection,
 };

@@ -56,6 +56,7 @@ function guiaPage(g) {
     path: `/guias/${g.slug}.html`,
     title: g.title,
     description: g.dek,
+    excludeCategory: g.slug,
     breadcrumbsItems: [
       { label: "Inicio", href: "/" },
       { label: "Guías de compra", href: "/guias/" },

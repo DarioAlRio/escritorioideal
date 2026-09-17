@@ -56,6 +56,7 @@ for (const p of pages) {
     jsonLd: p.jsonLd || [],
     noindex: p.noindex || false,
     breadcrumbsItems: p.breadcrumbsItems || null,
+    excludeCategory: p.excludeCategory || null,
     main: p.html,
   });
   fs.writeFileSync(outPath, html, "utf8");
