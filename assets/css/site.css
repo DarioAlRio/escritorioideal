@@ -218,6 +218,10 @@ table { border-collapse: collapse; width: 100%; }
 .card p { color: var(--color-ink-muted); font-size: 0.95rem; margin-bottom: 4px; }
 .card-cta { display: inline-flex; align-items: center; gap: 6px; margin-top: auto; font-weight: 600; color: var(--color-brand-dark); }
 
+.card.guide-card { padding: 0; gap: 0; overflow: hidden; }
+.guide-card-img { width: 100%; aspect-ratio: 16 / 10; object-fit: contain; background: #fff; border-bottom: 1px solid var(--color-border); }
+.guide-card-body { display: flex; flex-direction: column; gap: 8px; padding: 20px 24px 24px; }
+
 /* --- Confianza / por qué esta web ---------------------------------------------- */
 
 .trust-grid { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 40px; align-items: start; }
