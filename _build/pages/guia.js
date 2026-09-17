@@ -1,7 +1,7 @@
 "use strict";
 
 const { SITE } = require("../nav");
-const { paragraphs, checklist, faqBlock, amazonSearchBox } = require("../lib");
+const { paragraphs, checklist, faqBlock, amazonSearchBox, productGrid } = require("../lib");
 const { pageHero, formatDate } = require("../layout");
 
 function guiaPage(g) {
@@ -42,13 +42,10 @@ function guiaPage(g) {
         </div>`
             : ""
         }
+        ${productGrid(g.products)}
       </article>
       <aside class="sidebar">
-        ${amazonSearchBox(g.title, "Buscar opciones relacionadas")}
-        <p class="sidebar-note">
-          Esta web está en proceso de alta en el Programa de Afiliados de Amazon: el enlace de
-          arriba lleva a una búsqueda normal en Amazon, sin comisión todavía.
-        </p>
+        ${amazonSearchBox(g.title, "Buscar más opciones")}
       </aside>
     </div>
   </section>
