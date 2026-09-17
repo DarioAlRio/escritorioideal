@@ -34,6 +34,7 @@ const SITE = {
 // se listan los grupos y los enlaces fijos.
 const NAV = [
   { label: "Guías de compra", href: "/guias/" },
+  { label: "Productos", href: "/productos/" },
   { label: "Blog", href: "/blog/" },
 ];
 

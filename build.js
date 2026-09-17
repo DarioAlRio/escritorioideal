@@ -18,6 +18,9 @@ const ROOT = __dirname;
 const home = require("./_build/pages/home");
 const guiasIndex = require("./_build/pages/guias-index");
 const guiaPage = require("./_build/pages/guia");
+const productoPage = require("./_build/pages/producto");
+const productosIndex = require("./_build/pages/productos-index");
+const comparativaPage = require("./_build/pages/comparativa");
 const blogIndex = require("./_build/pages/blog-index");
 const articuloPage = require("./_build/pages/articulo");
 const { avisoLegal, politicaPrivacidad, politicaCookies } = require("./_build/pages/legal");
@@ -28,10 +31,19 @@ const notFound = require("./_build/pages/not-found");
 FOOT.columnas[0].enlaces = GUIDES.map((g) => ({ label: g.title, href: `/guias/${g.slug}.html` }));
 FOOT.columnas[1].enlaces = ARTICLES.map((a) => ({ label: a.title, href: `/blog/${a.slug}.html` }));
 
+// Una página propia por producto (ficha con nuestro veredicto y puntuación) y
+// una comparativa entrada-vs-gama-alta por guía, generadas a partir de los
+// mismos datos ya verificados en GUIDES: no se investiga nada nuevo aquí.
+const productPages = GUIDES.flatMap((g) => g.products.map((p) => productoPage(p, g)));
+const comparativaPages = GUIDES.map(comparativaPage).filter(Boolean);
+
 const pages = [
   home(),
   guiasIndex(),
   ...GUIDES.map(guiaPage),
+  productosIndex(),
+  ...productPages,
+  ...comparativaPages,
   blogIndex(),
   ...ARTICLES.map(articuloPage),
   avisoLegal(),
