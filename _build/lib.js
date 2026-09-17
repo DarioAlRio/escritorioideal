@@ -90,11 +90,72 @@ function amazonProductUrl(asin) {
   return `https://www.amazon.es/dp/${asin}?tag=escritorioide-21`;
 }
 
+// Slug único por producto: título + ASIN en minúsculas, así nunca choca aunque
+// dos productos de guías distintas tengan un título parecido.
+function slugify(str) {
+  return String(str)
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "");
+}
+
+function productSlug(p) {
+  return `${slugify(p.title)}-${p.asin.toLowerCase()}`;
+}
+
+// Ficha propia del producto dentro del sitio (no el enlace de afiliado): es
+// la página con nuestro veredicto, puntuación y enlaces internos.
+function productUrl(p) {
+  return `/productos/${productSlug(p)}.html`;
+}
+
+// "4,7★" -> 4.7. Devuelve null si no hay valoración parseable.
+function ratingNumber(rating) {
+  const m = String(rating || "").match(/(\d+)[,.](\d+)/);
+  return m ? Number(`${m[1]}.${m[2]}`) : null;
+}
+
+// Puntuación propia (0-10): combina la valoración de Amazon con la posición
+// de precio dentro de su propia guía. No es una prueba de laboratorio, es una
+// forma de resumir de un vistazo si compensa dentro de su categoría — el
+// método se explica siempre en la propia ficha de producto.
+function ourScore(p, guideProducts) {
+  const stars = ratingNumber(p.rating);
+  let score = (stars !== null ? stars : 4) / 5 * 7;
+  const prices = (guideProducts || []).map((x) => Number(x.price)).filter((n) => !isNaN(n));
+  const price = Number(p.price);
+  if (prices.length && !isNaN(price)) {
+    if (price === Math.min(...prices)) score += 1; // mejor precio de la guía
+    if (price === Math.max(...prices)) score += 1; // más prestaciones/gama alta
+  }
+  return Math.min(10, Math.round(score * 10) / 10);
+}
+
+// "Entrada de gama" / "Gama media" / "Gama alta" según el tercio de precio en
+// el que cae el producto dentro de su propia guía.
+function priceTier(p, guideProducts) {
+  const prices = (guideProducts || [])
+    .map((x) => Number(x.price))
+    .filter((n) => !isNaN(n))
+    .sort((a, b) => a - b);
+  const price = Number(p.price);
+  if (!prices.length || isNaN(price)) return null;
+  const idx = prices.indexOf(price);
+  const third = Math.max(1, Math.ceil(prices.length / 3));
+  if (idx < third) return "Entrada de gama";
+  if (idx >= prices.length - third) return "Gama alta";
+  return "Gama media";
+}
+
 // Una tarjeta de producto individual. `p` es {asin, title, note, price, rating,
 // category?, categoryTitle?}. Si trae category/categoryTitle añade un enlace a
 // la guía correspondiente (se usa en el bloque de destacados fuera de guías).
+// Enlaza a la ficha propia del producto, no directamente a Amazon: el enlace
+// de afiliado vive dentro de esa ficha (ver _build/pages/producto.js).
 function productCard(p) {
-  return `<a class="product-card" href="${amazonProductUrl(p.asin)}" target="_blank" rel="nofollow sponsored noopener">
+  return `<a class="product-card" href="${productUrl(p)}">
         <img class="product-card-img" src="${p.img}" alt="${escapeHtml(p.title)}" loading="lazy" width="240" height="240">
         <div class="product-card-body">
           <p class="product-card-title">${escapeHtml(p.title)}</p>
@@ -103,7 +164,7 @@ function productCard(p) {
             ${p.rating ? `<span class="product-card-rating">${escapeHtml(p.rating)}</span>` : ""}
             ${p.price ? `<span class="product-card-price">desde ${escapeHtml(p.price)} €</span>` : ""}
           </div>
-          <span class="btn btn-accent product-card-cta">Ver en Amazon ${icon("arrow")}</span>
+          <span class="btn btn-accent product-card-cta">Ver ficha y opinión ${icon("arrow")}</span>
         </div>
       </a>`;
 }
@@ -163,6 +224,13 @@ module.exports = {
   articleCard,
   amazonSearchBox,
   amazonProductUrl,
+  slugify,
+  productSlug,
+  productUrl,
+  ratingNumber,
+  ourScore,
+  priceTier,
+  productCard,
   productGrid,
   featuredProductsSection,
 };

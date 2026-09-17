@@ -2,7 +2,7 @@
 
 const { SITE } = require("../nav");
 const { GUIDES, ARTICLES, FEATURED } = require("../data");
-const { icon, escapeHtml, guideCard, articleCard, amazonProductUrl } = require("../lib");
+const { icon, escapeHtml, guideCard, articleCard, productUrl, ratingNumber } = require("../lib");
 const { pageHero, ctaBand } = require("../layout");
 
 // Las 4 tarjetas del hero muestran una foto real de producto (no un icono
@@ -21,6 +21,16 @@ function home() {
   const heroProducts = Object.keys(HERO_LABELS)
     .map((slug) => FEATURED.find((p) => p.category === slug))
     .filter(Boolean);
+
+  const allProducts = GUIDES.flatMap((g) => g.products);
+  const ratings = allProducts.map((p) => ratingNumber(p.rating)).filter((n) => n !== null);
+  const avgRating = ratings.length ? ratings.reduce((a, b) => a + b, 0) / ratings.length : null;
+  const stats = [
+    { num: allProducts.length, label: "Productos analizados" },
+    { num: GUIDES.length, label: "Guías de compra" },
+    { num: ARTICLES.length, label: "Artículos del blog" },
+    ...(avgRating ? [{ num: `${avgRating.toFixed(1)}★`, label: "Valoración media en Amazon" }] : []),
+  ];
 
   const html = `
   <section class="hero">
@@ -41,12 +51,20 @@ function home() {
       <div class="hero-art">
         ${heroProducts
           .map(
-            (p) => `<a class="hero-art-card" href="${amazonProductUrl(p.asin)}" target="_blank" rel="nofollow sponsored noopener">
+            (p) => `<a class="hero-art-card" href="${productUrl(p)}">
           <img src="${p.img}" alt="${escapeHtml(p.title)}" loading="lazy" width="140" height="140">
           <span>${HERO_LABELS[p.category]}</span>
         </a>`
           )
           .join("\n")}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="stats-bar">
+        ${stats.map((s) => `<div><span class="stat-num">${s.num}</span><span class="stat-label">${s.label}</span></div>`).join("\n")}
       </div>
     </div>
   </section>

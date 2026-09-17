@@ -1,7 +1,7 @@
 "use strict";
 
 const { SITE } = require("../nav");
-const { paragraphs, checklist, faqBlock, amazonSearchBox, productGrid } = require("../lib");
+const { paragraphs, checklist, faqBlock, amazonSearchBox, productGrid, icon } = require("../lib");
 const { pageHero, formatDate } = require("../layout");
 
 function guiaPage(g) {
@@ -43,6 +43,11 @@ function guiaPage(g) {
             : ""
         }
         ${productGrid(g.products)}
+        ${
+          g.products && g.products.length > 1
+            ? `<p class="see-all"><a href="/comparativas/${g.slug}.html">Ver comparativa: entrada de gama vs. gama alta ${icon("arrow")}</a></p>`
+            : ""
+        }
       </article>
       <aside class="sidebar">
         ${amazonSearchBox(g.title, "Buscar más opciones")}
