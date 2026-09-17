@@ -53,11 +53,15 @@ function faqBlock(items) {
 }
 
 function guideCard(g) {
+  const thumb = g.products && g.products[0] ? g.products[0].img : null;
   return `<a class="card guide-card" href="/guias/${g.slug}.html">
-    <span class="card-eyebrow">Guía de compra</span>
-    <h3>${g.title}</h3>
-    <p>${g.dek}</p>
-    <span class="card-cta">Leer guía ${icon("arrow")}</span>
+    ${thumb ? `<img class="guide-card-img" src="${thumb}" alt="" loading="lazy" width="280" height="175">` : ""}
+    <div class="guide-card-body">
+      <span class="card-eyebrow">Guía de compra</span>
+      <h3>${g.title}</h3>
+      <p>${g.dek}</p>
+      <span class="card-cta">Leer guía ${icon("arrow")}</span>
+    </div>
   </a>`;
 }
 
