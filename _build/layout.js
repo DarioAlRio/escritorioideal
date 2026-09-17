@@ -1,7 +1,8 @@
 "use strict";
 
 const { SITE, NAV, FOOT } = require("./nav");
-const { icon, escapeHtml } = require("./lib");
+const { icon, escapeHtml, featuredProductsSection } = require("./lib");
+const { FEATURED } = require("./data");
 
 function head({ title, description, path, jsonLd = [], noindex = false }) {
   const fullTitle = path === "/" ? `${SITE.name} — ${SITE.claim}` : `${title} — ${SITE.name}`;
@@ -162,7 +163,7 @@ function ctaBand() {
   </section>`;
 }
 
-function page({ path, title, description, bodyClass = "", jsonLd = [], noindex = false, breadcrumbsItems = null, main }) {
+function page({ path, title, description, bodyClass = "", jsonLd = [], noindex = false, breadcrumbsItems = null, excludeCategory = null, main }) {
   return `<!DOCTYPE html>
 <html lang="${SITE.lang}">
 <head>
@@ -173,6 +174,7 @@ function page({ path, title, description, bodyClass = "", jsonLd = [], noindex =
   ${breadcrumbsItems ? breadcrumbs(breadcrumbsItems) : ""}
   <main id="contenido">
     ${main}
+    ${featuredProductsSection(FEATURED, excludeCategory)}
   </main>
   ${footerHtml(FOOT)}
   ${cookieBanner()}

@@ -590,4 +590,21 @@ const ARTICLES = [
   },
 ];
 
-module.exports = { GUIDES, ARTICLES };
+// Un producto destacado por categoría, para el bloque "Lo más recomendado"
+// que aparece en todas las páginas (ver featuredProductsSection en lib.js).
+// Se reutilizan los datos ya cargados en GUIDES para no duplicar imagen/precio.
+function pickFeatured(guideSlug, asin) {
+  const g = GUIDES.find((x) => x.slug === guideSlug);
+  const p = g.products.find((x) => x.asin === asin);
+  return { ...p, category: g.slug, categoryTitle: g.title };
+}
+
+const FEATURED = [
+  pickFeatured("sillas-ergonomicas", "B0GWRDPZZF"),
+  pickFeatured("monitores", "B0GW8PLMZM"),
+  pickFeatured("teclados-y-raton", "B07W6J71BL"),
+  pickFeatured("iluminacion-escritorio", "B0GGXPFW9X"),
+  pickFeatured("organizacion-cables-y-espacio", "B0GT8V2JVZ"),
+];
+
+module.exports = { GUIDES, ARTICLES, FEATURED };
