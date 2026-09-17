@@ -24,28 +24,30 @@ Amazon. Si se compra uno, actualizar `SITE.domain` y volver a generar.
 
 ## Cuenta de Amazon Afiliados
 
-1. Publicar este sitio (Vercel: `vercel --prod` desde esta carpeta, o
-   conectar el repo).
-2. Registrarse en `afiliados.amazon.es` con la URL ya publicada.
-3. Elegir el **Store ID** (tag de afiliado). Sustituir el placeholder
-   `TUTAG-21` en `SITE.amazonTag` (`_build/nav.js`) por el real — aunque
-   ahora mismo ningún enlace lo usa todavía (ver siguiente punto).
-4. Generar 3 ventas cualificadas en 180 días o la cuenta se cierra sola:
-   hace falta tráfico real desde el primer día, no solo tener la web.
-5. Una vez aprobada la cuenta, solicitar acceso a **PA-API** (Access Key +
-   Secret Key) desde el panel, sección "Herramientas de producto".
+1. ✅ Sitio publicado en Vercel (`https://escritorioideal.vercel.app`).
+2. ✅ Cuenta creada en `afiliados.amazon.es` (usuario Darío Domínguez).
+3. ✅ Store ID real: `escritorioide-21`, ya en `SITE.amazonTag`
+   (`_build/nav.js`) y en todos los enlaces de producto.
+4. **Pendiente**: generar 3 ventas cualificadas en 180 días desde el alta o
+   la cuenta se cierra sola — hace falta tráfico real, no solo la web y los
+   enlaces publicados.
+5. **Pendiente**: una vez conseguidas esas ventas, solicitar acceso a
+   **PA-API** (Access Key + Secret Key) desde el panel, sección
+   "Herramientas de producto", para automatizar precios/imágenes en vivo.
 
-## Enlaces de afiliado (por ahora son búsquedas normales)
+## Enlaces de afiliado (mínimo viable, sin PA-API)
 
-Cada guía tiene un botón "Buscar en Amazon" que hoy enlaza a
-`amazon.es/s?k=...` **sin tag de afiliado**, porque la cuenta todavía no
-existe (helper `amazonSearchBox` en `_build/lib.js`). En cuanto haya
-cuenta aprobada y tag real:
+Cada guía tiene ya una sección "Productos que cumplen estos criterios" con
+5-8 productos reales por guía (`products` en `_build/data.js`), enlazados
+con `https://www.amazon.es/dp/<ASIN>?tag=escritorioide-21`
+(helper `amazonProductUrl` en `_build/lib.js`). Los precios y valoraciones
+mostrados son una foto fija tomada al añadir cada producto, no datos en
+vivo — hay que revisarlos de vez en cuando a mano.
 
-- Mínimo viable: añadir `&tag=<tu-tag>` a esas URLs de búsqueda.
-- Con PA-API ya disponible: sustituir esos botones por productos concretos
-  (imagen, precio, enlace) generados automáticamente por categoría/keyword
-  — es el pipeline que se monta después, no está construido todavía.
+Siguiente paso cuando haya PA-API: sustituir esos datos estáticos por una
+consulta automática (precio, disponibilidad, imagen) en tiempo de build, y
+ampliar el catálogo por categoría/keyword sin tener que buscar producto a
+producto en Amazon.
 
 ## Contenido para llegar y mantener el mínimo de Amazon
 

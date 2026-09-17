@@ -70,17 +70,52 @@ function articleCard(a) {
   </a>`;
 }
 
-// Aviso honesto: todavía no hay tag de afiliado activo (cuenta en proceso de
-// alta). Enlaza a una búsqueda normal de Amazon, sin parámetros de afiliado.
-// En cuanto exista el tag (ver PENDIENTE.md) esto se sustituye por enlaces
-// reales generados desde PA-API.
 function amazonSearchBox(query, label) {
-  const url = `https://www.amazon.es/s?k=${encodeURIComponent(query)}`;
+  const url = `https://www.amazon.es/s?k=${encodeURIComponent(query)}&tag=escritorioide-21`;
   return `<div class="amzbox">
     <p class="amzbox-label">${label || "Ver opciones en Amazon"}</p>
     <a class="btn btn-accent" href="${url}" target="_blank" rel="nofollow sponsored noopener">
       Buscar en Amazon ${icon("arrow")}
     </a>
+  </div>`;
+}
+
+// Enlace de afiliado a partir del ASIN. Formato mínimo viable (sin PA-API):
+// dominio + /dp/ASIN + tag. Ver PENDIENTE.md para el paso a PA-API.
+function amazonProductUrl(asin) {
+  return `https://www.amazon.es/dp/${asin}?tag=escritorioide-21`;
+}
+
+// Grid de productos concretos recomendados dentro de una guía. `products` es
+// [{asin, title, note, price, rating}]. El precio se muestra como orientativo
+// (capturado al escribir la guía), nunca como precio en vivo: este sitio es
+// estático y no consulta PA-API todavía.
+function productGrid(products) {
+  if (!products || !products.length) return "";
+  return `<div class="content-section product-section">
+    <h2>Productos que cumplen estos criterios</h2>
+    <p class="product-section-note">
+      Selección propia a partir de los criterios de esta guía, no un ranking pagado. Precios
+      orientativos en la fecha de esta guía: compruébalo siempre en la ficha de Amazon.
+    </p>
+    <div class="product-grid">
+      ${products
+        .map(
+          (p) => `<a class="product-card" href="${amazonProductUrl(p.asin)}" target="_blank" rel="nofollow sponsored noopener">
+        <img class="product-card-img" src="${p.img}" alt="${escapeHtml(p.title)}" loading="lazy" width="240" height="240">
+        <div class="product-card-body">
+          <p class="product-card-title">${escapeHtml(p.title)}</p>
+          ${p.note ? `<p class="product-card-note">${escapeHtml(p.note)}</p>` : ""}
+          <div class="product-card-meta">
+            ${p.rating ? `<span class="product-card-rating">${escapeHtml(p.rating)}</span>` : ""}
+            ${p.price ? `<span class="product-card-price">desde ${escapeHtml(p.price)} €</span>` : ""}
+          </div>
+          <span class="btn btn-accent product-card-cta">Ver en Amazon ${icon("arrow")}</span>
+        </div>
+      </a>`
+        )
+        .join("\n")}
+    </div>
   </div>`;
 }
 
@@ -93,4 +128,6 @@ module.exports = {
   guideCard,
   articleCard,
   amazonSearchBox,
+  amazonProductUrl,
+  productGrid,
 };

@@ -13,10 +13,7 @@ const SITE = {
   locale: "es_ES",
   lang: "es",
   email: "hola@escritorioideal.es", // PENDIENTE: crear buzón real, ver PENDIENTE.md
-  // Tag de afiliado de Amazon: no existe todavía (la cuenta se solicita con esta
-  // misma web ya publicada). En cuanto se apruebe, sustituir aquí y en cada botón
-  // "Ver en Amazon" por el enlace con el tag real. Ver PENDIENTE.md.
-  amazonTag: "TUTAG-21",
+  amazonTag: "escritorioide-21",
   amazonDisclaimer:
     "Como Afiliado de Amazon, EscritorioIdeal obtiene ingresos por las compras adscritas que cumplen los requisitos aplicables.",
   social: {
