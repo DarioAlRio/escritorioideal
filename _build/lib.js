@@ -2,6 +2,8 @@
 
 // Iconos SVG en línea y componentes reutilizables. Cero librerías de iconos.
 
+const { SITE } = require("./nav");
+
 function icon(name, cls) {
   const extra = cls ? ` ${cls}` : "";
   const icons = {
@@ -77,7 +79,7 @@ function articleCard(a) {
 }
 
 function amazonSearchBox(query, label) {
-  const url = `https://www.amazon.es/s?k=${encodeURIComponent(query)}&tag=escritorioide-21`;
+  const url = `https://www.amazon.es/s?k=${encodeURIComponent(query)}&tag=${SITE.amazonTag}`;
   return `<div class="amzbox">
     <p class="amzbox-label">${label || "Ver opciones en Amazon"}</p>
     <a class="btn btn-accent" href="${url}" target="_blank" rel="nofollow sponsored noopener">
@@ -89,7 +91,7 @@ function amazonSearchBox(query, label) {
 // Enlace de afiliado a partir del ASIN. Formato mínimo viable (sin PA-API):
 // dominio + /dp/ASIN + tag. Ver PENDIENTE.md para el paso a PA-API.
 function amazonProductUrl(asin) {
-  return `https://www.amazon.es/dp/${asin}?tag=escritorioide-21`;
+  return `https://www.amazon.es/dp/${asin}?tag=${SITE.amazonTag}`;
 }
 
 // Slug único por producto: título + ASIN en minúsculas, así nunca choca aunque
