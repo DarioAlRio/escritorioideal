@@ -12,7 +12,6 @@ const SITE = {
   domain: "https://escritorioideal.vercel.app",
   locale: "es_ES",
   lang: "es",
-  email: "hola@escritorioideal.es", // PENDIENTE: crear buzón real, ver PENDIENTE.md
   amazonTag: "escritorioide-21",
   amazonDisclaimer:
     "Como Afiliado de Amazon, EscritorioIdeal obtiene ingresos por las compras adscritas que cumplen los requisitos aplicables.",
