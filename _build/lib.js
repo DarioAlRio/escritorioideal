@@ -53,9 +53,8 @@ function faqBlock(items) {
 }
 
 function guideCard(g) {
-  const thumb = g.products && g.products[0] ? g.products[0].img : null;
   return `<a class="card guide-card" href="/guias/${g.slug}.html">
-    ${thumb ? `<img class="guide-card-img" src="${thumb}" alt="" loading="lazy" width="280" height="175">` : ""}
+    ${g.img ? `<img class="guide-card-photo" src="${g.img}" alt="${escapeHtml(g.title)}" loading="lazy" width="400" height="250">` : ""}
     <div class="guide-card-body">
       <span class="card-eyebrow">Guía de compra</span>
       <h3>${g.title}</h3>
@@ -67,10 +66,13 @@ function guideCard(g) {
 
 function articleCard(a) {
   return `<a class="card article-card" href="/blog/${a.slug}.html">
-    <span class="card-eyebrow">Blog</span>
-    <h3>${a.title}</h3>
-    <p>${a.dek}</p>
-    <span class="card-cta">Leer artículo ${icon("arrow")}</span>
+    ${a.img ? `<img class="article-card-photo" src="${a.img}" alt="${escapeHtml(a.title)}" loading="lazy" width="400" height="250">` : ""}
+    <div class="article-card-body">
+      <span class="card-eyebrow">Blog</span>
+      <h3>${a.title}</h3>
+      <p>${a.dek}</p>
+      <span class="card-cta">Leer artículo ${icon("arrow")}</span>
+    </div>
   </a>`;
 }
 
