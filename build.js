@@ -75,12 +75,32 @@ console.log(`Generadas ${pages.length} páginas.`);
 // --- sitemap.xml + robots.txt -----------------------------------------------
 
 const indexable = pages.filter((p) => !p.noindex);
+const buildDate = new Date().toISOString();
+
+// Prioridad y frecuencia de rastreo por tipo de página: el home y los
+// índices de sección son los que más cambian y los que más interesa que
+// Google visite a menudo; las páginas legales casi nunca cambian.
+function sitemapPriority(p) {
+  if (p.path === "/") return "1.0";
+  if (p.path === "/guias/" || p.path === "/productos/" || p.path === "/blog/") return "0.8";
+  if (p.path.startsWith("/legal/")) return "0.3";
+  return "0.6";
+}
+function sitemapChangefreq(p) {
+  if (p.path === "/") return "daily";
+  if (p.path.startsWith("/legal/")) return "yearly";
+  return "weekly";
+}
+
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${indexable
   .map(
     (p) => `  <url>
     <loc>${SITE.domain}${p.path}</loc>
+    <lastmod>${buildDate}</lastmod>
+    <changefreq>${sitemapChangefreq(p)}</changefreq>
+    <priority>${sitemapPriority(p)}</priority>
   </url>`
   )
   .join("\n")}
