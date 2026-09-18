@@ -25,6 +25,11 @@ function comparativaPage(g) {
     title: `${budget.title} vs. ${premium.title}`,
     dek: `¿Compensa pagar más? Comparamos la opción más económica y la de gama alta de nuestra guía de ${g.title.toLowerCase()}.`,
   })}
+  ${
+    g.img
+      ? `<div class="page-hero-photo-wrap"><div class="wrap"><img class="page-hero-photo" src="${g.img}" alt="${escapeHtml(g.title)}" loading="lazy" width="1200" height="500"></div></div>`
+      : ""
+  }
   <section class="section">
     <div class="wrap two-col">
       <article class="prose">

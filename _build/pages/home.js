@@ -97,7 +97,10 @@ function home() {
 
   <section class="section trust-section">
     <div class="wrap trust-grid">
-      <div>
+      <div class="trust-photo-wrap">
+        <img class="trust-photo" src="/assets/img/trust-bg.jpg" alt="Escritorio de oficina en casa bien organizado" loading="lazy" width="700" height="600">
+      </div>
+      <div class="trust-copy">
         <h2>¿Por qué esta web?</h2>
         <p>
           Montar un escritorio cómodo implica decidir sobre piezas que no se prueban en cinco
@@ -110,14 +113,14 @@ function home() {
           criterio: cada guía explica qué características buscar y por qué, de forma que sirva
           para comparar cualquier producto, lo compres donde lo compres.
         </p>
-      </div>
-      <div class="trust-card">
-        <h3>Cómo se financia esta web</h3>
-        <p>${SITE.amazonDisclaimer}</p>
-        <p class="trust-note">
-          Enlazar a un producto no cambia su precio para ti ni implica que sea el único
-          recomendable: es una forma de sostener el tiempo que lleva escribir cada guía.
-        </p>
+        <div class="trust-card">
+          <h3>Cómo se financia esta web</h3>
+          <p>${SITE.amazonDisclaimer}</p>
+          <p class="trust-note">
+            Enlazar a un producto no cambia su precio para ti ni implica que sea el único
+            recomendable: es una forma de sostener el tiempo que lleva escribir cada guía.
+          </p>
+        </div>
       </div>
     </div>
   </section>

@@ -11,6 +11,7 @@ const GUIDES = [
     title: "Cómo elegir una silla ergonómica para el escritorio",
     dek: "Qué mirar de verdad antes de comprar: regulaciones, apoyo lumbar, malla o tapizado y cuándo compensa pagar más.",
     updated: "2026-09-15",
+    img: "/assets/img/guias/sillas-ergonomicas.jpg",
     intro: [
       "Una silla mala no se nota el primer día: se nota a la tercera semana, cuando empieza el dolor lumbar o de cervicales. Es probablemente la pieza del escritorio donde más merece la pena mirar bien antes de comprar, porque un error aquí se paga en horas de espalda, no solo en dinero.",
       "Esta guía no recomienda un modelo concreto: te da los criterios para que compares cualquier silla con cabeza, incluidas las que encuentres en Amazon.",
@@ -129,6 +130,7 @@ const GUIDES = [
     title: "Cómo elegir un monitor para trabajar (sin gastar de más)",
     dek: "Tamaño, resolución, distancia de trabajo y cuándo un segundo monitor rinde más que uno grande.",
     updated: "2026-09-14",
+    img: "/assets/img/guias/monitores.jpg",
     intro: [
       "El error más habitual al elegir monitor para trabajar es fijarse solo en el tamaño en pulgadas y olvidar la resolución y la distancia a la que vas a sentarte. Un monitor grande con poca resolución se ve borroso de cerca; uno pequeño con mucha resolución obliga a poner el texto enorme para leerlo.",
     ],
@@ -235,6 +237,7 @@ const GUIDES = [
     title: "Teclado y ratón: guía para elegir sin dejarte el pulso en ello",
     dek: "Mecánico o de membrana, ergonómico o estándar, y cuándo cambiar de verdad mejora la muñeca.",
     updated: "2026-09-13",
+    img: "/assets/img/guias/teclados-y-raton.jpg",
     intro: [
       "El teclado y el ratón son los periféricos que más tocas y los que menos tiempo se dedica a elegir bien. La diferencia entre un combo genérico y uno pensado para tu forma de trabajar se nota sobre todo en sesiones largas, no en los primeros cinco minutos probándolo en la tienda.",
     ],
@@ -343,6 +346,7 @@ const GUIDES = [
     title: "Iluminación de escritorio: cómo evitar el cansancio de vista",
     dek: "Temperatura de color, posición del flexo y por qué la luz del monitor no basta.",
     updated: "2026-09-12",
+    img: "/assets/img/guias/iluminacion-escritorio.jpg",
     intro: [
       "Trabajar solo con la luz del monitor encendido en una habitación oscura es una de las causas más comunes de fatiga visual, aunque casi nadie lo relaciona con eso: el contraste tan fuerte entre la pantalla brillante y el resto a oscuras obliga al ojo a reajustarse constantemente.",
     ],
@@ -443,6 +447,7 @@ const GUIDES = [
     title: "Organización del escritorio: cables, espacio y accesorios que sí sirven",
     dek: "Qué accesorios de orden marcan una diferencia real y cuáles son solo estética.",
     updated: "2026-09-10",
+    img: "/assets/img/guias/organizacion-cables-y-espacio.jpg",
     intro: [
       "Un escritorio despejado no es solo estética: menos cables sueltos significa menos enganchones, menos polvo acumulado y más espacio real para trabajar. Pero no todos los accesorios de \"organización\" que se venden aportan lo mismo.",
     ],
@@ -541,6 +546,7 @@ const ARTICLES = [
     title: "Cómo montar un escritorio de teletrabajo desde cero",
     dek: "El orden en el que conviene decidir cada pieza, y por qué empezar por la silla y no por el monitor.",
     updated: "2026-09-16",
+    img: "/assets/img/blog/como-montar-tu-escritorio-de-teletrabajo.jpg",
     body: [
       "Cuando se monta un escritorio de teletrabajo desde cero, es fácil empezar por lo más vistoso (el monitor, la mesa bonita) y dejar para el final lo que más impacto tiene en el cuerpo a largo plazo: la silla y la altura de trabajo.",
       "El orden que mejor funciona es este: primero la silla, porque define la altura de tus ojos y tus brazos respecto a la mesa; después la mesa y su altura (fija o eléctrica); después el monitor y su soporte, ajustado a la altura de tus ojos con la silla ya puesta; y por último teclado, ratón e iluminación, que son ajustes finos sobre una base ya correcta.",
@@ -554,6 +560,7 @@ const ARTICLES = [
     title: "5 errores de ergonomía que se repiten en casi todos los escritorios",
     dek: "Cosas fáciles de arreglar que no cuestan dinero, antes de pensar en comprar nada nuevo.",
     updated: "2026-09-11",
+    img: "/assets/img/blog/errores-comunes-ergonomia-oficina.jpg",
     body: [
       "Antes de gastar en accesorios nuevos, merece la pena revisar si el problema es de postura y no de equipo: varios de los errores más comunes se arreglan sin comprar nada.",
       "1. Monitor demasiado bajo o demasiado alto. Es el más habitual cuando se trabaja con un portátil sin soporte: la pantalla queda mucho más baja de lo que le conviene al cuello. Un soporte de portátil o, en su defecto, una pila estable de libros, ya corrige buena parte del problema.",
@@ -568,6 +575,7 @@ const ARTICLES = [
     title: "¿Cuánto merece la pena gastar en una silla de oficina?",
     dek: "Dónde están los saltos de calidad reales y dónde el precio ya no compra nada nuevo.",
     updated: "2026-09-09",
+    img: "/assets/img/blog/cuanto-gastar-en-una-silla-de-oficina.jpg",
     body: [
       "No hay una cifra única válida para todo el mundo, pero sí hay tramos de precio donde el salto de calidad es real y tramos donde ya no se nota tanto.",
       "El primer salto importante está entre una silla sin ninguna regulación (solo altura del gas) y una con las regulaciones básicas: altura, profundidad de asiento, reposabrazos e inclinación bloqueable. Ese salto es el que más impacto tiene en la postura, independientemente de la marca.",
@@ -581,6 +589,7 @@ const ARTICLES = [
     title: "Ilumina tu escritorio sin deslumbrarte en las videollamadas",
     dek: "Cómo colocar la luz para que se vea bien en cámara sin que moleste a la vista al trabajar.",
     updated: "2026-09-08",
+    img: "/assets/img/blog/ilumina-tu-escritorio-sin-deslumbrar.jpg",
     body: [
       "La luz que hace que se te vea bien en una videollamada y la luz que necesitas para trabajar cómodo no siempre son la misma, y ajustarlas a la vez es más sencillo de lo que parece.",
       "Para cámara, la luz debe venir de frente o ligeramente de lado, nunca solo desde atrás (a contraluz te vuelves una silueta) ni solo desde arriba (genera sombras duras bajo los ojos). Una fuente de luz suave situada detrás de la pantalla, apuntando hacia tu cara, suele bastar sin necesidad de un aro de luz dedicado.",
