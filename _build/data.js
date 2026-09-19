@@ -839,7 +839,7 @@ const GUIDES = [
     title: "Mesas elevables: cuándo compensa pasar a un escritorio de pie",
     dek: "Motor único o doble, tamaño de tablero y qué mirar antes de comprar un escritorio regulable en altura.",
     updated: "2026-09-17",
-    img: "/assets/img/guias/organizacion-cables-y-espacio.jpg",
+    img: "/assets/img/guias/mesas-elevables.jpg",
     intro: [
       "Una mesa elevable no sustituye a moverse durante el día, pero facilita muchísimo alternar entre sentado y de pie sin tener que levantarte de la silla para ajustar nada: basta con pulsar un botón o recuperar una posición guardada.",
       "El salto de precio entre modelos es grande, y no siempre corresponde a lo que de verdad se nota en el uso diario. Esta guía explica qué diferencias importan y cuáles son solo marketing.",
@@ -1004,7 +1004,7 @@ const GUIDES = [
     title: "Auriculares para videollamadas: qué mirar además del sonido",
     dek: "Cable o inalámbrico, cancelación de ruido del micrófono y por qué la comodidad importa tanto como el audio.",
     updated: "2026-09-16",
-    img: "/assets/img/guias/teclados-y-raton.jpg",
+    img: "/assets/img/guias/auriculares-videollamadas.jpg",
     intro: [
       "Para videollamadas, lo que más se nota no es la calidad musical del auricular sino cómo te oyen al otro lado: un micrófono con buena cancelación de ruido de fondo marca más diferencia que unos graves potentes.",
       "Esta guía se centra en los criterios propios del teletrabajo (comodidad en sesiones largas, micrófono, conexión) y no en las prestaciones típicas de auriculares para música o juego.",
