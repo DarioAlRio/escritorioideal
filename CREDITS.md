@@ -18,6 +18,8 @@ y no se han tocado.
 | `assets/img/blog/cuanto-gastar-en-una-silla-de-oficina.jpg`      | https://www.pexels.com/photo/28350929/ |
 | `assets/img/blog/ilumina-tu-escritorio-sin-deslumbrar.jpg`       | https://www.pexels.com/photo/21391559/ |
 | `assets/img/trust-bg.jpg`                                        | https://www.pexels.com/photo/20213729/ |
+| `assets/img/guias/mesas-elevables.jpg`                           | https://www.pexels.com/photo/31726660/ |
+| `assets/img/guias/auriculares-videollamadas.jpg`                 | https://www.pexels.com/photo/7681135/ |
 
 Licencia de Pexels: https://www.pexels.com/license/ (uso comercial y no
 comercial permitido, sin atribución obligatoria, no se pueden revender las
