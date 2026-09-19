@@ -1228,6 +1228,7 @@ const ARTICLES = [
     title: "Cómo ajustar la altura de tu silla ergonómica correctamente",
     dek: "El orden en el que conviene tocar cada regulación y los errores más habituales al hacerlo a ojo.",
     updated: "2026-09-19",
+    img: "/assets/img/blog/como-ajustar-la-altura-de-tu-silla-ergonomica.jpg",
     body: [
       "Tener <a href=\"/guias/sillas-ergonomicas.html\">una silla con buenas regulaciones</a> no sirve de mucho si luego se ajusta a ojo, sin seguir ningún criterio. La mayoría de la gente sube o baja el asiento hasta que \"se siente cómodo\" en el momento, sin comprobar el resto de puntos que dependen de esa altura.",
       "El primer ajuste, y el que manda sobre los demás, es la altura del asiento: siéntate y comprueba que los pies apoyan completamente en el suelo con las rodillas dobladas a unos 90°, ni más cerradas ni más abiertas. Si tu mesa es fija y baja, puede que este ajuste te obligue a un compromiso: en ese caso, un reposapiés compensa la diferencia sin forzar la espalda.",
@@ -1242,6 +1243,7 @@ const ARTICLES = [
     title: "Mesa elevable: cuánto tiempo de pie al día tiene sentido",
     dek: "No se trata de trabajar todo el día de pie, sino de alternar; algunas ideas prácticas para empezar.",
     updated: "2026-09-19",
+    img: "/assets/img/blog/cuanto-tiempo-de-pie-al-dia-con-mesa-elevable.jpg",
     body: [
       "Comprar <a href=\"/guias/mesas-elevables.html\">una mesa elevable</a> genera casi siempre la misma duda al principio: ¿cuánto tiempo hay que pasar de pie para que merezca la pena? La respuesta corta es que no existe una cifra única válida para todo el mundo, y que el objetivo real no es maximizar las horas de pie sino dejar de pasar el día entero sentado sin moverte.",
       "Lo que sí funciona bien en la práctica es alternar en bloques cortos: por ejemplo, entre 45 minutos y una hora sentado seguido de 15-20 minutos de pie, y repetir ese ciclo varias veces durante la jornada. Empezar con bloques más largos de pie de golpe suele acabar en piernas cansadas y en abandonar la mesa elevable a la semana.",
@@ -1255,6 +1257,7 @@ const ARTICLES = [
     title: "Cómo elegir un monitor para trabajar muchas horas sin fatiga visual",
     dek: "Más allá del panel: brillo, parpadeo, distancia y hábitos que pesan tanto como la ficha técnica.",
     updated: "2026-09-19",
+    img: "/assets/img/blog/monitor-para-trabajar-muchas-horas-sin-fatiga-visual.jpg",
     body: [
       "Cuando se habla de fatiga visual casi siempre se piensa primero en <a href=\"/guias/monitores.html\">las características del monitor</a>, pero una parte importante del cansancio de vista viene de cómo se usa el monitor, no solo de qué monitor es.",
       "Dentro de la ficha técnica, dos datos pesan más de lo que parece para sesiones largas: el brillo bien ajustado (ni tan alto que deslumbre en una habitación con poca luz, ni tan bajo que obligue a forzar la vista) y que el panel no tenga parpadeo perceptible a baja luminosidad (\"flicker-free\"), algo que ya incorporan la mayoría de monitores actuales de gama media en adelante.",
@@ -1269,6 +1272,7 @@ const ARTICLES = [
     title: "Organización de cables en el escritorio: guía práctica paso a paso",
     dek: "Un orden de trabajo sencillo para pasar de un nudo de cables a un escritorio despejado en una tarde.",
     updated: "2026-09-19",
+    img: "/assets/img/blog/organizacion-de-cables-guia-practica-paso-a-paso.jpg",
     body: [
       "Organizar los cables de un escritorio da pereza sobre todo porque no se sabe por dónde empezar. <a href=\"/guias/organizacion-cables-y-espacio.html\">Con un poco de orden en los pasos</a>, es un trabajo de una tarde, no de un fin de semana entero.",
       "Paso 1: desconecta y saca todo. Suena drástico, pero intentar reorganizar cables mientras siguen conectados es la forma más lenta de hacerlo. Desconecta cargadores, regleta y periféricos, y déjalos aparte antes de decidir nada.",
@@ -1283,6 +1287,7 @@ const ARTICLES = [
     title: "Auriculares con cancelación de ruido para videollamadas en casa compartida",
     dek: "Qué buscar cuando el ruido no viene de la calle sino de la propia casa: convivientes, niños, obras cerca.",
     updated: "2026-09-19",
+    img: "/assets/img/blog/auriculares-cancelacion-de-ruido-casa-compartida.jpg",
     body: [
       "Trabajar en una casa compartida —con pareja, compañeros de piso, niños o simplemente paredes finas— plantea un problema distinto al de una oficina: el ruido no es constante ni previsible, y <a href=\"/guias/auriculares-videollamadas.html\">elegir bien los auriculares</a> ayuda en las dos direcciones, para no oír tanto ruido y para no transmitirlo en la llamada.",
       "El criterio más importante en este caso concreto es la cancelación de ruido del micrófono (ENC), que filtra lo que llega a la otra persona: una puerta que se cierra, una conversación de fondo o un electrodoméstico. Es distinto de la cancelación de ruido activa pensada para que tú no oigas nada, que ayuda a concentrarte pero no resuelve lo que oye quien está al otro lado de la llamada.",
@@ -1296,6 +1301,7 @@ const ARTICLES = [
     title: "Señales de que es hora de cambiar de teclado",
     dek: "No siempre hace falta esperar a que se rompa: algunas molestias avisan antes.",
     updated: "2026-09-19",
+    img: "/assets/img/blog/senales-de-que-toca-cambiar-de-teclado.jpg",
     body: [
       "Un teclado no suele fallar de golpe: normalmente avisa antes con pequeñas molestias que es fácil achacar a otra cosa. Repasar <a href=\"/guias/teclados-y-raton.html\">los criterios de elección de teclado</a> ayuda también a reconocer cuándo el que ya tienes se ha quedado corto para tu forma de trabajar.",
       "La señal más clara es la molestia física: si notas la muñeca cargada o dolorida después de sesiones largas de escritura y no tenías esa sensación antes, merece la pena revisar si el teclado obliga a doblar la muñeca hacia arriba o hacia los lados. Un teclado dividido o con inclinación negativa suele aliviar esto, pero antes conviene descartar que el problema sea la altura de la mesa o la silla.",
@@ -1309,6 +1315,7 @@ const ARTICLES = [
     title: "Preparar el escritorio para el otoño: la luz es lo primero que cambia",
     dek: "Con menos horas de luz natural, la iluminación del escritorio necesita algún ajuste que en verano no hacía falta.",
     updated: "2026-09-19",
+    img: "/assets/img/blog/preparar-el-escritorio-para-el-otono.jpg",
     body: [
       "Cuando entra el otoño, lo primero que cambia en un escritorio no es la temperatura sino la luz: los días se acortan y buena parte de la jornada de teletrabajo pasa a hacerse con luz artificial, algo que en verano quizá ni se notaba.",
       "El ajuste más sencillo es revisar <a href=\"/guias/iluminacion-escritorio.html\">la iluminación de la zona de trabajo</a> antes de que llegue el primer día realmente oscuro: si dependías sobre todo de la luz de una ventana, conviene tener ya lista una fuente de luz artificial que la sustituya sin que el contraste con la pantalla sea muy brusco.",
@@ -1322,6 +1329,7 @@ const ARTICLES = [
     title: "Checklist de ergonomía en 10 minutos para tu escritorio actual",
     dek: "Una revisión rápida, sin comprar nada, para detectar los ajustes gratuitos que suelen faltar.",
     updated: "2026-09-19",
+    img: "/assets/img/blog/checklist-de-ergonomia-en-10-minutos.jpg",
     body: [
       "No hace falta cambiar de mobiliario para mejorar bastante la ergonomía de un puesto de trabajo: muchas veces basta con revisar los ajustes que ya trae el equipo actual. Esta checklist se puede repasar en unos diez minutos sentado en tu propio escritorio.",
       "1. Pies y rodillas. Siéntate en <a href=\"/guias/sillas-ergonomicas.html\">tu silla</a> y comprueba que los pies apoyan por completo en el suelo con las rodillas a unos 90°. Si te quedas de puntillas o con las rodillas muy por encima de la cadera, el asiento está mal regulado para tu altura.",
@@ -1336,6 +1344,7 @@ const ARTICLES = [
     title: "Ratón vertical: ventajas reales y cuándo tiene sentido cambiarte",
     dek: "No es solo una moda de diseño: cambia el ángulo de la muñeca, pero no siempre hace falta.",
     updated: "2026-09-19",
+    img: "/assets/img/blog/raton-vertical-ventajas-y-cuando-cambiar.jpg",
     body: [
       "El ratón vertical suele generar la misma reacción la primera vez que se ve: parece incómodo antes incluso de probarlo. Dentro de <a href=\"/guias/teclados-y-raton.html\">los criterios para elegir ratón</a>, es una de las opciones que más se malinterpreta por su forma, cuando en realidad resuelve un problema concreto y no es para todo el mundo.",
       "La diferencia real está en el ángulo de la muñeca: con un ratón horizontal estándar, el antebrazo queda girado (en pronación) durante todo el tiempo de uso; con un ratón vertical, la mano queda en una posición más parecida a un apretón de manos, lo que reduce esa torsión mantenida del antebrazo.",
@@ -1349,6 +1358,7 @@ const ARTICLES = [
     title: "Doble monitor o ultrawide: cuál rinde más en teletrabajo",
     dek: "Depende más de tu tipo de tarea que de cuál sea objetivamente \"mejor\".",
     updated: "2026-09-19",
+    img: "/assets/img/blog/doble-monitor-o-ultrawide-cual-rinde-mas.jpg",
     body: [
       "Es una de las dudas más repetidas al montar o mejorar un puesto de teletrabajo, y no tiene una respuesta única: <a href=\"/guias/monitores.html\">un monitor ultrawide</a> y dos monitores separados resuelven bien problemas distintos, aunque a primera vista parezcan una alternativa directa el uno del otro.",
       "Dos monitores separados ganan cuando el trabajo implica mover ventanas completas de un lado a otro: videollamada en uno y documento en el otro, o una hoja de cálculo en una pantalla mientras se consulta el correo en la de al lado. La línea física entre los dos monitores no molesta porque cada ventana vive en su propia pantalla.",
