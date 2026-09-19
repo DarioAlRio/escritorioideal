@@ -20,6 +20,16 @@ y no se han tocado.
 | `assets/img/trust-bg.jpg`                                        | https://www.pexels.com/photo/20213729/ |
 | `assets/img/guias/mesas-elevables.jpg`                           | https://www.pexels.com/photo/31726660/ |
 | `assets/img/guias/auriculares-videollamadas.jpg`                 | https://www.pexels.com/photo/7681135/ |
+| `assets/img/blog/como-ajustar-la-altura-de-tu-silla-ergonomica.jpg` | https://www.pexels.com/photo/31236091/ |
+| `assets/img/blog/cuanto-tiempo-de-pie-al-dia-con-mesa-elevable.jpg` | https://www.pexels.com/photo/7899239/ |
+| `assets/img/blog/monitor-para-trabajar-muchas-horas-sin-fatiga-visual.jpg` | https://www.pexels.com/photo/6345335/ |
+| `assets/img/blog/organizacion-de-cables-guia-practica-paso-a-paso.jpg` | https://www.pexels.com/photo/25223697/ |
+| `assets/img/blog/auriculares-cancelacion-de-ruido-casa-compartida.jpg` | https://www.pexels.com/photo/18743222/ |
+| `assets/img/blog/senales-de-que-toca-cambiar-de-teclado.jpg` | https://www.pexels.com/photo/5805490/ |
+| `assets/img/blog/preparar-el-escritorio-para-el-otono.jpg` | https://www.pexels.com/photo/9969253/ |
+| `assets/img/blog/checklist-de-ergonomia-en-10-minutos.jpg` | https://www.pexels.com/photo/33266805/ |
+| `assets/img/blog/raton-vertical-ventajas-y-cuando-cambiar.jpg` | https://www.pexels.com/photo/12512639/ |
+| `assets/img/blog/doble-monitor-o-ultrawide-cual-rinde-mas.jpg` | https://www.pexels.com/photo/19554896/ |
 
 Licencia de Pexels: https://www.pexels.com/license/ (uso comercial y no
 comercial permitido, sin atribución obligatoria, no se pueden revender las
