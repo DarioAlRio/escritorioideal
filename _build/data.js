@@ -1174,11 +1174,11 @@ const ARTICLES = [
     updated: "2026-09-16",
     img: "/assets/img/blog/como-montar-tu-escritorio-de-teletrabajo.jpg",
     body: [
-      "Cuando se monta un escritorio de teletrabajo desde cero, es fácil empezar por lo más vistoso (el monitor, la mesa bonita) y dejar para el final lo que más impacto tiene en el cuerpo a largo plazo: la silla y la altura de trabajo.",
-      "El orden que mejor funciona es este: primero la silla, porque define la altura de tus ojos y tus brazos respecto a la mesa; después la mesa y su altura (fija o eléctrica); después el monitor y su soporte, ajustado a la altura de tus ojos con la silla ya puesta; y por último teclado, ratón e iluminación, que son ajustes finos sobre una base ya correcta.",
+      "Cuando se monta un escritorio de teletrabajo desde cero, es fácil empezar por lo más vistoso (el monitor, la mesa bonita) y dejar para el final lo que más impacto tiene en el cuerpo a largo plazo: <a href=\"/guias/sillas-ergonomicas.html\">la silla</a> y la altura de trabajo.",
+      "El orden que mejor funciona es este: primero la silla, porque define la altura de tus ojos y tus brazos respecto a la mesa; después la mesa y su altura (fija o eléctrica); después <a href=\"/guias/monitores.html\">el monitor y su soporte</a>, ajustado a la altura de tus ojos con la silla ya puesta; y por último teclado, ratón e iluminación, que son ajustes finos sobre una base ya correcta.",
       "Si inviertes el orden —comprando primero un monitor grande y bonito y ajustando la silla después a lo que queda— es muy fácil acabar con el cuello inclinado hacia arriba o hacia abajo, porque la altura del monitor debería depender de dónde quedan tus ojos sentado, no al revés.",
       "Un truco simple para comprobar la altura correcta sin instrumentos: sentado con los pies apoyados y las rodillas a 90°, el borde superior del monitor debe quedar a la altura de tus ojos o ligeramente por debajo. Si tienes que levantar la barbilla para ver la parte de arriba de la pantalla, el monitor está demasiado bajo.",
-      "En las guías de este sitio (silla, monitor, teclado y ratón, iluminación) desarrollamos cada pieza por separado con más detalle.",
+      "En las guías de este sitio (silla, monitor, teclado y ratón, <a href=\"/guias/iluminacion-escritorio.html\">iluminación</a>) desarrollamos cada pieza por separado con más detalle.",
     ],
   },
   {
@@ -1190,9 +1190,9 @@ const ARTICLES = [
     body: [
       "Antes de gastar en accesorios nuevos, merece la pena revisar si el problema es de postura y no de equipo: varios de los errores más comunes se arreglan sin comprar nada.",
       "1. Monitor demasiado bajo o demasiado alto. Es el más habitual cuando se trabaja con un portátil sin soporte: la pantalla queda mucho más baja de lo que le conviene al cuello. Un soporte de portátil o, en su defecto, una pila estable de libros, ya corrige buena parte del problema.",
-      "2. Sentarse en el borde de la silla sin usar el respaldo. Suele pasar cuando el asiento es demasiado profundo para la estatura de la persona. Si no puedes apoyar la espalda baja en el respaldo sin que las rodillas queden incómodas, el asiento no está bien regulado (o la silla no encaja con tu estatura).",
-      "3. Muñecas dobladas hacia arriba al teclear. Pasa cuando el teclado está más alto que los codos. La solución no siempre es un teclado nuevo: a veces basta con bajar la altura de la mesa o de la silla, o usar un reposamuñecas.",
-      "4. Ratón demasiado lejos del cuerpo. Si el ratón está fuera del ancho del teclado, obliga a estirar el hombro en cada movimiento. Acercarlo, aunque parezca un detalle menor, reduce mucho la tensión acumulada en sesiones largas.",
+      "2. Sentarse en el borde de <a href=\"/guias/sillas-ergonomicas.html\">la silla</a> sin usar el respaldo. Suele pasar cuando el asiento es demasiado profundo para la estatura de la persona. Si no puedes apoyar la espalda baja en el respaldo sin que las rodillas queden incómodas, el asiento no está bien regulado (o la silla no encaja con tu estatura).",
+      "3. Muñecas dobladas hacia arriba al teclear. Pasa cuando <a href=\"/guias/teclados-y-raton.html\">el teclado</a> está más alto que los codos. La solución no siempre es un teclado nuevo: a veces basta con bajar la altura de la mesa o de la silla, o usar un reposamuñecas.",
+      "4. Ratón demasiado lejos del cuerpo. Si <a href=\"/guias/teclados-y-raton.html\">el ratón</a> está fuera del ancho del teclado, obliga a estirar el hombro en cada movimiento. Acercarlo, aunque parezca un detalle menor, reduce mucho la tensión acumulada en sesiones largas.",
       "5. Cero pausas de pie. Ninguna silla, por buena que sea, sustituye a levantarse. Alternar unos minutos de pie cada hora reduce más la fatiga que casi cualquier mejora de equipo.",
     ],
   },
@@ -1204,9 +1204,9 @@ const ARTICLES = [
     img: "/assets/img/blog/cuanto-gastar-en-una-silla-de-oficina.jpg",
     body: [
       "No hay una cifra única válida para todo el mundo, pero sí hay tramos de precio donde el salto de calidad es real y tramos donde ya no se nota tanto.",
-      "El primer salto importante está entre una silla sin ninguna regulación (solo altura del gas) y una con las regulaciones básicas: altura, profundidad de asiento, reposabrazos e inclinación bloqueable. Ese salto es el que más impacto tiene en la postura, independientemente de la marca.",
+      "El primer salto importante está entre <a href=\"/guias/sillas-ergonomicas.html\">una silla sin ninguna regulación</a> (solo altura del gas) y una con las regulaciones básicas: altura, profundidad de asiento, reposabrazos e inclinación bloqueable. Ese salto es el que más impacto tiene en la postura, independientemente de la marca.",
       "El segundo salto, más caro, está en materiales y durabilidad: mecanismos más suaves, mallas o tapizados que aguantan mejor el paso de los años, garantías más largas y piezas de recambio disponibles (ruedas, pistón de gas, reposabrazos). Este tramo compensa sobre todo si vas a usar la silla muchas horas al día durante años.",
-      "A partir de cierto precio, lo que se paga de más suele ser diseño, marca o acabados, no ergonomía adicional: las regulaciones que de verdad importan (ver la guía de sillas ergonómicas) ya estaban presentes en el tramo anterior.",
+      "A partir de cierto precio, lo que se paga de más suele ser diseño, marca o acabados, no ergonomía adicional: las regulaciones que de verdad importan (ver <a href=\"/guias/sillas-ergonomicas.html\">la guía de sillas ergonómicas</a>) ya estaban presentes en el tramo anterior.",
       "La pregunta que más ayuda a decidir no es \"¿cuánto cuesta?\" sino \"¿cuántas horas al día la voy a usar?\". A más horas de uso diario, más se justifica invertir en el tramo de regulaciones completas y buena durabilidad.",
     ],
   },
@@ -1217,10 +1217,10 @@ const ARTICLES = [
     updated: "2026-09-08",
     img: "/assets/img/blog/ilumina-tu-escritorio-sin-deslumbrar.jpg",
     body: [
-      "La luz que hace que se te vea bien en una videollamada y la luz que necesitas para trabajar cómodo no siempre son la misma, y ajustarlas a la vez es más sencillo de lo que parece.",
+      "La luz que hace que se te vea bien en una videollamada y <a href=\"/guias/iluminacion-escritorio.html\">la luz que necesitas para trabajar cómodo</a> no siempre son la misma, y ajustarlas a la vez es más sencillo de lo que parece.",
       "Para cámara, la luz debe venir de frente o ligeramente de lado, nunca solo desde atrás (a contraluz te vuelves una silueta) ni solo desde arriba (genera sombras duras bajo los ojos). Una fuente de luz suave situada detrás de la pantalla, apuntando hacia tu cara, suele bastar sin necesidad de un aro de luz dedicado.",
       "Para trabajar, esa misma luz frontal no debe deslumbrarte a ti: si la fuente está muy cerca de tu línea de visión y muy brillante, cansa la vista en sesiones largas. La solución habitual es una luz de intensidad regulable, baja para trabajar y algo más alta justo antes de una videollamada.",
-      "Evita colocar cualquier lámpara justo detrás del monitor mirando hacia ti: además de deslumbrar, suele generar un reflejo visible en la pantalla que se nota tanto trabajando como en cámara.",
+      "Evita colocar cualquier lámpara justo detrás de <a href=\"/guias/monitores.html\">el monitor</a> mirando hacia ti: además de deslumbrar, suele generar un reflejo visible en la pantalla que se nota tanto trabajando como en cámara.",
     ],
   },
 ];
