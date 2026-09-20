@@ -656,6 +656,14 @@ const GUIDES = [
         rating: "4,6★",
       },
       {
+        asin: "B0DZ6T3YXZ",
+        title: "KTC Monitor 27\" QHD 2K 100Hz IPS (H27D9)",
+        note: "27 pulgadas con resolución QHD (2560 x 1440), panel IPS a 100 Hz (hasta 120 Hz en overclock) y filtro de luz azul; buena densidad de píxeles para trabajar con texto.",
+        img: "https://m.media-amazon.com/images/I/717BnrX1FrL._AC_SF480,480_.jpg",
+        price: "125",
+        rating: "4,5★",
+      },
+      {
         asin: "B0CKRVB58D",
         title: "LG 32MR50C-B Monitor Curvo 32\" VA FHD 100Hz",
         note: "32 pulgadas curvo (1500R) con panel VA y 100 Hz. Más superficie de pantalla, pero con resolución Full HD.",
@@ -858,6 +866,14 @@ const GUIDES = [
         note: "Ángulo vertical de 57° pensado para mejorar la postura de la muñeca y sensor de 4000 dpi; gama alta entre los ratones verticales.",
         img: "https://m.media-amazon.com/images/I/61iiZ-gDYEL._AC_SF480,480_.jpg",
         price: "63",
+        rating: "4,5★",
+      },
+      {
+        asin: "B0DB5DMDW3",
+        title: "Logitech Ergo M575S, ratón trackball inalámbrico",
+        note: "Ratón con trackball para el pulgar: la mano se queda quieta y se mueve solo el dedo, lo que reduce el desplazamiento de muñeca y antebrazo. Inalámbrico y con tres botones personalizables.",
+        img: "https://m.media-amazon.com/images/I/51ncb3XF4ML._AC_SF480,480_.jpg",
+        price: "47",
         rating: "4,5★",
       },
       {
