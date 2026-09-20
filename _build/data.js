@@ -544,14 +544,6 @@ const GUIDES = [
         rating: "4,4★",
       },
       {
-        asin: "B0DCZF5X4P",
-        title: "Lenovo L27qe QHD IPS 100Hz",
-        note: "Buen equilibrio precio/panel para trabajo diario con texto y hojas de cálculo.",
-        img: "https://m.media-amazon.com/images/I/713eHE7tsTL._AC_SF480,480_.jpg",
-        price: "119",
-        rating: "4,4★",
-      },
-      {
         asin: "B096Y7MK8W",
         title: "MSI Pro MP273QW WQHD IPS 144Hz",
         note: "USB-C y ajuste de inclinación; punto medio de la gama para quien quiere margen de Hz.",
@@ -795,14 +787,6 @@ const GUIDES = [
         img: "https://m.media-amazon.com/images/I/511qcVCPKbL._AC_SF480,480_.jpg",
         price: "27",
         rating: "4,6★",
-      },
-      {
-        asin: "B09ZDZX8T2",
-        title: "Cherry KC 4500 Ergo, teclado ergonómico curvo con cable",
-        note: "Teclado curvo con cable y reposamuñecas de espuma de memoria: ergonomía clásica sin depender de pilas.",
-        img: "https://m.media-amazon.com/images/I/61cPP5iAqJL._AC_SF480,480_.jpg",
-        price: "40",
-        rating: "3,7★",
       },
       {
         asin: "B07FQNBZ3R",
@@ -2060,7 +2044,7 @@ const ARTICLES = [
   },
   {
     slug: "escritorio-en-l-o-recto-cual-elegir",
-    title: "Escritorio en L o recto: cuál elegir para trabajar en casa",
+    title: "Escritorio en L o recto: cuál comprar para trabajar en casa (2026)",
     dek: "Ventajas e inconvenientes de cada formato, cuánto espacio piden y para qué tipo de trabajo compensa cada uno.",
     updated: "2026-09-20",
     img: "/assets/img/blog/escritorio-en-l-o-recto-cual-elegir.jpg",
@@ -2181,7 +2165,7 @@ const ARTICLES = [
   },
   {
     slug: "como-montar-tu-escritorio-de-teletrabajo",
-    title: "Cómo montar un escritorio de teletrabajo desde cero",
+    title: "Escritorio de teletrabajo desde cero: qué comprar y cuánto gastar (2026)",
     dek: "El orden en el que conviene decidir cada pieza, y por qué empezar por la silla y no por el monitor.",
     updated: "2026-09-16",
     img: "/assets/img/blog/como-montar-tu-escritorio-de-teletrabajo.jpg",
@@ -2210,7 +2194,7 @@ const ARTICLES = [
   },
   {
     slug: "cuanto-gastar-en-una-silla-de-oficina",
-    title: "¿Cuánto merece la pena gastar en una silla de oficina?",
+    title: "Cuánto gastar en una silla de oficina: presupuesto recomendado (2026)",
     dek: "Dónde están los saltos de calidad reales y dónde el precio ya no compra nada nuevo.",
     updated: "2026-09-09",
     img: "/assets/img/blog/cuanto-gastar-en-una-silla-de-oficina.jpg",
@@ -2353,7 +2337,7 @@ const ARTICLES = [
   },
   {
     slug: "raton-vertical-ventajas-y-cuando-cambiar",
-    title: "Ratón vertical: ventajas reales y cuándo tiene sentido cambiarte",
+    title: "Ratón vertical: ¿merece la pena? Ventajas y mejores opciones (2026)",
     dek: "No es solo una moda de diseño: cambia el ángulo de la muñeca, pero no siempre hace falta.",
     updated: "2026-09-19",
     img: "/assets/img/blog/raton-vertical-ventajas-y-cuando-cambiar.jpg",
