@@ -1,7 +1,7 @@
 "use strict";
 
 const { SITE } = require("../nav");
-const { paragraphs, checklist, faqBlock, amazonSearchBox, productGrid, icon, escapeHtml } = require("../lib");
+const { paragraphs, checklist, faqBlock, amazonSearchBox, productGrid, productUrl, icon, escapeHtml } = require("../lib");
 const { pageHero, formatDate } = require("../layout");
 
 function guiaPage(g) {
@@ -88,6 +88,21 @@ function guiaPage(g) {
           { "@type": "ListItem", position: 3, name: g.title, item: SITE.domain + `/guias/${g.slug}.html` },
         ],
       },
+      ...(g.products && g.products.length
+        ? [
+            {
+              "@context": "https://schema.org",
+              "@type": "ItemList",
+              name: g.title,
+              itemListElement: g.products.map((p, i) => ({
+                "@type": "ListItem",
+                position: i + 1,
+                name: p.title,
+                url: SITE.domain + productUrl(p),
+              })),
+            },
+          ]
+        : []),
       ...(g.faq && g.faq.length
         ? [
             {

@@ -34,3 +34,15 @@ y no se han tocado.
 Licencia de Pexels: https://www.pexels.com/license/ (uso comercial y no
 comercial permitido, sin atribución obligatoria, no se pueden revender las
 fotos sin modificar como si fueran un producto propio).
+| `assets/img/guias/mesas-de-escritorio.jpg`                       | https://www.pexels.com/photo/7658310/ |
+| `assets/img/guias/soportes-para-portatil-y-elevadores.jpg`       | https://www.pexels.com/photo/4792712/ |
+| `assets/img/guias/reposapies-y-accesorios-ergonomicos.jpg`       | https://www.pexels.com/photo/7320698/ |
+| `assets/img/blog/que-medidas-de-escritorio-necesitas-segun-tu-espacio.jpg` | https://www.pexels.com/photo/7147596/ |
+| `assets/img/blog/escritorio-en-l-o-recto-cual-elegir.jpg`        | https://www.pexels.com/photo/5978423/ |
+| `assets/img/blog/escritorio-con-cajones-o-sin-cajones.jpg`       | https://www.pexels.com/photo/13075330/ |
+| `assets/img/blog/como-montar-un-escritorio-sin-fallos.jpg`       | https://www.pexels.com/photo/5805494/ |
+| `assets/img/blog/escritorio-pequeno-para-teletrabajar-en-un-piso.jpg` | https://www.pexels.com/photo/6890392/ |
+| `assets/img/blog/escritorio-gaming-o-de-oficina.jpg`             | https://www.pexels.com/photo/7862521/ |
+| `assets/img/blog/material-del-tablero-del-escritorio.jpg`        | https://www.pexels.com/photo/82256/ |
+| `assets/img/blog/mesa-fija-o-mesa-elevable.jpg`                  | https://www.pexels.com/photo/6326260/ |
+| `assets/img/blog/soporte-para-portatil-cuando-merece-la-pena.jpg` | https://www.pexels.com/photo/37811262/ |
