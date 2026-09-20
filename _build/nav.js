@@ -7,7 +7,7 @@ const SITE = {
   name: "EscritorioIdeal",
   claim: "Guías y comparativas para montar tu puesto de trabajo perfecto",
   description:
-    "Guías de compra y comparativas independientes de sillas, monitores, teclados e iluminación para montar un escritorio cómodo y productivo, en casa o en la oficina.",
+    "Guías de compra independientes de escritorios, sillas, monitores, teclados e iluminación para montar un puesto de trabajo cómodo, en casa o en la oficina.",
   // Dominio provisional: no hay dominio propio comprado todavía. Ver PENDIENTE.md.
   domain: "https://escritorioideal.vercel.app",
   locale: "es_ES",

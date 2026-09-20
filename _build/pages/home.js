@@ -10,13 +10,25 @@ const { pageHero, ctaBand } = require("../layout");
 // porque el hero solo tiene sitio para 4 tarjetas.
 const HERO_LABELS = {
   "sillas-ergonomicas": "Silla",
+  "mesas-de-escritorio": "Escritorio",
   monitores: "Monitor",
   "teclados-y-raton": "Teclado",
-  "iluminacion-escritorio": "Luz",
 };
 
 function home() {
-  const featuredGuides = GUIDES.slice(0, 4).map(guideCard).join("\n");
+  // Las guías más buscadas primero (escritorio, silla, monitor, mesa elevable, teclado, soportes).
+  const HOME_GUIDES = [
+    "mesas-de-escritorio",
+    "sillas-ergonomicas",
+    "monitores",
+    "mesas-elevables",
+    "teclados-y-raton",
+    "soportes-para-portatil-y-elevadores",
+  ];
+  const featuredGuides = HOME_GUIDES.map((slug) => GUIDES.find((g) => g.slug === slug))
+    .filter(Boolean)
+    .map(guideCard)
+    .join("\n");
   const featuredArticles = ARTICLES.slice(0, 3).map(articleCard).join("\n");
   const heroProducts = Object.keys(HERO_LABELS)
     .map((slug) => FEATURED.find((p) => p.category === slug))
@@ -39,9 +51,9 @@ function home() {
         <p class="eyebrow">Guías de compra independientes</p>
         <h1>${SITE.claim}</h1>
         <p class="hero-dek">
-          Comparamos criterios, no marcas: qué mirar antes de comprar una silla, un monitor,
-          un teclado o una lámpara de escritorio, explicado sin tecnicismos y sin recomendaciones
-          pagadas por ninguna marca.
+          Comparamos criterios, no marcas: qué mirar antes de comprar un escritorio, una silla,
+          un monitor o un teclado, explicado sin tecnicismos y con productos reales de Amazon.es
+          y sin recomendaciones pagadas por ninguna marca.
         </p>
         <div class="hero-actions">
           <a class="btn btn-accent" href="/guias/">Ver guías de compra ${icon("arrow")}</a>

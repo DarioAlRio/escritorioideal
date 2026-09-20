@@ -24,7 +24,7 @@ function guiasIndex() {
     route: "guias/index.html",
     path: "/guias/",
     title: "Guías de compra",
-    description: "Todas las guías de compra de EscritorioIdeal: sillas, monitores, teclados, iluminación y organización del escritorio.",
+    description: "Todas las guías de compra de EscritorioIdeal: escritorios, sillas, monitores, teclados, iluminación, soportes y accesorios ergonómicos.",
     breadcrumbsItems: [{ label: "Inicio", href: "/" }, { label: "Guías de compra" }],
     html,
   };
