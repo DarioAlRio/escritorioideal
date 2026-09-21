@@ -30,6 +30,21 @@ y no se han tocado.
 | `assets/img/blog/checklist-de-ergonomia-en-10-minutos.jpg` | https://www.pexels.com/photo/33266805/ |
 | `assets/img/blog/raton-vertical-ventajas-y-cuando-cambiar.jpg` | https://www.pexels.com/photo/12512639/ |
 | `assets/img/blog/doble-monitor-o-ultrawide-cual-rinde-mas.jpg` | https://www.pexels.com/photo/19554896/ |
+| `assets/img/blog/mejor-silla-para-teletrabajar-8-horas.jpg` | https://www.pexels.com/photo/31726650/ |
+| `assets/img/blog/silla-de-malla-o-tapizada-cual-elegir.jpg` | https://www.pexels.com/photo/17739893/ |
+| `assets/img/blog/silla-gaming-o-silla-ergonomica-para-teletrabajar.jpg` | https://www.pexels.com/photo/7862491/ |
+| `assets/img/blog/como-elegir-una-mesa-elevable-electrica.jpg` | https://www.pexels.com/photo/8001034/ |
+| `assets/img/blog/monitor-27-pulgadas-qhd-o-4k-para-teletrabajar.jpg` | https://www.pexels.com/photo/6045232/ |
+| `assets/img/blog/monitor-para-teletrabajo-por-menos-de-150-euros.jpg` | https://www.pexels.com/photo/3042508/ |
+| `assets/img/blog/teclado-ergonomico-para-principiantes.jpg` | https://www.pexels.com/photo/34030131/ |
+| `assets/img/blog/teclado-mecanico-o-de-membrana-para-la-oficina.jpg` | https://www.pexels.com/photo/12561283/ |
+| `assets/img/blog/como-elegir-un-raton-para-trabajar-muchas-horas.jpg` | https://www.pexels.com/photo/7151690/ |
+| `assets/img/blog/como-elegir-un-flexo-led-para-el-escritorio.jpg` | https://www.pexels.com/photo/10440498/ |
+| `assets/img/blog/auriculares-con-microfono-para-videollamadas-como-elegir.jpg` | https://www.pexels.com/photo/7709280/ |
+| `assets/img/blog/que-necesito-para-ordenar-los-cables-del-escritorio.jpg` | https://www.pexels.com/photo/39234197/ |
+| `assets/img/blog/reposapies-para-el-escritorio-merece-la-pena.jpg` | https://www.pexels.com/photo/7681410/ |
+| `assets/img/blog/elevador-de-monitor-o-brazo-articulado-cual-elegir.jpg` | https://www.pexels.com/photo/12786595/ |
+| `assets/img/blog/que-necesito-para-montar-una-oficina-en-casa.jpg` | https://www.pexels.com/photo/13162096/ |
 
 Licencia de Pexels: https://www.pexels.com/license/ (uso comercial y no
 comercial permitido, sin atribución obligatoria, no se pueden revender las
