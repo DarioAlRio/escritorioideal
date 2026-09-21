@@ -73,6 +73,55 @@ function quickPicks(g) {
 
 // ---- Guías relacionadas con cada artículo (asignadas a mano por slug) ----
 const ARTICLE_GUIDES = {
+  "mejor-silla-para-teletrabajar-8-horas": [
+    "sillas-ergonomicas"
+  ],
+  "silla-de-malla-o-tapizada-cual-elegir": [
+    "sillas-ergonomicas"
+  ],
+  "silla-gaming-o-silla-ergonomica-para-teletrabajar": [
+    "sillas-ergonomicas",
+    "mesas-de-escritorio"
+  ],
+  "como-elegir-una-mesa-elevable-electrica": [
+    "mesas-elevables"
+  ],
+  "monitor-27-pulgadas-qhd-o-4k-para-teletrabajar": [
+    "monitores"
+  ],
+  "monitor-para-teletrabajo-por-menos-de-150-euros": [
+    "monitores"
+  ],
+  "teclado-ergonomico-para-principiantes": [
+    "teclados-y-raton"
+  ],
+  "teclado-mecanico-o-de-membrana-para-la-oficina": [
+    "teclados-y-raton"
+  ],
+  "como-elegir-un-raton-para-trabajar-muchas-horas": [
+    "teclados-y-raton"
+  ],
+  "como-elegir-un-flexo-led-para-el-escritorio": [
+    "iluminacion-escritorio"
+  ],
+  "auriculares-con-microfono-para-videollamadas-como-elegir": [
+    "auriculares-videollamadas"
+  ],
+  "que-necesito-para-ordenar-los-cables-del-escritorio": [
+    "organizacion-cables-y-espacio"
+  ],
+  "reposapies-para-el-escritorio-merece-la-pena": [
+    "reposapies-y-accesorios-ergonomicos",
+    "sillas-ergonomicas"
+  ],
+  "elevador-de-monitor-o-brazo-articulado-cual-elegir": [
+    "soportes-para-portatil-y-elevadores",
+    "organizacion-cables-y-espacio"
+  ],
+  "que-necesito-para-montar-una-oficina-en-casa": [
+    "mesas-de-escritorio",
+    "sillas-ergonomicas"
+  ],
   "que-medidas-de-escritorio-necesitas-segun-tu-espacio": [
     "mesas-de-escritorio"
   ],
