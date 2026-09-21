@@ -27,10 +27,10 @@ function guiaPage(g) {
       ? `<div class="page-hero-photo-wrap"><div class="wrap"><img class="page-hero-photo" src="${g.img}" alt="${escapeHtml(g.title)}" loading="lazy" width="1200" height="500"></div></div>`
       : ""
   }
+  ${quickPicks(g) ? `<section class="section quickpicks-band"><div class="wrap">${quickPicks(g)}</div></section>` : ""}
   <section class="section">
     <div class="wrap two-col">
       <article class="prose">
-        ${quickPicks(g)}
         ${paragraphs(g.intro)}
         ${sections}
         ${
