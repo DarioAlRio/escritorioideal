@@ -11,7 +11,7 @@ const GUIDES = [
     title: "Cómo elegir una silla ergonómica para el escritorio",
     dek: "Qué mirar de verdad antes de comprar: regulaciones, apoyo lumbar, malla o tapizado y cuándo compensa pagar más.",
     updated: "2026-09-15",
-    img: "/assets/img/guias/sillas-ergonomicas.jpg",
+    img: "/assets/img/guias/sillas-ergonomicas.webp",
     intro: [
       "Una silla mala no se nota el primer día: se nota a la tercera semana, cuando empieza el dolor lumbar o de cervicales. Es probablemente la pieza del escritorio donde más merece la pena mirar bien antes de comprar, porque un error aquí se paga en horas de espalda, no solo en dinero.",
       "Esta guía no recomienda un modelo concreto: te da los criterios para que compares cualquier silla con cabeza, incluidas las que encuentres en Amazon.",
@@ -234,7 +234,7 @@ const GUIDES = [
     title: "Mejor escritorio para trabajar en casa: guía",
     dek: "Medidas, tipos (recto, en L, con cajones, plegable), material del tablero y estabilidad: cómo elegir un escritorio fijo que no te dé problemas.",
     updated: "2026-09-20",
-    img: "/assets/img/guias/mesas-de-escritorio.jpg",
+    img: "/assets/img/guias/mesas-de-escritorio.webp",
     intro: [
       "Elegir escritorio parece lo más sencillo del puesto de trabajo, pero es la pieza sobre la que se apoya todo lo demás: la altura a la que quedan tus brazos, la distancia a la pantalla y el sitio que tienes para teclado, ratón, documentos y una lámpara. Un tablero demasiado estrecho o inestable se nota cada día, y no se arregla con accesorios.",
       "Esta guía se centra en los escritorios fijos (los que no suben ni bajan). Si te interesa alternar sentado y de pie, tienes una guía aparte sobre <a href=\"/guias/mesas-elevables.html\">mesas elevables</a>; aquí explicamos qué medidas necesitas, qué tipos existen y en qué fijarte para no acabar con una mesa que se mueve o que no cabe en tu espacio.",
@@ -483,7 +483,7 @@ const GUIDES = [
     title: "Cómo elegir un monitor para trabajar (sin gastar de más)",
     dek: "Tamaño, resolución, distancia de trabajo y cuándo un segundo monitor rinde más que uno grande.",
     updated: "2026-09-14",
-    img: "/assets/img/guias/monitores.jpg",
+    img: "/assets/img/guias/monitores.webp",
     intro: [
       "El error más habitual al elegir monitor para trabajar es fijarse solo en el tamaño en pulgadas y olvidar la resolución y la distancia a la que vas a sentarte. Un monitor grande con poca resolución se ve borroso de cerca; uno pequeño con mucha resolución obliga a poner el texto enorme para leerlo.",
     ],
@@ -694,7 +694,7 @@ const GUIDES = [
     title: "Teclado y ratón: guía para elegir sin dejarte el pulso en ello",
     dek: "Mecánico o de membrana, ergonómico o estándar, y cuándo cambiar de verdad mejora la muñeca.",
     updated: "2026-09-13",
-    img: "/assets/img/guias/teclados-y-raton.jpg",
+    img: "/assets/img/guias/teclados-y-raton.webp",
     intro: [
       "El teclado y el ratón son los periféricos que más tocas y los que menos tiempo se dedica a elegir bien. La diferencia entre un combo genérico y uno pensado para tu forma de trabajar se nota sobre todo en sesiones largas, no en los primeros cinco minutos probándolo en la tienda.",
     ],
@@ -891,7 +891,7 @@ const GUIDES = [
     title: "Iluminación de escritorio: cómo evitar el cansancio de vista",
     dek: "Temperatura de color, posición del flexo y por qué la luz del monitor no basta.",
     updated: "2026-09-12",
-    img: "/assets/img/guias/iluminacion-escritorio.jpg",
+    img: "/assets/img/guias/iluminacion-escritorio.webp",
     intro: [
       "Trabajar solo con la luz del monitor encendido en una habitación oscura es una de las causas más comunes de fatiga visual, aunque casi nadie lo relaciona con eso: el contraste tan fuerte entre la pantalla brillante y el resto a oscuras obliga al ojo a reajustarse constantemente.",
     ],
@@ -1080,7 +1080,7 @@ const GUIDES = [
     title: "Organización del escritorio: cables, espacio y accesorios que sí sirven",
     dek: "Qué accesorios de orden marcan una diferencia real y cuáles son solo estética.",
     updated: "2026-09-10",
-    img: "/assets/img/guias/organizacion-cables-y-espacio.jpg",
+    img: "/assets/img/guias/organizacion-cables-y-espacio.webp",
     intro: [
       "Un escritorio despejado no es solo estética: menos cables sueltos significa menos enganchones, menos polvo acumulado y más espacio real para trabajar. Pero no todos los accesorios de \"organización\" que se venden aportan lo mismo.",
     ],
@@ -1256,7 +1256,7 @@ const GUIDES = [
     title: "Mesas elevables: cuándo compensa pasar a un escritorio de pie",
     dek: "Motor único o doble, tamaño de tablero y qué mirar antes de comprar un escritorio regulable en altura.",
     updated: "2026-09-17",
-    img: "/assets/img/guias/mesas-elevables.jpg",
+    img: "/assets/img/guias/mesas-elevables.webp",
     intro: [
       "Una mesa elevable no sustituye a moverse durante el día, pero facilita muchísimo alternar entre sentado y de pie sin tener que levantarte de la silla para ajustar nada: basta con pulsar un botón o recuperar una posición guardada.",
       "El salto de precio entre modelos es grande, y no siempre corresponde a lo que de verdad se nota en el uso diario. Esta guía explica qué diferencias importan y cuáles son solo marketing.",
@@ -1445,7 +1445,7 @@ const GUIDES = [
     title: "Auriculares para videollamadas: qué mirar además del sonido",
     dek: "Cable o inalámbrico, cancelación de ruido del micrófono y por qué la comodidad importa tanto como el audio.",
     updated: "2026-09-16",
-    img: "/assets/img/guias/auriculares-videollamadas.jpg",
+    img: "/assets/img/guias/auriculares-videollamadas.webp",
     intro: [
       "Para videollamadas, lo que más se nota no es la calidad musical del auricular sino cómo te oyen al otro lado: un micrófono con buena cancelación de ruido de fondo marca más diferencia que unos graves potentes.",
       "Esta guía se centra en los criterios propios del teletrabajo (comodidad en sesiones largas, micrófono, conexión) y no en las prestaciones típicas de auriculares para música o juego.",
@@ -1634,7 +1634,7 @@ const GUIDES = [
     title: "Soporte para portátil: cómo elegir el tuyo",
     dek: "Soportes plegables, ajustables y giratorios, bases refrigeradoras, elevadores de monitor y convertidores sentado-de-pie: qué necesitas para subir la pantalla a la altura de los ojos.",
     updated: "2026-09-20",
-    img: "/assets/img/guias/soportes-para-portatil-y-elevadores.jpg",
+    img: "/assets/img/guias/soportes-para-portatil-y-elevadores.webp",
     intro: [
       "Trabajar con el portátil apoyado directamente sobre la mesa obliga a mirar hacia abajo durante horas, porque la pantalla queda muy por debajo de la altura de los ojos. Elevarla con un soporte es de los cambios más baratos y con más efecto que puedes hacer en un puesto de trabajo, pero solo funciona si usas también un teclado y un ratón externos.",
       "En esta guía repasamos los tipos de soporte que existen, en qué se diferencian y cuál encaja con tu forma de trabajar: desde un plegable de menos de diez euros que llevas en la mochila hasta un convertidor que transforma cualquier mesa en un puesto de pie.",
@@ -1847,7 +1847,7 @@ const GUIDES = [
     title: "Reposapiés y accesorios ergonómicos: guía",
     dek: "Reposapiés, reposamuñecas y cojines lumbares: los pequeños complementos que corrigen la postura cuando la mesa y la silla no se ajustan del todo a ti.",
     updated: "2026-09-20",
-    img: "/assets/img/guias/reposapies-y-accesorios-ergonomicos.jpg",
+    img: "/assets/img/guias/reposapies-y-accesorios-ergonomicos.webp",
     intro: [
       "Ni todas las mesas ni todas las sillas se ajustan a todas las estaturas. Cuando el escritorio queda algo alto, los pies no llegan bien al suelo; cuando la silla no tiene un buen soporte lumbar, la espalda baja se cansa; y cuando el teclado queda a la altura del codo, las muñecas se doblan. Los accesorios ergonómicos sirven para afinar esos detalles sin cambiar de mueble.",
       "Aquí repasamos los tres complementos más útiles y en qué fijarte al elegirlos: reposapiés, reposamuñecas y cojines lumbares o de asiento. Son baratos, pero funcionan solo si los usas en el sitio correcto, así que te explicamos cómo colocarlos.",
@@ -2048,7 +2048,7 @@ const ARTICLES = [
     title: "Qué medidas de escritorio necesitas según tu espacio",
     dek: "Ancho, fondo y altura: cómo calcular el tamaño de escritorio que cabe en tu habitación y que sirve para tu forma de trabajar.",
     updated: "2026-09-20",
-    img: "/assets/img/blog/que-medidas-de-escritorio-necesitas-segun-tu-espacio.jpg",
+    img: "/assets/img/blog/que-medidas-de-escritorio-necesitas-segun-tu-espacio.webp",
     body: [
       "Antes de fijarte en el color o el material de un escritorio, conviene tener claras tres medidas: cuánto ancho puedes dedicarle, cuánto fondo necesitas y a qué altura debe quedar tu superficie de trabajo. Comprar sin medir es la causa más habitual de devoluciones de muebles: o no entra, o entra pero deja la habitación sin paso.",
       "El ancho depende de lo que vayas a poner encima. Con un monitor, teclado y ratón, un tablero de 120 cm resulta cómodo; con 100 cm también se trabaja, aunque irás justo si añades un cuaderno o una lámpara. Si usas dos monitores o un portátil más una pantalla externa, piensa en 140-160 cm. Puedes ver ejemplos reales de cada tamaño en nuestra <a href=\"/guias/mesas-de-escritorio.html\">guía de mesas de escritorio</a>.",
@@ -2063,7 +2063,7 @@ const ARTICLES = [
     title: "Escritorio en L o recto: cuál comprar para trabajar en casa (2026)",
     dek: "Ventajas e inconvenientes de cada formato, cuánto espacio piden y para qué tipo de trabajo compensa cada uno.",
     updated: "2026-09-20",
-    img: "/assets/img/blog/escritorio-en-l-o-recto-cual-elegir.jpg",
+    img: "/assets/img/blog/escritorio-en-l-o-recto-cual-elegir.webp",
     body: [
       "La duda entre un escritorio recto y uno en L aparece casi siempre al montar una oficina en casa. La respuesta corta: el recto es la opción segura para la mayoría de habitaciones, y el escritorio en L compensa cuando tienes una esquina libre y necesitas dos zonas de trabajo diferenciadas.",
       "El escritorio recto se adapta a casi cualquier sitio: contra una pared, bajo una ventana o en un rincón del salón. Es más barato, más fácil de montar y de mover, y deja el resto de la habitación libre. Su límite es la superficie: con un solo tablero de 120-140 cm, todo lo que no sea el monitor y el teclado compite por el mismo espacio.",
@@ -2078,7 +2078,7 @@ const ARTICLES = [
     title: "Escritorio pequeño para teletrabajar en un piso",
     dek: "Cómo montar un puesto de trabajo cómodo en poco espacio: escritorios compactos y plegables, elevadores y trucos de orden.",
     updated: "2026-09-20",
-    img: "/assets/img/blog/escritorio-pequeno-para-teletrabajar-en-un-piso.jpg",
+    img: "/assets/img/blog/escritorio-pequeno-para-teletrabajar-en-un-piso.webp",
     body: [
       "Teletrabajar en un piso pequeño obliga a elegir bien: no hay sitio para un despacho, pero tampoco conviene trabajar en el sofá. La buena noticia es que hay soluciones que caben en casi cualquier rincón sin renunciar a una postura correcta.",
       "El primer paso es decidir cuánto espacio permanente puedes dedicar. Si tienes una esquina que aprovechar, un escritorio compacto de 100-120 cm de ancho y 50 cm de fondo es suficiente para un monitor y un teclado. Si el espacio se comparte con el salón o el dormitorio, mira los escritorios plegables, que se recogen al terminar la jornada y ocupan muy poco.",
@@ -2093,7 +2093,7 @@ const ARTICLES = [
     title: "Cómo elegir el material del tablero de tu escritorio",
     dek: "Aglomerado, MDF, madera maciza o chapa: qué diferencias reales hay y cuál compensa según lo que vayas a apoyar encima.",
     updated: "2026-09-20",
-    img: "/assets/img/blog/material-del-tablero-del-escritorio.jpg",
+    img: "/assets/img/blog/material-del-tablero-del-escritorio.webp",
     body: [
       "El tablero es la parte del escritorio que más ves y más tocas, y el material decide cuánto pesa, cuánto aguanta y cómo envejece. Entre los escritorios que se venden hoy, los materiales más habituales son el aglomerado y el MDF con acabado melaminado, la madera maciza y la chapa de madera sobre un núcleo de MDF.",
       "El aglomerado y el MDF melaminados son la opción más extendida en los escritorios económicos. Son ligeros, resistentes a las manchas y fáciles de limpiar con un paño húmedo. Su punto débil es la humedad en los cantos y el peso concentrado durante años: un tablero fino puede combarse bajo un monitor grande.",
@@ -2108,7 +2108,7 @@ const ARTICLES = [
     title: "Soporte para portátil: cuándo merece la pena y cómo usarlo",
     dek: "Un soporte mejora la postura solo si lo combinas con teclado y ratón externos. Te explicamos cuándo compensa y qué tipo elegir.",
     updated: "2026-09-20",
-    img: "/assets/img/blog/soporte-para-portatil-cuando-merece-la-pena.jpg",
+    img: "/assets/img/blog/soporte-para-portatil-cuando-merece-la-pena.webp",
     body: [
       "Trabajar con el portátil sobre la mesa significa mirar la pantalla hacia abajo, con el cuello inclinado durante horas. Un soporte que la eleve a la altura de los ojos es un ajuste barato que se nota. Pero hay una condición imprescindible: necesitas un teclado y un ratón externos.",
       "La razón es sencilla. Al subir el portátil, el teclado integrado queda demasiado alto y obliga a trabajar con los brazos elevados y las muñecas dobladas. Con un teclado aparte a la altura de los codos, el portátil pasa a ser solo una pantalla y la postura mejora de verdad. Si aún no tienes teclado, mira nuestra guía de <a href=\"/guias/teclados-y-raton.html\">teclados y ratón</a>.",
@@ -2123,7 +2123,7 @@ const ARTICLES = [
     title: "Escritorio con cajones o sin cajones: ventajas y contras",
     dek: "Cuándo compensa el almacenamiento integrado, qué pierdes en espacio para las piernas y qué alternativas hay si tu escritorio no tiene.",
     updated: "2026-09-19",
-    img: "/assets/img/blog/escritorio-con-cajones-o-sin-cajones.jpg",
+    img: "/assets/img/blog/escritorio-con-cajones-o-sin-cajones.webp",
     body: [
       "Un escritorio con cajones parece siempre la opción más práctica: todo el material a mano y sin ocupar más suelo. Pero los cajones tienen letra pequeña, y a veces un escritorio sin cajones combinado con otro sistema de almacenaje resulta más cómodo.",
       "La gran ventaja de los cajones es que resuelven el desorden sin comprar más muebles. Cuadernos, cargadores, documentos y material de oficina se quedan a un gesto de distancia, y la superficie se mantiene despejada. Es especialmente útil en habitaciones pequeñas donde no cabe una cajonera aparte.",
@@ -2138,7 +2138,7 @@ const ARTICLES = [
     title: "Escritorio gaming o de oficina: cuál te conviene",
     dek: "Qué aporta un escritorio gaming (ojales, soportes, luces) y cuándo es mejor uno de oficina para trabajar muchas horas.",
     updated: "2026-09-19",
-    img: "/assets/img/blog/escritorio-gaming-o-de-oficina.jpg",
+    img: "/assets/img/blog/escritorio-gaming-o-de-oficina.webp",
     body: [
       "En el catálogo de escritorios hay una categoría entera dedicada al gaming: patas en Z, superficies de fibra de carbono, luces LED, soportes para auriculares y portavasos. La pregunta razonable es si eso vale la pena para trabajar o si basta con uno de oficina.",
       "Lo que suele ofrecer un escritorio gaming: un tablero amplio (a menudo 120 cm o más), una estructura robusta de acero, ojales para pasar cables y accesorios integrados como el soporte para auriculares. Algunos añaden regletas con USB, alfombrilla grande incorporada o iluminación decorativa.",
@@ -2153,7 +2153,7 @@ const ARTICLES = [
     title: "Mesa fija o mesa elevable: cuál elegir",
     dek: "Cuándo basta un escritorio fijo y cuándo compensa el sobrecoste de una mesa regulable en altura, con criterios para decidir.",
     updated: "2026-09-19",
-    img: "/assets/img/blog/mesa-fija-o-mesa-elevable.jpg",
+    img: "/assets/img/blog/mesa-fija-o-mesa-elevable.webp",
     body: [
       "La mesa elevable se ha puesto de moda, y con razón: permite alternar sentado y de pie sin cambiar de sitio. Pero no es la opción adecuada para todo el mundo ni para todos los presupuestos. Antes de decidir, conviene plantearse qué esperas de ella.",
       "Una mesa fija es más barata, más sencilla de montar y suele ser más estable en los modelos económicos. Si trabajas sentado casi todo el día, tienes poco presupuesto o el escritorio es un complemento, un buen escritorio fijo cumple y deja dinero para lo que más impacto tiene: la silla y el monitor. Tienes ejemplos de tamaños y precios en la <a href=\"/guias/mesas-de-escritorio.html\">guía de mesas de escritorio</a>.",
@@ -2168,7 +2168,7 @@ const ARTICLES = [
     title: "Cómo montar un escritorio sin fallos: guía paso a paso",
     dek: "Preparación, orden de montaje y errores típicos al montar un escritorio en kit para que quede firme y nivelado.",
     updated: "2026-09-18",
-    img: "/assets/img/blog/como-montar-un-escritorio-sin-fallos.jpg",
+    img: "/assets/img/blog/como-montar-un-escritorio-sin-fallos.webp",
     body: [
       "Casi todos los escritorios económicos llegan en kit. Montarlos no es difícil, pero los fallos más comunes (un escritorio que cojea, tornillos que no entran o piezas al revés) se evitan con un poco de orden antes de empezar.",
       "Lo primero es preparar el espacio. Despeja una zona amplia del suelo y protégelo con las propias cajas de cartón o con una manta, para no rayar la superficie ni el tablero. Abre el paquete con cuidado y coloca las piezas a la vista.",
@@ -2184,7 +2184,7 @@ const ARTICLES = [
     title: "Escritorio de teletrabajo desde cero: qué comprar y cuánto gastar (2026)",
     dek: "El orden en el que conviene decidir cada pieza, y por qué empezar por la silla y no por el monitor.",
     updated: "2026-09-16",
-    img: "/assets/img/blog/como-montar-tu-escritorio-de-teletrabajo.jpg",
+    img: "/assets/img/blog/como-montar-tu-escritorio-de-teletrabajo.webp",
     body: [
       "Cuando se monta un escritorio de teletrabajo desde cero, es fácil empezar por lo más vistoso (el monitor, la mesa bonita) y dejar para el final lo que más impacto tiene en el cuerpo a largo plazo: <a href=\"/guias/sillas-ergonomicas.html\">la silla</a> y la altura de trabajo.",
       "El orden que mejor funciona es este: primero la silla, porque define la altura de tus ojos y tus brazos respecto a la mesa; después la mesa y su altura (fija o eléctrica); después <a href=\"/guias/monitores.html\">el monitor y su soporte</a>, ajustado a la altura de tus ojos con la silla ya puesta; y por último teclado, ratón e iluminación, que son ajustes finos sobre una base ya correcta.",
@@ -2198,7 +2198,7 @@ const ARTICLES = [
     title: "5 errores de ergonomía que se repiten en casi todos los escritorios",
     dek: "Cosas fáciles de arreglar que no cuestan dinero, antes de pensar en comprar nada nuevo.",
     updated: "2026-09-11",
-    img: "/assets/img/blog/errores-comunes-ergonomia-oficina.jpg",
+    img: "/assets/img/blog/errores-comunes-ergonomia-oficina.webp",
     body: [
       "Antes de gastar en accesorios nuevos, merece la pena revisar si el problema es de postura y no de equipo: varios de los errores más comunes se arreglan sin comprar nada.",
       "1. Monitor demasiado bajo o demasiado alto. Es el más habitual cuando se trabaja con un portátil sin soporte: la pantalla queda mucho más baja de lo que le conviene al cuello. <a href=\"/guias/soportes-para-portatil-y-elevadores.html\">Un soporte de portátil</a> o, en su defecto, una pila estable de libros, ya corrige buena parte del problema.",
@@ -2213,7 +2213,7 @@ const ARTICLES = [
     title: "Cuánto gastar en una silla de oficina: presupuesto recomendado (2026)",
     dek: "Dónde están los saltos de calidad reales y dónde el precio ya no compra nada nuevo.",
     updated: "2026-09-09",
-    img: "/assets/img/blog/cuanto-gastar-en-una-silla-de-oficina.jpg",
+    img: "/assets/img/blog/cuanto-gastar-en-una-silla-de-oficina.webp",
     body: [
       "No hay una cifra única válida para todo el mundo, pero sí hay tramos de precio donde el salto de calidad es real y tramos donde ya no se nota tanto.",
       "El primer salto importante está entre <a href=\"/guias/sillas-ergonomicas.html\">una silla sin ninguna regulación</a> (solo altura del gas) y una con las regulaciones básicas: altura, profundidad de asiento, reposabrazos e inclinación bloqueable. Ese salto es el que más impacto tiene en la postura, independientemente de la marca.",
@@ -2227,7 +2227,7 @@ const ARTICLES = [
     title: "Ilumina tu escritorio sin deslumbrarte en las videollamadas",
     dek: "Cómo colocar la luz para que se vea bien en cámara sin que moleste a la vista al trabajar.",
     updated: "2026-09-08",
-    img: "/assets/img/blog/ilumina-tu-escritorio-sin-deslumbrar.jpg",
+    img: "/assets/img/blog/ilumina-tu-escritorio-sin-deslumbrar.webp",
     body: [
       "La luz que hace que se te vea bien en una videollamada y <a href=\"/guias/iluminacion-escritorio.html\">la luz que necesitas para trabajar cómodo</a> no siempre son la misma, y ajustarlas a la vez es más sencillo de lo que parece.",
       "Para cámara, la luz debe venir de frente o ligeramente de lado, nunca solo desde atrás (a contraluz te vuelves una silueta) ni solo desde arriba (genera sombras duras bajo los ojos). Una fuente de luz suave situada detrás de la pantalla, apuntando hacia tu cara, suele bastar sin necesidad de un aro de luz dedicado.",
@@ -2240,7 +2240,7 @@ const ARTICLES = [
     title: "Cómo ajustar la altura de tu silla ergonómica correctamente",
     dek: "El orden en el que conviene tocar cada regulación y los errores más habituales al hacerlo a ojo.",
     updated: "2026-09-19",
-    img: "/assets/img/blog/como-ajustar-la-altura-de-tu-silla-ergonomica.jpg",
+    img: "/assets/img/blog/como-ajustar-la-altura-de-tu-silla-ergonomica.webp",
     body: [
       "Tener <a href=\"/guias/sillas-ergonomicas.html\">una silla con buenas regulaciones</a> no sirve de mucho si luego se ajusta a ojo, sin seguir ningún criterio. La mayoría de la gente sube o baja el asiento hasta que \"se siente cómodo\" en el momento, sin comprobar el resto de puntos que dependen de esa altura.",
       "El primer ajuste, y el que manda sobre los demás, es la altura del asiento: siéntate y comprueba que los pies apoyan completamente en el suelo con las rodillas dobladas a unos 90°, ni más cerradas ni más abiertas. Si tu mesa es fija y baja, puede que este ajuste te obligue a un compromiso: en ese caso, un reposapiés compensa la diferencia sin forzar la espalda.",
@@ -2255,7 +2255,7 @@ const ARTICLES = [
     title: "Mesa elevable: cuánto tiempo de pie al día tiene sentido",
     dek: "No se trata de trabajar todo el día de pie, sino de alternar; algunas ideas prácticas para empezar.",
     updated: "2026-09-19",
-    img: "/assets/img/blog/cuanto-tiempo-de-pie-al-dia-con-mesa-elevable.jpg",
+    img: "/assets/img/blog/cuanto-tiempo-de-pie-al-dia-con-mesa-elevable.webp",
     body: [
       "Comprar <a href=\"/guias/mesas-elevables.html\">una mesa elevable</a> genera casi siempre la misma duda al principio: ¿cuánto tiempo hay que pasar de pie para que merezca la pena? La respuesta corta es que no existe una cifra única válida para todo el mundo, y que el objetivo real no es maximizar las horas de pie sino dejar de pasar el día entero sentado sin moverte.",
       "Lo que sí funciona bien en la práctica es alternar en bloques cortos: por ejemplo, entre 45 minutos y una hora sentado seguido de 15-20 minutos de pie, y repetir ese ciclo varias veces durante la jornada. Empezar con bloques más largos de pie de golpe suele acabar en piernas cansadas y en abandonar la mesa elevable a la semana.",
@@ -2269,7 +2269,7 @@ const ARTICLES = [
     title: "Cómo elegir un monitor para trabajar muchas horas sin fatiga visual",
     dek: "Más allá del panel: brillo, parpadeo, distancia y hábitos que pesan tanto como la ficha técnica.",
     updated: "2026-09-19",
-    img: "/assets/img/blog/monitor-para-trabajar-muchas-horas-sin-fatiga-visual.jpg",
+    img: "/assets/img/blog/monitor-para-trabajar-muchas-horas-sin-fatiga-visual.webp",
     body: [
       "Cuando se habla de fatiga visual casi siempre se piensa primero en <a href=\"/guias/monitores.html\">las características del monitor</a>, pero una parte importante del cansancio de vista viene de cómo se usa el monitor, no solo de qué monitor es.",
       "Dentro de la ficha técnica, dos datos pesan más de lo que parece para sesiones largas: el brillo bien ajustado (ni tan alto que deslumbre en una habitación con poca luz, ni tan bajo que obligue a forzar la vista) y que el panel no tenga parpadeo perceptible a baja luminosidad (\"flicker-free\"), algo que ya incorporan la mayoría de monitores actuales de gama media en adelante.",
@@ -2284,7 +2284,7 @@ const ARTICLES = [
     title: "Organización de cables en el escritorio: guía práctica paso a paso",
     dek: "Un orden de trabajo sencillo para pasar de un nudo de cables a un escritorio despejado en una tarde.",
     updated: "2026-09-19",
-    img: "/assets/img/blog/organizacion-de-cables-guia-practica-paso-a-paso.jpg",
+    img: "/assets/img/blog/organizacion-de-cables-guia-practica-paso-a-paso.webp",
     body: [
       "Organizar los cables de un escritorio da pereza sobre todo porque no se sabe por dónde empezar. <a href=\"/guias/organizacion-cables-y-espacio.html\">Con un poco de orden en los pasos</a>, es un trabajo de una tarde, no de un fin de semana entero.",
       "Paso 1: desconecta y saca todo. Suena drástico, pero intentar reorganizar cables mientras siguen conectados es la forma más lenta de hacerlo. Desconecta cargadores, regleta y periféricos, y déjalos aparte antes de decidir nada.",
@@ -2299,7 +2299,7 @@ const ARTICLES = [
     title: "Auriculares con cancelación de ruido para videollamadas en casa compartida",
     dek: "Qué buscar cuando el ruido no viene de la calle sino de la propia casa: convivientes, niños, obras cerca.",
     updated: "2026-09-19",
-    img: "/assets/img/blog/auriculares-cancelacion-de-ruido-casa-compartida.jpg",
+    img: "/assets/img/blog/auriculares-cancelacion-de-ruido-casa-compartida.webp",
     body: [
       "Trabajar en una casa compartida —con pareja, compañeros de piso, niños o simplemente paredes finas— plantea un problema distinto al de una oficina: el ruido no es constante ni previsible, y <a href=\"/guias/auriculares-videollamadas.html\">elegir bien los auriculares</a> ayuda en las dos direcciones, para no oír tanto ruido y para no transmitirlo en la llamada.",
       "El criterio más importante en este caso concreto es la cancelación de ruido del micrófono (ENC), que filtra lo que llega a la otra persona: una puerta que se cierra, una conversación de fondo o un electrodoméstico. Es distinto de la cancelación de ruido activa pensada para que tú no oigas nada, que ayuda a concentrarte pero no resuelve lo que oye quien está al otro lado de la llamada.",
@@ -2313,7 +2313,7 @@ const ARTICLES = [
     title: "Señales de que es hora de cambiar de teclado",
     dek: "No siempre hace falta esperar a que se rompa: algunas molestias avisan antes.",
     updated: "2026-09-19",
-    img: "/assets/img/blog/senales-de-que-toca-cambiar-de-teclado.jpg",
+    img: "/assets/img/blog/senales-de-que-toca-cambiar-de-teclado.webp",
     body: [
       "Un teclado no suele fallar de golpe: normalmente avisa antes con pequeñas molestias que es fácil achacar a otra cosa. Repasar <a href=\"/guias/teclados-y-raton.html\">los criterios de elección de teclado</a> ayuda también a reconocer cuándo el que ya tienes se ha quedado corto para tu forma de trabajar.",
       "La señal más clara es la molestia física: si notas la muñeca cargada o dolorida después de sesiones largas de escritura y no tenías esa sensación antes, merece la pena revisar si el teclado obliga a doblar la muñeca hacia arriba o hacia los lados. Un teclado dividido o con inclinación negativa suele aliviar esto, pero antes conviene descartar que el problema sea la altura de la mesa o la silla.",
@@ -2327,7 +2327,7 @@ const ARTICLES = [
     title: "Preparar el escritorio para el otoño: la luz es lo primero que cambia",
     dek: "Con menos horas de luz natural, la iluminación del escritorio necesita algún ajuste que en verano no hacía falta.",
     updated: "2026-09-19",
-    img: "/assets/img/blog/preparar-el-escritorio-para-el-otono.jpg",
+    img: "/assets/img/blog/preparar-el-escritorio-para-el-otono.webp",
     body: [
       "Cuando entra el otoño, lo primero que cambia en un escritorio no es la temperatura sino la luz: los días se acortan y buena parte de la jornada de teletrabajo pasa a hacerse con luz artificial, algo que en verano quizá ni se notaba.",
       "El ajuste más sencillo es revisar <a href=\"/guias/iluminacion-escritorio.html\">la iluminación de la zona de trabajo</a> antes de que llegue el primer día realmente oscuro: si dependías sobre todo de la luz de una ventana, conviene tener ya lista una fuente de luz artificial que la sustituya sin que el contraste con la pantalla sea muy brusco.",
@@ -2341,7 +2341,7 @@ const ARTICLES = [
     title: "Checklist de ergonomía en 10 minutos para tu escritorio actual",
     dek: "Una revisión rápida, sin comprar nada, para detectar los ajustes gratuitos que suelen faltar.",
     updated: "2026-09-19",
-    img: "/assets/img/blog/checklist-de-ergonomia-en-10-minutos.jpg",
+    img: "/assets/img/blog/checklist-de-ergonomia-en-10-minutos.webp",
     body: [
       "No hace falta cambiar de mobiliario para mejorar bastante la ergonomía de un puesto de trabajo: muchas veces basta con revisar los ajustes que ya trae el equipo actual. Esta checklist se puede repasar en unos diez minutos sentado en tu propio escritorio.",
       "1. Pies y rodillas. Siéntate en <a href=\"/guias/sillas-ergonomicas.html\">tu silla</a> y comprueba que los pies apoyan por completo en el suelo con las rodillas a unos 90°. Si te quedas de puntillas o con las rodillas muy por encima de la cadera, el asiento está mal regulado para tu altura.",
@@ -2356,7 +2356,7 @@ const ARTICLES = [
     title: "Ratón vertical: ¿merece la pena? Ventajas y mejores opciones (2026)",
     dek: "No es solo una moda de diseño: cambia el ángulo de la muñeca, pero no siempre hace falta.",
     updated: "2026-09-19",
-    img: "/assets/img/blog/raton-vertical-ventajas-y-cuando-cambiar.jpg",
+    img: "/assets/img/blog/raton-vertical-ventajas-y-cuando-cambiar.webp",
     body: [
       "El ratón vertical suele generar la misma reacción la primera vez que se ve: parece incómodo antes incluso de probarlo. Dentro de <a href=\"/guias/teclados-y-raton.html\">los criterios para elegir ratón</a>, es una de las opciones que más se malinterpreta por su forma, cuando en realidad resuelve un problema concreto y no es para todo el mundo.",
       "La diferencia real está en el ángulo de la muñeca: con un ratón horizontal estándar, el antebrazo queda girado (en pronación) durante todo el tiempo de uso; con un ratón vertical, la mano queda en una posición más parecida a un apretón de manos, lo que reduce esa torsión mantenida del antebrazo.",
@@ -2370,7 +2370,7 @@ const ARTICLES = [
     title: "Doble monitor o ultrawide: cuál rinde más en teletrabajo",
     dek: "Depende más de tu tipo de tarea que de cuál sea objetivamente \"mejor\".",
     updated: "2026-09-19",
-    img: "/assets/img/blog/doble-monitor-o-ultrawide-cual-rinde-mas.jpg",
+    img: "/assets/img/blog/doble-monitor-o-ultrawide-cual-rinde-mas.webp",
     body: [
       "Es una de las dudas más repetidas al montar o mejorar un puesto de teletrabajo, y no tiene una respuesta única: <a href=\"/guias/monitores.html\">un monitor ultrawide</a> y dos monitores separados resuelven bien problemas distintos, aunque a primera vista parezcan una alternativa directa el uno del otro.",
       "Dos monitores separados ganan cuando el trabajo implica mover ventanas completas de un lado a otro: videollamada en uno y documento en el otro, o una hoja de cálculo en una pantalla mientras se consulta el correo en la de al lado. La línea física entre los dos monitores no molesta porque cada ventana vive en su propia pantalla.",
@@ -2384,7 +2384,7 @@ const ARTICLES = [
     title: "Mejor silla para teletrabajar 8 horas: qué debe tener",
     dek: "Regulaciones, materiales y ajustes que debe tener una silla si pasas la jornada entera sentado, y cuánto conviene invertir para acertar a la primera.",
     updated: "2026-09-21",
-    img: "/assets/img/blog/mejor-silla-para-teletrabajar-8-horas.jpg",
+    img: "/assets/img/blog/mejor-silla-para-teletrabajar-8-horas.webp",
     body: [
       "Cuando la silla va a soportar una jornada completa de teletrabajo, la pregunta deja de ser \"¿cuál es la más bonita?\" y pasa a ser \"¿cuál me deja regularla hasta que mi cuerpo trabaje cómodo?\". Ninguna silla es la mejor para todo el mundo, pero sí existe una lista corta de características que separan una silla pensada para pasar muchas horas de una que solo sirve para un rato. Esta guía te explica cuáles son, en qué orden conviene mirarlas y dónde tiene sentido gastar más.</p><h2>Lo primero: regulaciones, no marca</h2><p>Con ocho horas diarias, lo que más pesa es poder adaptar la silla a tu cuerpo. Una silla sin regulaciones te obliga a adaptarte tú a ella, y eso se paga con el tiempo en forma de molestias. Las regulaciones básicas que deberías exigir son la altura del asiento, la inclinación del respaldo con posibilidad de bloquearlo, los reposabrazos ajustables y un soporte lumbar bien situado. Si además puedes regular la profundidad del asiento, mucho mejor: es lo que permite que personas de estaturas distintas apoyen bien la espalda sin que el borde del asiento presione detrás de las rodillas.",
       "En nuestra <a href='/guias/sillas-ergonomicas.html'>guía de sillas ergonómicas</a> tienes explicado qué hace cada mecanismo y cómo comprobarlo antes de comprar. Y si ya tienes silla y solo quieres afinarla, <a href='/blog/como-ajustar-la-altura-de-tu-silla-ergonomica.html'>cómo ajustar la altura de tu silla ergonómica</a> te ahorra probar a ciegas.</p><h2>Checklist para una silla de jornada completa</h2><p>Antes de dar por buena una silla, repasa esta lista. No hace falta que cumpla todo, pero cuantas más casillas marque, menos probable es que te arrepientas al cabo de unas semanas:</p><ul><li>Altura regulable con un rango que encaje con tu escritorio y con tu estatura, de modo que puedas apoyar los pies en el suelo con las rodillas más o menos a noventa grados.</li><li>Respaldo que llegue a la zona lumbar y, idealmente, con altura o profundidad del soporte lumbar ajustable.</li><li>Inclinación del respaldo con bloqueo, para poder fijarlo en la posición que uses al teclear y soltarlo cuando quieras reclinarte.</li><li>Reposabrazos regulables (al menos en altura) para que los hombros no queden encogidos ni caídos.</li><li>Asiento con un acolchado que no se aplaste en unas semanas y con bordes redondeados delante.</li><li>Ruedas adecuadas a tu suelo: las más duras para moqueta, las blandas o recubiertas si tienes parqué o tarima y no quieres rayarlo.</li><li>Peso máximo admitido y dimensiones del asiento coherentes con tu constitución: mira siempre los datos del fabricante, no la fotografía.</li><li>Garantía clara y posibilidad de sustituir piezas sueltas (pistón, ruedas, reposabrazos).</li></ul><p></p><h2>Malla, tela o piel: qué material aguanta mejor una jornada larga</h2><p>El material del respaldo y del asiento influye sobre todo en la sensación de calor y en la durabilidad. La malla transpira mejor, algo que se agradece en habitaciones cálidas o en verano; la tela acolchada resulta más mullida y cálida, pensada para quien tiende a tener frío; las tapicerías de imitación a piel dan un aspecto más de despacho, pero suelen dar más calor y con el uso pueden agrietarse. Si dudas entre las dos primeras, hemos preparado una comparativa específica: <a href='/blog/silla-de-malla-o-tapizada-cual-elegir.html'>silla de malla o tapizada</a>.",
@@ -2399,7 +2399,7 @@ const ARTICLES = [
     title: "Silla de malla o tapizada: cuál elegir para teletrabajar",
     dek: "Ventajas e inconvenientes de la malla y la tela acolchada en una silla de oficina, según el calor, las horas de uso y el tipo de espalda.",
     updated: "2026-09-21",
-    img: "/assets/img/blog/silla-de-malla-o-tapizada-cual-elegir.jpg",
+    img: "/assets/img/blog/silla-de-malla-o-tapizada-cual-elegir.webp",
     body: [
       "La malla y la tapicería acolchada son los dos grandes materiales de los respaldos y asientos de las sillas de oficina, y elegir entre ellos depende menos de la moda que de tu habitación, de tu forma de sentarte y de lo que esperas que dure la silla. Aquí tienes una comparativa honesta para decidir sin dejarte llevar por la foto del anuncio.</p><h2>Cómo se comportan en calor y frío</h2><p>La ventaja más citada de la malla es la ventilación: al ser una trama abierta, deja pasar el aire y evita que la espalda se caliente en verano o en habitaciones sin aire acondicionado. Si trabajas en un piso cálido o tienes tendencia a sudar, es un argumento de peso. La tapicería de tela acolchada, en cambio, es más cálida y resulta agradable en invierno o en estancias frías; con la calefacción en marcha, sin embargo, puede resultar excesiva en jornadas largas.",
       "Ten en cuenta también que la sensación cambia con la estación. Hay quien prefiere una silla de malla todo el año, y quien la nota fría al empezar la mañana en otoño. Si tu casa tiene temperaturas muy variables, valora qué momento del año es el más incómodo para ti y decide según ese.</p><h2>Comodidad y soporte de la espalda</h2><p>Una malla bien tensada reparte la presión y se adapta al contorno de la espalda, pero su firmeza es más uniforme y algunas personas la encuentran dura, sobre todo en el asiento. La tapicería acolchada da una sensación más mullida desde el primer día, aunque el relleno puede aplastarse con el uso y perder soporte. En ambos casos, lo que de verdad protege la espalda no es el material sino la estructura y las regulaciones: soporte lumbar, inclinación y altura. Un buen material no compensa una silla mal regulable.",
@@ -2414,7 +2414,7 @@ const ARTICLES = [
     title: "Silla gaming o silla ergonómica: cuál comprar para trabajar",
     dek: "Diferencias reales entre una silla gaming y una de oficina ergonómica, y cuándo te conviene cada una si vas a trabajar y jugar en el mismo escritorio.",
     updated: "2026-09-21",
-    img: "/assets/img/blog/silla-gaming-o-silla-ergonomica-para-teletrabajar.jpg",
+    img: "/assets/img/blog/silla-gaming-o-silla-ergonomica-para-teletrabajar.webp",
     body: [
       "Es una de las dudas más habituales cuando el mismo escritorio sirve para trabajar de día y jugar por la tarde. Las sillas gaming tienen un diseño llamativo, respaldos altos y reposacabezas integrados; las sillas ergonómicas de oficina priorizan las regulaciones y el soporte. No son categorías idénticas y conviene entender qué se gana y qué se pierde con cada una antes de decidir.</p><h2>En qué se diferencian en la práctica</h2><p>Las sillas gaming suelen inspirarse en los asientos de coche deportivo: respaldo alto con laterales que abrazan, reposacabezas y cojines lumbar y cervical que se ajustan con una correa. Son vistosas y pueden resultar cómodas para sesiones de juego en las que estás reclinado. Las sillas ergonómicas de oficina, en cambio, tienden a ser más neutras y se centran en mecanismos: altura, profundidad de asiento, inclinación sincronizada, reposabrazos multiajustables y un soporte lumbar integrado en el respaldo.",
       "Eso no significa que todas las gaming sean peores ni que todas las de oficina sean mejores. Hay sillas gaming con buenos ajustes y sillas de oficina de gama baja con muy pocos. Lo útil es fijarse en las regulaciones concretas de cada modelo, no en la etiqueta con la que se vende. Hemos explicado qué mirar en la <a href='/guias/sillas-ergonomicas.html'>guía de sillas ergonómicas</a>.</p><h2>Qué pasa con los cojines lumbar y cervical</h2><p>Los cojines que acompañan a muchas sillas gaming son la parte más discutida. Un cojín lumbar puede ayudar a rellenar el hueco de la zona baja de la espalda, pero al ser un accesorio suelto se mueve y no siempre queda a la altura correcta. Una silla con soporte lumbar integrado y regulable en altura suele ser más estable. Si te gusta la sensación del cojín, puedes añadirlo a cualquier silla: existen almohadas lumbares independientes, como se ve en la sección de accesorios de nuestra <a href='/guias/reposapies-y-accesorios-ergonomicos.html'>guía de accesorios ergonómicos</a>.",
@@ -2428,7 +2428,7 @@ const ARTICLES = [
     title: "Cómo elegir una mesa elevable eléctrica: guía de compra",
     dek: "Motor simple o doble, tamaño del tablero, memorias, estabilidad y anticolisión: los criterios que importan al comprar un escritorio regulable eléctrico.",
     updated: "2026-09-21",
-    img: "/assets/img/blog/como-elegir-una-mesa-elevable-electrica.jpg",
+    img: "/assets/img/blog/como-elegir-una-mesa-elevable-electrica.webp",
     body: [
       "Un escritorio elevable eléctrico permite alternar entre sentado y de pie con un botón, pero no todos los modelos son iguales. Entre la estructura, el motor, el tablero y los extras hay diferencias que se notan a los pocos días de uso. Esta guía te da los criterios para elegir con cabeza y evitar los errores más comunes al comprar una mesa regulable.</p><h2>Motor simple o doble: qué cambia</h2><p>El motor es el corazón de la mesa. Los modelos de un solo motor suelen ser más económicos y valen para tableros pequeños y pesos moderados. Los de doble motor reparten el esfuerzo entre las dos patas, sostienen mejor tableros grandes o cargas pesadas y tienden a subir y bajar con más suavidad y sincronía. Si vas a poner un monitor grande, un segundo monitor o un equipo pesado, el doble motor es una opción más segura; para un portátil y una pantalla ligera, uno simple puede bastar.",
       "Mira el peso máximo de carga que indica el fabricante y compáralo con lo que vas a poner encima, sumando monitores, equipo, lámpara y el resto de accesorios. En la <a href='/guias/mesas-elevables.html'>guía de mesas elevables</a> hay modelos de una y de dos patas motorizadas; por ejemplo, la ficha del <a href='/productos/flexispot-e1-pro-escritorio-elevable-electrico-doble-motor-b01n31553j.html'>FlexiSpot E1 Pro de doble motor</a> sirve de referencia del tramo con dos motores.</p><h2>Tamaño del tablero y del espacio disponible</h2><p>Antes de mirar el motor, mide tu espacio. Un tablero de 120 x 60 cm es una medida muy habitual para un monitor, teclado y ratón; los de 140-160 cm dan holgura para dos pantallas o para trabajar con documentos. Si tu habitación es pequeña, los de 80 x 48 cm son compactos pero se quedan justos con un monitor grande. Tampoco olvides el recorrido en altura: comprueba el rango mínimo y máximo para que encaje con tu estatura, tanto sentado como de pie.",
@@ -2443,7 +2443,7 @@ const ARTICLES = [
     title: "Monitor 27 pulgadas: QHD o 4K para teletrabajar",
     dek: "Qué resolución te conviene en un monitor de 27 pulgadas para trabajar: nitidez, escalado, precio y cuándo el 4K no compensa.",
     updated: "2026-09-21",
-    img: "/assets/img/blog/monitor-27-pulgadas-qhd-o-4k-para-teletrabajar.jpg",
+    img: "/assets/img/blog/monitor-27-pulgadas-qhd-o-4k-para-teletrabajar.webp",
     body: [
       "El tamaño de 27 pulgadas es el más habitual para un puesto de teletrabajo, y casi siempre aparece la misma duda: ¿me quedo con un QHD (2560 x 1440) o pago más por un 4K (3840 x 2160)? La respuesta depende de lo que hagas, de la distancia a la que te sientes y del ordenador que tengas, no solo de la ficha técnica. Aquí tienes cómo decidir sin gastar de más.</p><h2>Qué significa cada resolución en 27 pulgadas</h2><p>El QHD ofrece una cuadrícula de píxeles intermedia entre el Full HD y el 4K. En un monitor de 27 pulgadas se ve nítido y deja bastante espacio de trabajo: puedes tener dos ventanas cómodamente una junto a la otra. El 4K multiplica los píxeles, lo que da textos y detalles más finos, pero los elementos de la pantalla se ven muy pequeños si no se aplica escalado en el sistema operativo. Con el escalado se recupera la legibilidad, pero se pierde parte del espacio extra que prometía el 4K.",
       "Dicho de otro modo: el 4K brilla cuando valoras la nitidez del texto y de las imágenes por encima del espacio de trabajo; el QHD es un punto de equilibrio que a menudo se ajusta mejor a un uso ofimático. Encontrarás monitores de ambas resoluciones en nuestra <a href='/guias/monitores.html'>guía de monitores</a>.</p><h2>Lo que tu ordenador tiene que ser capaz de mover</h2><p>Un monitor 4K exige un ordenador capaz de mover esa resolución con fluidez: una salida de vídeo compatible, un cable adecuado y una tarjeta gráfica que no se ahogue. Un portátil antiguo o uno con una conexión limitada puede no llegar al 4K a la frecuencia deseada, o hacerlo a costa de que todo vaya más lento. Con QHD el requisito es menor y la compatibilidad más amplia. Antes de comprar, revisa qué puertos tiene tu equipo (HDMI, DisplayPort o USB-C con salida de vídeo) y qué resolución y frecuencia admiten.",
@@ -2458,7 +2458,7 @@ const ARTICLES = [
     title: "Monitor para teletrabajo por menos de 150 €: qué esperar",
     dek: "Qué puedes exigirle a un monitor de presupuesto ajustado para trabajar en casa: tamaño, panel, resolución y los recortes que sí conviene aceptar.",
     updated: "2026-09-21",
-    img: "/assets/img/blog/monitor-para-teletrabajo-por-menos-de-150-euros.jpg",
+    img: "/assets/img/blog/monitor-para-teletrabajo-por-menos-de-150-euros.webp",
     body: [
       "Con un presupuesto de unos 150 euros ya se puede montar un puesto de teletrabajo decente, pero hay que saber en qué merece la pena gastar y qué recortes son razonables. Un monitor en este tramo no tendrá lo último en color ni en frecuencia, pero puede ofrecer un panel agradable para jornadas largas si eliges con criterio. Estas son las prioridades para no equivocarte.</p><h2>Qué es razonable esperar en este tramo de precio</h2><p>En un presupuesto contenido lo habitual es encontrar monitores de 24 a 27 pulgadas, con panel IPS o VA y resolución Full HD o QHD. La frecuencia de refresco suele estar entre 75 y 144 Hz, algo que se nota al mover el ratón y las ventanas aunque no juegues. Es raro que incluyan soporte con regulación completa de altura: muchos solo permiten inclinar la pantalla, y eso es una limitación real para la postura. Tampoco esperes calibración de color profesional ni acabados de gama alta; pero sí un panel correcto para ofimática, videollamadas y contenidos.",
       "Ten en cuenta que los precios cambian con frecuencia y los datos de cada modelo (frecuencia, conectividad, soporte) conviene revisarlos en la ficha actual del vendedor. En nuestra <a href='/guias/monitores.html'>guía de monitores</a> tienes la selección organizada por rangos y valoraciones.</p><h2>Tamaño y resolución: 24, 27 o más</h2><p>Si la mesa es pequeña o te sientas cerca, 24 pulgadas en Full HD o QHD puede ser suficiente y más cómodo. En 27 pulgadas, el Full HD empieza a mostrar píxeles visibles a poca distancia, por lo que un QHD resulta más agradable para leer texto. Para saber qué resolución encaja mejor con 27 pulgadas, lee <a href='/blog/monitor-27-pulgadas-qhd-o-4k-para-teletrabajar.html'>monitor 27 pulgadas: QHD o 4K</a>. En este tramo de precio, los modelos de 27 pulgadas QHD ya existen: la ficha del <a href='/productos/philips-27e2n1500l-qhd-ips-75hz-b0f9ysjjg2.html'>PHILIPS 27E2N1500L QHD IPS 75Hz</a> es un ejemplo de qué se puede esperar sin subir demasiado el presupuesto.",
@@ -2473,7 +2473,7 @@ const ARTICLES = [
     title: "Teclado ergonómico para principiantes: cómo empezar",
     dek: "Qué tipo de teclado ergonómico elegir si nunca has usado uno, cuánto tarda en notarse el cambio y qué errores evitar en las primeras semanas.",
     updated: "2026-09-21",
-    img: "/assets/img/blog/teclado-ergonomico-para-principiantes.jpg",
+    img: "/assets/img/blog/teclado-ergonomico-para-principiantes.webp",
     body: [
       "Cambiar a un teclado ergonómico intimida un poco: formas raras, teclas partidas, palabras como \"tenting\" o \"split\". Pero no hace falta empezar por lo más extremo. Si es tu primer teclado ergonómico, lo sensato es elegir un modelo que te permita adaptarte sin frustrarte y que mejore la postura de las muñecas sin trastocar del todo tu forma de escribir.</p><h2>Qué hace ergonómico a un teclado</h2><p>La ergonomía de un teclado se reduce a mantener las muñecas y los antebrazos en una posición lo más neutra posible. Para conseguirlo, se juega con tres ideas: dividir o curvar el teclado para que las manos no se doblen hacia fuera, inclinarlo (o bajarlo) para que las muñecas no queden dobladas hacia arriba, y añadir un reposamuñecas que reparta la presión mientras escribes. No todos los modelos incorporan las tres: algunos se limitan a una forma curvada con un reposamanos acolchado; otros parten el teclado en dos mitades separadas.",
       "En nuestra <a href='/guias/teclados-y-raton.html'>guía de teclados y ratones</a> tienes distintos formatos con sus ventajas. Para saber cuándo cambiar, <a href='/blog/senales-de-que-toca-cambiar-de-teclado.html'>señales de que toca cambiar de teclado</a> recoge los síntomas más habituales.</p><h2>Por dónde empezar: del más suave al más radical</h2><p>Si vienes de un teclado convencional, los modelos de forma curvada o \"de ondas\" son una transición cómoda: mantienen la distribución habitual, con las teclas en su sitio, pero inclinan y curvan el conjunto. Un ejemplo es el <a href='/productos/logitech-wave-keys-teclado-ergonomico-inalambrico-b07w6j71bl.html'>Logitech Wave Keys</a>, un teclado ergonómico inalámbrico de forma ondulada que sirve como primer paso. Un escalón más adelante están los teclados con reposamanos integrado y ligera separación central, y en el extremo los teclados divididos en dos mitades. Puedes consultar la ficha del <a href='/productos/logitech-ergo-k860-teclado-partido-inalambrico-b07w7l66l8.html'>Logitech Ergo K860 partido</a> para ver cómo es esta última categoría.",
@@ -2489,7 +2489,7 @@ const ARTICLES = [
     title: "Teclado mecánico o de membrana para la oficina en casa",
     dek: "Diferencias reales entre teclado mecánico y de membrana: ruido, tacto, duración y precio, y cuál te conviene si trabajas muchas horas escribiendo.",
     updated: "2026-09-21",
-    img: "/assets/img/blog/teclado-mecanico-o-de-membrana-para-la-oficina.jpg",
+    img: "/assets/img/blog/teclado-mecanico-o-de-membrana-para-la-oficina.webp",
     body: [
       "Entre un teclado mecánico y uno de membrana no hay un ganador universal: cada uno encaja con perfiles distintos. Si escribes muchas horas, compartes casa o haces videollamadas, las diferencias en ruido, tacto y mantenimiento pesan más que la fama de uno u otro. Repasamos lo que importa antes de decidir.</p><h2>Cómo funciona cada tipo y por qué se siente distinto</h2><p>En un teclado de membrana, las teclas pulsan sobre una lámina de goma o silicona que cierra el circuito. Suelen ser silenciosos, delgados y económicos, con un tacto más blando. En un teclado mecánico, cada tecla tiene su propio interruptor (switch) con un mecanismo individual, lo que da un tacto más definido, un recorrido más marcado y la posibilidad de cambiar teclas o incluso interruptores en algunos modelos. Por lo general son más caros, más pesados y, según el tipo de switch, más ruidosos.",
       "La \"sensación\" es en buena parte subjetiva. Hay quien encuentra los mecánicos más precisos y agradables al escribir mucho tiempo, y quien prefiere la suavidad de una membrana. Si puedes probar teclados en persona, hazlo. Si compras online, busca opiniones sobre el tipo de switch y sobre cómo se siente en jornadas largas.</p><h2>El ruido: clave si compartes espacio</h2><p>Aquí es donde más se nota la diferencia. Los mecánicos con switches \"clicky\" (los que hacen clic audible) pueden resultar molestos en una llamada o en una casa con paredes finas. Los mecánicos con switches lineales o \"silenciosos\" reducen el ruido, y los de membrana suelen ser los más discretos. Si haces videollamadas, tu micrófono captará las pulsaciones: es un argumento para optar por un teclado silencioso o para no usar switches ruidosos. Lo tratamos también en <a href='/blog/senales-de-que-toca-cambiar-de-teclado.html'>señales de que toca cambiar de teclado</a>.",
@@ -2504,7 +2504,7 @@ const ARTICLES = [
     title: "Cómo elegir un ratón para trabajar muchas horas",
     dek: "Tamaño, agarre, sensor, conexión y ergonomía: qué mirar al comprar un ratón para trabajar ocho horas sin molestias en la mano y la muñeca.",
     updated: "2026-09-21",
-    img: "/assets/img/blog/como-elegir-un-raton-para-trabajar-muchas-horas.jpg",
+    img: "/assets/img/blog/como-elegir-un-raton-para-trabajar-muchas-horas.webp",
     body: [
       "El ratón es el periférico que más movimientos repetitivos acumula a lo largo de una jornada, y aun así solemos comprarlo por precio o por diseño. Si pasas muchas horas ante el ordenador, merece la pena elegirlo bien: un ratón que no encaja con tu mano puede acabar generando tensión en la muñeca, el antebrazo o el hombro. Esta guía te da los criterios para acertar.</p><h2>El tamaño y el agarre importan más que la marca</h2><p>Lo primero es que el ratón se adapte a tu mano. Uno demasiado pequeño obliga a agarrarlo con las puntas de los dedos; uno demasiado grande te hace estirar los dedos y forzar la muñeca. Mide tu mano de la muñeca a la punta del dedo corazón y compara con las dimensiones que da el fabricante. Después considera tu tipo de agarre: con la palma apoyada por completo (palm grip), con los dedos arqueados (claw grip) o con las puntas (fingertip grip). Cada uno funciona mejor con formas distintas.",
       "Si usas el ratón con la izquierda, comprueba que el modelo es simétrico o tiene versión para zurdos. Muchos ratones ergonómicos están diseñados solo para la mano derecha.</p><h2>Ratón convencional, vertical o trackball</h2><p>Un ratón convencional tiene una forma horizontal que gira el antebrazo hacia dentro (pronación). Los ratones verticales colocan la mano en posición de apretón de manos, más neutra, y reducen esa torsión, aunque requieren un periodo de adaptación y no son para todos. Los trackball (de bola) permiten mover el cursor sin desplazar el brazo, algo útil si tienes poco espacio de mesa o quieres evitar movimientos amplios. Hemos analizado cuándo tiene sentido pasar a uno vertical en <a href='/blog/raton-vertical-ventajas-y-cuando-cambiar.html'>ratón vertical: ventajas y cuándo cambiar</a>.",
@@ -2519,7 +2519,7 @@ const ARTICLES = [
     title: "Cómo elegir un flexo LED para el escritorio",
     dek: "Temperatura de color, potencia, regulación, tipo de brazo y ubicación: qué mirar para que tu lámpara de escritorio no canse la vista ni deslumbre.",
     updated: "2026-09-21",
-    img: "/assets/img/blog/como-elegir-un-flexo-led-para-el-escritorio.jpg",
+    img: "/assets/img/blog/como-elegir-un-flexo-led-para-el-escritorio.webp",
     body: [
       "Un buen flexo LED es una de las mejoras más baratas y de mayor impacto en un puesto de trabajo, y sin embargo se compra muchas veces por el diseño. Si trabajas por la tarde o en una habitación con poca luz natural, la lámpara de escritorio cambia mucho la comodidad de los ojos. Estos son los criterios que importan y cómo colocarla para no deslumbrarte.</p><h2>Temperatura de color y regulación de intensidad</h2><p>La temperatura de color se mide en kelvin. Los tonos cálidos (alrededor de 2700-3000 K) son más amarillentos y relajantes, adecuados para el final del día; los neutros (en torno a 4000 K) son un buen término medio para trabajar; los fríos (5000 K o más) se perciben más azulados y ayudan a mantenerse alerta, pero pueden resultar duros de noche. Lo más práctico es un flexo con varias temperaturas de color y regulación de intensidad, para adaptarlo al momento del día y a la tarea. En nuestra <a href='/guias/iluminacion-escritorio.html'>guía de iluminación de escritorio</a> tienes ejemplos con esas funciones.",
       "La regulación de intensidad es especialmente útil: permite bajar la luz cuando ya hay luz ambiente y subirla cuando oscurece. Un flexo sin regulación te obliga a un brillo único que a veces será demasiado o demasiado poco. Modelos con varias temperaturas de color y control táctil, como el <a href='/productos/flexo-led-15w-con-usb-c-3-temperaturas-de-color-b0fcs4d8p1.html'>flexo LED 15W con USB-C y 3 temperaturas de color</a>, son un ejemplo de este planteamiento.</p><h2>Potencia, luminosidad y cobertura</h2><p>Más vatios no siempre significa mejor luz. Lo que cuenta es la luminosidad (lúmenes) y cómo se reparte. Para un escritorio de trabajo, una lámpara con luminosidad suficiente para iluminar la zona del teclado y los papeles, sin resultar deslumbrante, es lo ideal. Las barras de luz para monitor, que se colocan sobre la pantalla, iluminan la mesa sin reflejos en la pantalla; los flexos clásicos con brazo iluminan de forma dirigida. Cada uno tiene su ventaja: la barra libera espacio en la mesa, el flexo permite orientar la luz con precisión.",
@@ -2533,7 +2533,7 @@ const ARTICLES = [
     title: "Auriculares con micrófono para videollamadas: cómo elegir",
     dek: "Con cable o inalámbricos, diadema o intraurales, micrófono y comodidad: qué mirar al comprar auriculares para reuniones y videollamadas diarias.",
     updated: "2026-09-21",
-    img: "/assets/img/blog/auriculares-con-microfono-para-videollamadas-como-elegir.jpg",
+    img: "/assets/img/blog/auriculares-con-microfono-para-videollamadas-como-elegir.webp",
     body: [
       "Si tu jornada incluye reuniones por vídeo, unos buenos auriculares con micrófono marcan la diferencia entre que te entiendan a la primera y tener que repetir todo. No hace falta gastar mucho, pero sí saber qué características influyen de verdad en una videollamada: el micrófono, la comodidad tras horas de uso y la conexión. Estos son los criterios para elegir bien.</p><h2>Lo que más importa: el micrófono</h2><p>En una videollamada, lo que oyen los demás es tu micrófono, no tus auriculares. Un micrófono con brazo o varilla, situado cerca de la boca, capta mejor la voz y menos el ruido de la habitación que uno integrado en el cable o en el propio auricular. Algunos modelos incorporan cancelación de ruido en el micrófono, que reduce sonidos de fondo como el teclado o la calle. Es un punto a comprobar en la descripción del producto, aunque la eficacia real varía y conviene leer opiniones de quienes ya los usan.",
       "Ten en cuenta que \"cancelación de ruido\" puede referirse a dos cosas distintas: la que reduce el ruido que oyes tú (cancelación activa en los auriculares) o la que limpia el ruido que capta tu micrófono. En una videollamada, lo segundo es lo que más ayuda a los demás. Hemos explicado el primer caso en <a href='/blog/auriculares-cancelacion-de-ruido-casa-compartida.html'>auriculares con cancelación de ruido en una casa compartida</a>.</p><h2>Cable, USB o inalámbricos</h2><p>Los auriculares con cable USB son sencillos: no hay batería que cargar ni retrasos de conexión, y suelen ofrecer buen micrófono por un precio contenido. Los de cable de 3,5 mm dependen de la toma de tu equipo (algunos portátiles la tienen combinada, otros no). Los inalámbricos Bluetooth o con receptor USB dan libertad de movimiento, pero necesitan carga y, en algunos casos, pueden introducir cierta latencia o depender de la calidad del micrófono en modo llamada, que suele ser inferior al modo música. Si pasas toda la jornada en llamadas, valora la autonomía real y si el modelo puede usarse mientras se carga.",
@@ -2548,7 +2548,7 @@ const ARTICLES = [
     title: "Qué necesito para ordenar los cables del escritorio",
     dek: "Lista de material básico para domar los cables de tu puesto de trabajo: regletas, bandejas, bridas, canaletas y organizadores, y cómo usarlos paso a paso.",
     updated: "2026-09-21",
-    img: "/assets/img/blog/que-necesito-para-ordenar-los-cables-del-escritorio.jpg",
+    img: "/assets/img/blog/que-necesito-para-ordenar-los-cables-del-escritorio.webp",
     body: [
       "Un escritorio con cables enredados no solo se ve mal: dificulta limpiar, tira de los conectores y estorba al mover la silla. La buena noticia es que ordenarlos no requiere obras ni mucho presupuesto: con un puñado de accesorios baratos y una tarde puedes dejar el puesto limpio. Esta guía enumera lo que necesitas y en qué orden usarlo.</p><h2>Primero, plan: qué cables tienes y a dónde van</h2><p>Antes de comprar nada, haz un inventario: monitor, portátil o torre, cargadores, lámpara, altavoces, teléfono, regleta. Desenchufa todo, marca cada cable con una etiqueta o un trozo de cinta para saber cuál es cuál, y decide dónde va cada dispositivo. Piensa por dónde puede subir el cableado: por la pata de la mesa, por detrás del tablero o por una canaleta hacia el enchufe. Si tienes una mesa elevable, deja holgura suficiente para el recorrido en altura; te lo contamos en <a href='/blog/como-elegir-una-mesa-elevable-electrica.html'>cómo elegir una mesa elevable eléctrica</a>.",
       "Dedicar diez minutos a este plan evita comprar accesorios que luego no sirven. Puedes complementar con el paso a paso de <a href='/blog/organizacion-de-cables-guia-practica-paso-a-paso.html'>organización de cables: guía práctica paso a paso</a>.</p><h2>El material básico: qué comprar y para qué sirve</h2><p>Hay cinco tipos de accesorio que cubren casi todos los casos. La regleta (idealmente con interruptor y protección contra sobretensiones) reduce el número de cables que llegan a la pared; si la fijas bajo la mesa, dejas de tener bultos en el suelo. Una bandeja pasacables o cesta que se coloca bajo el tablero recoge regleta y adaptadores. Las bridas o cintas de velcro agrupan los cables y se pueden reutilizar; las canaletas adhesivas guían los cables por la pared o la pata. Los clips adhesivos sujetan los cables sueltos junto al borde de la mesa para que no se caigan al suelo al desenchufarlos.",
@@ -2563,7 +2563,7 @@ const ARTICLES = [
     title: "Reposapiés para el escritorio: cuándo merece la pena",
     dek: "Quién necesita un reposapiés, cómo saber si tu mesa o tu silla te dejan los pies en el aire y qué mirar al elegir uno ajustable.",
     updated: "2026-09-21",
-    img: "/assets/img/blog/reposapies-para-el-escritorio-merece-la-pena.jpg",
+    img: "/assets/img/blog/reposapies-para-el-escritorio-merece-la-pena.webp",
     body: [
       "Un reposapiés parece un accesorio menor, pero resuelve un problema muy concreto: cuando los pies no llegan bien al suelo o la mesa obliga a subir la silla demasiado, las piernas quedan colgando y la postura se resiente. No todo el mundo lo necesita, y comprarlo sin comprobar antes la altura de tu puesto puede ser dinero perdido. Aquí tienes cómo saber si te conviene.</p><h2>Cuándo tiene sentido un reposapiés</h2><p>El caso típico es una persona de estatura baja o media con una mesa de altura estándar. Para llegar cómodamente al teclado, sube la silla hasta que los codos quedan a la altura del tablero, y entonces los pies ya no tocan el suelo. Un reposapiés cubre ese hueco y permite mantener las rodillas más o menos en ángulo recto. También ayuda si tu silla no tiene un rango de altura suficientemente bajo o si tu mesa es más alta de lo habitual. La altura estándar de escritorio y cómo comprobarla la explicamos en <a href='/blog/que-medidas-de-escritorio-necesitas-segun-tu-espacio.html'>qué medidas de escritorio necesitas según tu espacio</a>.",
       "Si en cambio tus pies ya descansan planos en el suelo con las rodillas en ángulo cómodo, el reposapiés no aporta gran cosa, aunque puede resultar agradable para cambiar de postura. No es un accesorio obligatorio.</p><h2>Primero comprueba tu altura de silla y mesa</h2><p>Antes de comprar, haz una prueba sencilla: siéntate con la espalda apoyada, ajusta la silla para que los antebrazos queden paralelos al suelo al teclear y observa tus pies. Si toca el suelo con la planta completa, estás bien. Si quedan colgando o tienes que sentarte en el borde para llegar, necesitas resolverlo. Las alternativas pasan por una mesa regulable en altura, por unas patas elevadoras o por el reposapiés. Si tu mesa es fija y no la vas a cambiar, el reposapiés es la solución más barata. Puedes revisar cómo regular la silla en <a href='/blog/como-ajustar-la-altura-de-tu-silla-ergonomica.html'>cómo ajustar la altura de tu silla ergonómica</a>.",
@@ -2577,7 +2577,7 @@ const ARTICLES = [
     title: "Elevador de monitor o brazo articulado: cuál elegir",
     dek: "Compara un elevador de monitor con un brazo articulado VESA: altura, espacio en la mesa, compatibilidad y precio, y cuál te conviene según tu escritorio.",
     updated: "2026-09-21",
-    img: "/assets/img/blog/elevador-de-monitor-o-brazo-articulado-cual-elegir.jpg",
+    img: "/assets/img/blog/elevador-de-monitor-o-brazo-articulado-cual-elegir.webp",
     body: [
       "Poner el monitor a la altura correcta es una de las mejoras ergonómicas más sencillas, pero hay dos caminos: un elevador (una plataforma sobre la que apoyas la pantalla) o un brazo articulado (que se fija a la mesa y sostiene el monitor por la parte trasera). Cada uno resuelve el problema de forma distinta y tiene sus ventajas. Aquí tienes cómo elegir sin equivocarte.</p><h2>Cuál es el objetivo: altura y distancia correctas</h2><p>Sea cual sea el accesorio, el objetivo es que el borde superior de la pantalla quede a la altura de los ojos o ligeramente por debajo, y a una distancia cómoda, aproximadamente a la longitud de un brazo. Muchos monitores baratos solo se inclinan y no regulan altura, por lo que la parte superior queda demasiado baja y obliga a agachar el cuello. Un elevador o un brazo corrige eso. Si aún no tienes claro qué monitor comprar, revisa <a href='/blog/monitor-27-pulgadas-qhd-o-4k-para-teletrabajar.html'>monitor 27 pulgadas: QHD o 4K</a>.",
       "Hay que tener en cuenta que un elevador sube la pantalla, pero no la acerca ni la aleja; un brazo permite regular altura, distancia e inclinación con más libertad. En nuestra <a href='/guias/soportes-para-portatil-y-elevadores.html'>guía de soportes y elevadores</a> tienes ejemplos de ambos.</p><h2>Elevador: sencillo, estable y con espacio debajo</h2><p>Un elevador de monitor es una plataforma de madera, metal o plástico que se coloca sobre la mesa. Ventajas: no requiere instalación, es estable, suele incluir espacio inferior para guardar el teclado o material y es compatible con casi cualquier monitor. Inconvenientes: ocupa sitio en la mesa y solo ofrece unas alturas fijas. Si tu monitor es ligero y no quieres taladrar ni fijar nada, es la solución más simple. Por ejemplo, el <a href='/productos/bontec-elevador-de-monitor-de-madera-con-2-niveles-b01m4s7zgm.html'>BONTEC elevador de monitor de madera con 2 niveles</a> es un modelo que sirve de referencia.",
@@ -2591,7 +2591,7 @@ const ARTICLES = [
     title: "Qué necesito para montar una oficina en casa desde cero",
     dek: "Lista de compra ordenada por prioridades para montar tu puesto de teletrabajo: mesa, silla, monitor, iluminación y accesorios, sin gastar de más.",
     updated: "2026-09-21",
-    img: "/assets/img/blog/que-necesito-para-montar-una-oficina-en-casa.jpg",
+    img: "/assets/img/blog/que-necesito-para-montar-una-oficina-en-casa.webp",
     body: [
       "Montar una oficina en casa desde cero abruma porque parece que hay que comprarlo todo a la vez. No es así: hay un orden lógico, unas prioridades claras y algunos gastos que pueden esperar. Esta guía te propone una lista de compra ordenada para que el presupuesto se use donde más se nota y no acabes con un escritorio bonito pero incómodo.</p><h2>Antes de comprar nada: espacio y uso</h2><p>Decide dónde va a estar el puesto y para qué lo vas a usar: ¿solo un portátil o un monitor y un equipo de sobremesa? ¿Videollamadas todos los días? ¿Muchas horas o pocas? Mide el espacio disponible, la altura de la ventana, los enchufes y el paso de la puerta. Tener esto claro evita comprar un escritorio que no cabe o una lámpara que no llega al enchufe. Si vas justo de metros, empieza por <a href='/blog/escritorio-pequeno-para-teletrabajar-en-un-piso.html'>escritorio pequeño para teletrabajar en un piso</a> y por <a href='/blog/que-medidas-de-escritorio-necesitas-segun-tu-espacio.html'>qué medidas de escritorio necesitas</a>.</p><h2>Las prioridades: silla, mesa y pantalla</h2><p>Si el presupuesto es limitado, prioriza en este orden. Primero la silla, porque soporta tu cuerpo durante horas; una silla con regulaciones básicas de altura, inclinación y lumbar es lo mínimo. Segundo, la mesa: con un tablero de tamaño y altura adecuados, estable y con espacio para las piernas. Tercero, la pantalla, sobre todo si vas a trabajar con portátil: un monitor externo a la altura correcta mejora la postura más que casi cualquier otro accesorio. Consulta la <a href='/guias/sillas-ergonomicas.html'>guía de sillas ergonómicas</a>, la <a href='/guias/mesas-de-escritorio.html'>guía de mesas de escritorio</a> y la <a href='/guias/monitores.html'>guía de monitores</a> para ver opciones y rangos.",
       "Como orientación general, si ya tienes un portátil, el monitor puede esperar unas semanas siempre que uses un soporte para elevarlo y un teclado y ratón externos. Un elevador sencillo o un <a href='/guias/soportes-para-portatil-y-elevadores.html'>soporte para portátil</a> es una solución provisional muy económica.</p><h2>Lista de compra por bloques</h2><p>Puedes organizar la compra en cuatro bloques. Bloque uno, imprescindible: silla, mesa y, si usas portátil, teclado y ratón externos. Bloque dos, comodidad diaria: monitor, soporte o brazo y lámpara. Bloque tres, orden: regleta, bandeja o bridas para cables y un organizador de mesa. Bloque cuatro, extras: reposapiés, auriculares con micrófono, reposamuñecas, alfombrilla o mesa elevable. Cada bloque se puede comprar cuando el anterior está resuelto. La checklist siguiente resume todo:</p><ul><li>Silla con altura, inclinación bloqueable, reposabrazos y soporte lumbar regulables.</li><li>Mesa del ancho y fondo adecuados, con altura correcta para tus codos.</li><li>Monitor externo a la altura de los ojos, con soporte regulable o elevador.</li><li>Teclado y ratón externos si trabajas con portátil, en un formato cómodo para ti.</li><li>Lámpara de escritorio con regulación de intensidad y temperatura de color.</li><li>Regleta con interruptor y algo para recoger los cables.</li><li>Auriculares con micrófono si haces videollamadas a menudo.</li><li>Reposapiés solo si tus pies no llegan al suelo con la silla a la altura del teclado.</li><li>Un rato de planificación para ubicar todo con criterio y dejar sitio para trabajar y para guardar.</li></ul><p></p><h2>Cómo repartir el presupuesto sin gastar de más</h2><p>No existe una cifra única, pero sí una lógica: gasta más en lo que uses más horas y en lo que afecte directamente a la postura. La silla y el monitor son los mejores candidatos; el reposapiés o el reposamuñecas pueden esperar. Compra piezas sueltas de calidad razonable en lugar de un pack barato con todo lo necesario a medias: es más probable que te dure. Y aprovecha las devoluciones: si algo no encaja, devuélvelo en el plazo del vendedor. Nuestra guía de <a href='/blog/cuanto-gastar-en-una-silla-de-oficina.html'>cuánto gastar en una silla de oficina</a> te ayuda a situar ese gasto, y <a href='/blog/monitor-para-teletrabajo-por-menos-de-150-euros.html'>monitor para teletrabajo por menos de 150 €</a> te da una referencia si tu presupuesto es ajustado.",

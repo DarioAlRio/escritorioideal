@@ -110,7 +110,7 @@ function home() {
   <section class="section trust-section">
     <div class="wrap trust-grid">
       <div class="trust-photo-wrap">
-        <img class="trust-photo" src="/assets/img/trust-bg.jpg" alt="Escritorio de oficina en casa bien organizado" loading="lazy" width="700" height="600">
+        <img class="trust-photo" src="/assets/img/trust-bg.webp" alt="Escritorio de oficina en casa bien organizado" loading="lazy" width="700" height="600">
       </div>
       <div class="trust-copy">
         <h2>¿Por qué esta web?</h2>
