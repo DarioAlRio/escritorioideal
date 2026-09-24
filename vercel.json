@@ -6,6 +6,611 @@
   "cleanUrls": false,
   "redirects": [
     {
+      "source": "/comparativas/aigostar-flexo-led-escritorio-tactil-vs-benq-screenbar-pro.html",
+      "destination": "/guias/iluminacion-escritorio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/aoc-24b3ha2-vs-dell-se2726d-qhd-ips-144hz.html",
+      "destination": "/guias/monitores.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/aoc-24b3ha2-vs-lg-32mr50c-b-monitor-curvo-32-va-fhd.html",
+      "destination": "/guias/monitores.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/aoc-24b3ha2-vs-msi-pro-mp273qw-wqhd-ips-144hz.html",
+      "destination": "/guias/monitores.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/babacom-soporte-plegable-para-portatil-vs-nulaxy-soporte-de-aluminio-para-portatil.html",
+      "destination": "/guias/soportes-para-portatil-y-elevadores.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/babacom-soporte-plegable-para-portatil-vs-rain-design-mstand.html",
+      "destination": "/guias/soportes-para-portatil-y-elevadores.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/bandeja-pasacables-bajo-mesa-vs-edihome-caja-organizadora-de-cables.html",
+      "destination": "/guias/organizacion-cables-y-espacio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/bandeja-pasacables-bajo-mesa-vs-toma-de-mesa-con-usb-y-sujecion-a-la-mes.html",
+      "destination": "/guias/organizacion-cables-y-espacio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/bandeja-pasacables-bajo-mesa-vs-ugreen-6-piezas-clip-de-cable-de-resorte.html",
+      "destination": "/guias/organizacion-cables-y-espacio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/bestier-escritorio-en-l-con-enchufes-vs-iotxy-escritorio-de-madera-100-cm.html",
+      "destination": "/guias/mesas-de-escritorio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/bestier-escritorio-en-l-con-enchufes-vs-vasagle-escritorio-120x60-cm.html",
+      "destination": "/guias/mesas-de-escritorio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/bontec-soporte-portatil-para-portatil-vs-babacom-soporte-plegable-para-portatil.html",
+      "destination": "/guias/soportes-para-portatil-y-elevadores.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/bontec-soporte-portatil-para-portatil-vs-nulaxy-soporte-de-aluminio-para-portatil.html",
+      "destination": "/guias/soportes-para-portatil-y-elevadores.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/bontec-soporte-portatil-para-portatil-vs-rain-design-mstand.html",
+      "destination": "/guias/soportes-para-portatil-y-elevadores.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/bravo-silla-escritorio-silla-oficina-vs-jupplies-silla-escritorio-ergonomica.html",
+      "destination": "/guias/sillas-ergonomicas.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/bravo-silla-escritorio-silla-oficina-vs-naspaluro-silla-escritorio-ergonomica.html",
+      "destination": "/guias/sillas-ergonomicas.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/bravo-silla-escritorio-silla-oficina-vs-ticova-silla-de-oficina-ergonomica.html",
+      "destination": "/guias/sillas-ergonomicas.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/comely-lampara-de-escritorio-24w-vs-aigostar-flexo-led-escritorio-tactil.html",
+      "destination": "/guias/iluminacion-escritorio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/comely-lampara-de-escritorio-24w-vs-benq-screenbar-pro.html",
+      "destination": "/guias/iluminacion-escritorio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/comely-lampara-de-escritorio-24w-vs-karidi-lampara-de-escritorio-led.html",
+      "destination": "/guias/iluminacion-escritorio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/comely-lampara-de-escritorio-24w-vs-lepro-lampara-escritorio-led-800lm.html",
+      "destination": "/guias/iluminacion-escritorio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/edihome-caja-organizadora-de-cables-vs-ugreen-6-piezas-clip-de-cable-de-resorte.html",
+      "destination": "/guias/organizacion-cables-y-espacio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/eksa-e1000-cascos-gaming-usb-para-pc-vs-jabra-evolve-20-auriculares-estereo.html",
+      "destination": "/guias/auriculares-videollamadas.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/eksa-e1000-cascos-gaming-usb-para-pc-vs-techrise-v5-2-auriculares-bluetooth.html",
+      "destination": "/guias/auriculares-videollamadas.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/eksa-e1000-cascos-gaming-usb-para-pc-vs-tecknet-auriculares-inalambricos.html",
+      "destination": "/guias/auriculares-videollamadas.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/eksa-h2-auriculares-usb-con-microfono-vs-techrise-v5-2-auriculares-bluetooth.html",
+      "destination": "/guias/auriculares-videollamadas.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/eksa-h2-auriculares-usb-con-microfono-vs-tecknet-auriculares-inalambricos.html",
+      "destination": "/guias/auriculares-videollamadas.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/escritorio-elevable-electrico-120x60-cm-vs-flexispot-e1-pro-escritorio-elevable.html",
+      "destination": "/guias/mesas-elevables.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/fellowes-reposapies-ergonomico-vs-fellowes-gel-crystals-reposamunecas.html",
+      "destination": "/guias/reposapies-y-accesorios-ergonomicos.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/gimars-3-en-1-alfombrilla-raton-y-teclad-vs-logitech-k120.html",
+      "destination": "/guias/teclados-y-raton.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/gimars-3-en-1-alfombrilla-raton-y-teclad-vs-protoarc-em11-nl.html",
+      "destination": "/guias/teclados-y-raton.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/gimars-3-en-1-alfombrilla-raton-y-teclad-vs-yunzii-b75-pro.html",
+      "destination": "/guias/teclados-y-raton.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/gimars-reposamunecas-para-teclado-y-rato-vs-fellowes-gel-crystals-reposamunecas.html",
+      "destination": "/guias/reposapies-y-accesorios-ergonomicos.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/gimars-reposamunecas-para-teclado-y-rato-vs-fellowes-reposapies-ergonomico.html",
+      "destination": "/guias/reposapies-y-accesorios-ergonomicos.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/gimars-reposamunecas-para-teclado-y-rato-vs-hyperx-reposamunecas-de-gel-refrescante.html",
+      "destination": "/guias/reposapies-y-accesorios-ergonomicos.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/gimars-reposamunecas-para-teclado-y-rato-vs-uniture-reposapies-de-madera-con-funcion.html",
+      "destination": "/guias/reposapies-y-accesorios-ergonomicos.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/glangeh-soporte-para-portatil-ajustable-vs-babacom-soporte-plegable-para-portatil.html",
+      "destination": "/guias/soportes-para-portatil-y-elevadores.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/glangeh-soporte-para-portatil-ajustable-vs-nulaxy-soporte-de-aluminio-para-portatil.html",
+      "destination": "/guias/soportes-para-portatil-y-elevadores.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/glangeh-soporte-para-portatil-ajustable-vs-rain-design-mstand.html",
+      "destination": "/guias/soportes-para-portatil-y-elevadores.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/hyperx-reposamunecas-de-gel-refrescante-vs-fellowes-gel-crystals-reposamunecas.html",
+      "destination": "/guias/reposapies-y-accesorios-ergonomicos.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/hyperx-reposamunecas-de-gel-refrescante-vs-fellowes-reposapies-ergonomico.html",
+      "destination": "/guias/reposapies-y-accesorios-ergonomicos.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/hyperx-reposamunecas-de-gel-refrescante-vs-uniture-reposapies-de-madera-con-funcion.html",
+      "destination": "/guias/reposapies-y-accesorios-ergonomicos.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/iotxy-escritorio-de-madera-100-cm-vs-vasagle-escritorio-120x60-cm.html",
+      "destination": "/guias/mesas-de-escritorio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/jabra-evolve-20-auriculares-estereo-vs-techrise-v5-2-auriculares-bluetooth.html",
+      "destination": "/guias/auriculares-videollamadas.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/jabra-evolve-20-auriculares-estereo-vs-tecknet-auriculares-inalambricos.html",
+      "destination": "/guias/auriculares-videollamadas.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/jupplies-silla-escritorio-ergonomica-vs-naspaluro-silla-escritorio-ergonomica.html",
+      "destination": "/guias/sillas-ergonomicas.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/jupplies-silla-escritorio-ergonomica-vs-ticova-silla-de-oficina-ergonomica.html",
+      "destination": "/guias/sillas-ergonomicas.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/kablerika-barra-de-luz-con-3-paneles-vs-aigostar-flexo-led-escritorio-tactil.html",
+      "destination": "/guias/iluminacion-escritorio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/kablerika-barra-de-luz-con-3-paneles-vs-benq-screenbar-pro.html",
+      "destination": "/guias/iluminacion-escritorio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/kablerika-barra-de-luz-con-3-paneles-vs-lepro-lampara-escritorio-led-800lm.html",
+      "destination": "/guias/iluminacion-escritorio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/karidi-lampara-de-escritorio-led-vs-aigostar-flexo-led-escritorio-tactil.html",
+      "destination": "/guias/iluminacion-escritorio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/karidi-lampara-de-escritorio-led-vs-benq-screenbar-pro.html",
+      "destination": "/guias/iluminacion-escritorio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/karidi-lampara-de-escritorio-led-vs-lepro-lampara-escritorio-led-800lm.html",
+      "destination": "/guias/iluminacion-escritorio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/lepro-lampara-escritorio-led-800lm-vs-aigostar-flexo-led-escritorio-tactil.html",
+      "destination": "/guias/iluminacion-escritorio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/lepro-lampara-escritorio-led-800lm-vs-benq-screenbar-pro.html",
+      "destination": "/guias/iluminacion-escritorio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/lg-32mr50c-b-monitor-curvo-32-va-fhd-vs-dell-se2726d-qhd-ips-144hz.html",
+      "destination": "/guias/monitores.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/lg-32mr50c-b-monitor-curvo-32-va-fhd-vs-msi-pro-mp273qw-wqhd-ips-144hz.html",
+      "destination": "/guias/monitores.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/logitech-k120-vs-protoarc-em11-nl.html",
+      "destination": "/guias/teclados-y-raton.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/logitech-k120-vs-yunzii-b75-pro.html",
+      "destination": "/guias/teclados-y-raton.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/logitech-wave-keys-vs-logitech-k120.html",
+      "destination": "/guias/teclados-y-raton.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/logitech-wave-keys-vs-protoarc-em11-nl.html",
+      "destination": "/guias/teclados-y-raton.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/logitech-wave-keys-vs-yunzii-b75-pro.html",
+      "destination": "/guias/teclados-y-raton.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/maidesite-el2-pro-art-escritorio-elevabl-vs-escritorio-elevable-electrico-120x60-cm.html",
+      "destination": "/guias/mesas-elevables.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/maidesite-el2-pro-art-escritorio-elevabl-vs-flexispot-e1-pro-escritorio-elevable.html",
+      "destination": "/guias/mesas-elevables.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/maidesite-el2-pro-art-escritorio-elevabl-vs-woltu-escritorio-elevable-electrico-80x4.html",
+      "destination": "/guias/mesas-elevables.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/marsail-silla-oficina-ergonomica-vs-jupplies-silla-escritorio-ergonomica.html",
+      "destination": "/guias/sillas-ergonomicas.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/marsail-silla-oficina-ergonomica-vs-naspaluro-silla-escritorio-ergonomica.html",
+      "destination": "/guias/sillas-ergonomicas.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/marsail-silla-oficina-ergonomica-vs-ticova-silla-de-oficina-ergonomica.html",
+      "destination": "/guias/sillas-ergonomicas.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/msi-g255f-vs-dell-se2726d-qhd-ips-144hz.html",
+      "destination": "/guias/monitores.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/msi-g255f-vs-lg-32mr50c-b-monitor-curvo-32-va-fhd.html",
+      "destination": "/guias/monitores.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/msi-g255f-vs-msi-pro-mp273qw-wqhd-ips-144hz.html",
+      "destination": "/guias/monitores.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/msi-pro-mp273qw-wqhd-ips-144hz-vs-dell-se2726d-qhd-ips-144hz.html",
+      "destination": "/guias/monitores.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/msi-pro-mp275qa-27-wqhd-ips-144hz-vs-aoc-24b3ha2.html",
+      "destination": "/guias/monitores.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/msi-pro-mp275qa-27-wqhd-ips-144hz-vs-dell-se2726d-qhd-ips-144hz.html",
+      "destination": "/guias/monitores.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/msi-pro-mp275qa-27-wqhd-ips-144hz-vs-lg-32mr50c-b-monitor-curvo-32-va-fhd.html",
+      "destination": "/guias/monitores.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/msi-pro-mp275qa-27-wqhd-ips-144hz-vs-msi-pro-mp273qw-wqhd-ips-144hz.html",
+      "destination": "/guias/monitores.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/naspaluro-silla-escritorio-ergonomica-vs-ticova-silla-de-oficina-ergonomica.html",
+      "destination": "/guias/sillas-ergonomicas.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/naspaluro-silla-oficina-ergonomica-vs-marsail-silla-oficina-ergonomica.html",
+      "destination": "/guias/sillas-ergonomicas.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/naspaluro-silla-oficina-ergonomica-vs-naspaluro-silla-escritorio-ergonomica.html",
+      "destination": "/guias/sillas-ergonomicas.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/naspaluro-silla-oficina-ergonomica-vs-ticova-silla-de-oficina-ergonomica.html",
+      "destination": "/guias/sillas-ergonomicas.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/protoarc-em11-nl-vs-yunzii-b75-pro.html",
+      "destination": "/guias/teclados-y-raton.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/rain-design-mstand-vs-nulaxy-soporte-de-aluminio-para-portatil.html",
+      "destination": "/guias/soportes-para-portatil-y-elevadores.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/regleta-de-5-enchufes-con-usb-vs-bandeja-pasacables-bajo-mesa.html",
+      "destination": "/guias/organizacion-cables-y-espacio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/regleta-de-5-enchufes-con-usb-vs-edihome-caja-organizadora-de-cables.html",
+      "destination": "/guias/organizacion-cables-y-espacio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/regleta-de-5-enchufes-con-usb-vs-toma-de-mesa-con-usb-y-sujecion-a-la-mes.html",
+      "destination": "/guias/organizacion-cables-y-espacio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/regleta-de-5-enchufes-con-usb-vs-ugreen-6-piezas-clip-de-cable-de-resorte.html",
+      "destination": "/guias/organizacion-cables-y-espacio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/rii-rk105-teclado-raton-rgb-cableado-vs-logitech-k120.html",
+      "destination": "/guias/teclados-y-raton.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/rii-rk105-teclado-raton-rgb-cableado-vs-logitech-wave-keys.html",
+      "destination": "/guias/teclados-y-raton.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/rii-rk105-teclado-raton-rgb-cableado-vs-protoarc-em11-nl.html",
+      "destination": "/guias/teclados-y-raton.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/rii-rk105-teclado-raton-rgb-cableado-vs-yunzii-b75-pro.html",
+      "destination": "/guias/teclados-y-raton.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/sanodesk-escritorio-elevable-electrico-vs-escritorio-elevable-electrico-120x60-cm.html",
+      "destination": "/guias/mesas-elevables.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/sanodesk-escritorio-elevable-electrico-vs-flexispot-e1-pro-escritorio-elevable.html",
+      "destination": "/guias/mesas-elevables.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/sanodesk-escritorio-elevable-electrico-vs-maidesite-el2-pro-art-escritorio-elevabl.html",
+      "destination": "/guias/mesas-elevables.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/sanodesk-escritorio-elevable-electrico-vs-woltu-escritorio-elevable-electrico-80x4.html",
+      "destination": "/guias/mesas-elevables.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/set-de-2-organizador-cables-escritorio-vs-edihome-caja-organizadora-de-cables.html",
+      "destination": "/guias/organizacion-cables-y-espacio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/set-de-2-organizador-cables-escritorio-vs-toma-de-mesa-con-usb-y-sujecion-a-la-mes.html",
+      "destination": "/guias/organizacion-cables-y-espacio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/tecknet-auriculares-inalambricos-vs-techrise-v5-2-auriculares-bluetooth.html",
+      "destination": "/guias/auriculares-videollamadas.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/tecknet-auriculares-inalambricos-vs-tecknet-auriculares-inalambricos.html",
+      "destination": "/guias/auriculares-videollamadas.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/toma-de-mesa-con-usb-y-sujecion-a-la-mes-vs-edihome-caja-organizadora-de-cables.html",
+      "destination": "/guias/organizacion-cables-y-espacio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/toma-de-mesa-con-usb-y-sujecion-a-la-mes-vs-ugreen-6-piezas-clip-de-cable-de-resorte.html",
+      "destination": "/guias/organizacion-cables-y-espacio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/ugreen-soporte-plegable-y-ajustable-vs-babacom-soporte-plegable-para-portatil.html",
+      "destination": "/guias/soportes-para-portatil-y-elevadores.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/ugreen-soporte-plegable-y-ajustable-vs-glangeh-soporte-para-portatil-ajustable.html",
+      "destination": "/guias/soportes-para-portatil-y-elevadores.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/ugreen-soporte-plegable-y-ajustable-vs-nulaxy-soporte-de-aluminio-para-portatil.html",
+      "destination": "/guias/soportes-para-portatil-y-elevadores.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/ugreen-soporte-plegable-y-ajustable-vs-rain-design-mstand.html",
+      "destination": "/guias/soportes-para-portatil-y-elevadores.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/uniture-reposapies-de-madera-con-funcion-vs-fellowes-gel-crystals-reposamunecas.html",
+      "destination": "/guias/reposapies-y-accesorios-ergonomicos.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/uniture-reposapies-de-madera-con-funcion-vs-fellowes-reposapies-ergonomico.html",
+      "destination": "/guias/reposapies-y-accesorios-ergonomicos.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/vasagle-escritorio-vs-bestier-escritorio-en-l-con-enchufes.html",
+      "destination": "/guias/mesas-de-escritorio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/vasagle-escritorio-vs-iotxy-escritorio-de-madera-100-cm.html",
+      "destination": "/guias/mesas-de-escritorio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/vasagle-escritorio-vs-vasagle-escritorio-120x60-cm.html",
+      "destination": "/guias/mesas-de-escritorio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/vfandv-reposapies-de-oficina-vs-uniture-reposapies-de-madera-con-funcion.html",
+      "destination": "/guias/reposapies-y-accesorios-ergonomicos.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/woltu-escritorio-con-4-estantes-laterale-vs-bestier-escritorio-en-l-con-enchufes.html",
+      "destination": "/guias/mesas-de-escritorio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/woltu-escritorio-con-4-estantes-laterale-vs-iotxy-escritorio-de-madera-100-cm.html",
+      "destination": "/guias/mesas-de-escritorio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/woltu-escritorio-con-4-estantes-laterale-vs-vasagle-escritorio-120x60-cm.html",
+      "destination": "/guias/mesas-de-escritorio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/woltu-escritorio-elevable-electrico-80x4-vs-escritorio-elevable-electrico-120x60-cm.html",
+      "destination": "/guias/mesas-elevables.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/woltu-escritorio-elevable-electrico-80x4-vs-flexispot-e1-pro-escritorio-elevable.html",
+      "destination": "/guias/mesas-elevables.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/woltu-marco-de-mesa-elevable-vs-escritorio-elevable-electrico-120x60-cm.html",
+      "destination": "/guias/mesas-elevables.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/woltu-marco-de-mesa-elevable-vs-flexispot-e1-pro-escritorio-elevable.html",
+      "destination": "/guias/mesas-elevables.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/yaheetech-mesa-de-ordenador-112x50-cm-vs-bestier-escritorio-en-l-con-enchufes.html",
+      "destination": "/guias/mesas-de-escritorio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/yaheetech-mesa-de-ordenador-112x50-cm-vs-iotxy-escritorio-de-madera-100-cm.html",
+      "destination": "/guias/mesas-de-escritorio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/yaheetech-mesa-de-ordenador-112x50-cm-vs-vasagle-escritorio-120x60-cm.html",
+      "destination": "/guias/mesas-de-escritorio.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/yaheetech-mesa-de-ordenador-112x50-cm-vs-woltu-escritorio-con-4-estantes-laterale.html",
+      "destination": "/guias/mesas-de-escritorio.html",
+      "permanent": true
+    },
+    {
       "source": "/:section(guias|blog|comparativas|productos|legal|mejores)/:slug([^/.]+)",
       "destination": "/:section/:slug.html",
       "permanent": true
