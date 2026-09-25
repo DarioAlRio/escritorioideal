@@ -22,6 +22,33 @@ module.exports = {
     "price": "60",
     "rating": "4,2★",
     "reviews": 728
+   },
+   {
+    "asin": "B0BLMCLK15",
+    "title": "HOLLUDLE Silla de Oficina Ergonómica con Respaldo Adaptativo, Silla de Escritorio de Alto Respaldo con Reposabrazos 4D, Profundidad de Asiento Ajustab",
+    "note": "Silla de Escritorio de Alto Respaldo con Reposabrazos 4D; Profundidad de Asiento Ajustable. Top ventas en Amazon.es: 4,4★ con 2153 valoraciones. 50+ comprados el último mes.",
+    "img": "https://m.media-amazon.com/images/I/71WAece6sjL._AC_UL320_.jpg",
+    "price": "220",
+    "rating": "4,4★",
+    "reviews": 2153
+   },
+   {
+    "asin": "B0FQ4LCBY5",
+    "title": "HUANUO Silla de Oficina Ergonómica",
+    "note": "Top ventas en Amazon.es: 4,5★ con 2153 valoraciones. 50+ comprados el último mes.",
+    "img": "https://m.media-amazon.com/images/I/81oBQHm8zqL._AC_UL320_.jpg",
+    "price": "110",
+    "rating": "4,5★",
+    "reviews": 2153
+   },
+   {
+    "asin": "B0B92FWK41",
+    "title": "Durrafy Silla Oficina Ergonómica,Silla Escritorio con reposacabezas Ajustable,Reposabrazos, Soporte Lumbar, Altura Regulable y oscilación de 120°, Sil",
+    "note": "Silla Escritorio con reposacabezas Ajustable; Reposabrazos. Top ventas en Amazon.es: 4,2★ con 2153 valoraciones.",
+    "img": "https://m.media-amazon.com/images/I/61La4jyXOOL._AC_UL320_.jpg",
+    "price": "130",
+    "rating": "4,2★",
+    "reviews": 2153
    }
   ],
   "mesas-de-escritorio": [
@@ -42,6 +69,33 @@ module.exports = {
     "price": "85",
     "rating": "4,0★",
     "reviews": 967
+   },
+   {
+    "asin": "B0FMFT7F7B",
+    "title": "VASAGLE Escritorio Elevable Eléctrico con Motor Silencioso y Puerto USB-C",
+    "note": "Top ventas en Amazon.es: 4,2★ con 3643 valoraciones. 50+ comprados el último mes.",
+    "img": "https://m.media-amazon.com/images/I/61C6R9HIDXL._AC_UL320_.jpg",
+    "price": "150",
+    "rating": "4,2★",
+    "reviews": 3643
+   },
+   {
+    "asin": "B0FDB2JKLX",
+    "title": "Coleshome Escritorio Esquinero, Mesa en L con Estantes, 100x70cm, Gris",
+    "note": "Mesa en L con Estantes; 100x70cm. Top ventas en Amazon.es: 4,6★ con 1646 valoraciones. 100+ comprados el último mes.",
+    "img": "https://m.media-amazon.com/images/I/71TeXCsLp-L._AC_UL320_.jpg",
+    "price": "70",
+    "rating": "4,6★",
+    "reviews": 1646
+   },
+   {
+    "asin": "B0G4CQX7BM",
+    "title": "Lufeiya Escritorio Elevable Electrico con Cajones-Mesa Escritorio Pequeño Blanco Ajustable en Altura Soporte Ergonómico para Oficina en Casa Juvenil y",
+    "note": "Top ventas en Amazon.es: 4,1★ con 1646 valoraciones.",
+    "img": "https://m.media-amazon.com/images/I/61gsIJbQxwL._AC_UL320_.jpg",
+    "price": "110",
+    "rating": "4,1★",
+    "reviews": 1646
    }
   ],
   "monitores": [
@@ -62,6 +116,24 @@ module.exports = {
     "price": "76",
     "rating": "4,5★",
     "reviews": 897
+   },
+   {
+    "asin": "B0BTM62WTB",
+    "title": "Z-Edge Monitor Gaming Curvo 27 Pulgadas 280Hz FHD 1500R 1ms VA FreeSync",
+    "note": "Top ventas en Amazon.es: 4,4★ con 9712 valoraciones.",
+    "img": "https://m.media-amazon.com/images/I/71oDnXJXBlL._AC_UL320_.jpg",
+    "price": "170",
+    "rating": "4,4★",
+    "reviews": 9712
+   },
+   {
+    "asin": "B0DPHFYNY4",
+    "title": "KOORUI Monitor Gaming 27 Pulgadas 180Hz IPS FHD Pantalla PC Plana G2711V",
+    "note": "Top ventas en Amazon.es: 4,5★ con 23 valoraciones.",
+    "img": "https://m.media-amazon.com/images/I/71PkfIVMCjL._AC_UL320_.jpg",
+    "price": "110",
+    "rating": "4,5★",
+    "reviews": 23
    }
   ],
   "teclados-y-raton": [
@@ -82,6 +154,42 @@ module.exports = {
     "price": "19",
     "rating": "4,6★",
     "reviews": 875
+   },
+   {
+    "asin": "B0BTRH83R3",
+    "title": "Teclado y Ratón Subblim SUBKBCCSSK02 Blanco",
+    "note": "Top ventas en Amazon.es: 4,1★ con 950 valoraciones.",
+    "img": "https://m.media-amazon.com/images/I/61SGJTE-aVL._AC_UL320_.jpg",
+    "price": "11",
+    "rating": "4,1★",
+    "reviews": 950
+   },
+   {
+    "asin": "B0D41D3SPJ",
+    "title": "Trust Verto Ratón Vertical, Ratón Ergonómico Inalámbrico 800/1200/1600 dpi, 2.4GHz, Microrreceptor & ODY II Teclado Inalámbrico Silencioso QWERTY Espa",
+    "note": "Ratón Ergonómico Inalámbrico 800/1200/1600 dpi; 2.4GHz. Top ventas en Amazon.es: 4,5★ con 950 valoraciones.",
+    "img": "https://m.media-amazon.com/images/I/41zx6TlD8xL._AC_UL320_.jpg",
+    "price": "40",
+    "rating": "4,5★",
+    "reviews": 950
+   },
+   {
+    "asin": "B0DFY5JFVK",
+    "title": "Teclado inalámbrico de ratón combinado, 2,4 GHz silencioso de tamaño completo teclado con reposamuñecas, soporte para teléfono, modo de espera, teclad",
+    "note": "4 GHz silencioso de tamaño completo teclado con reposamuñecas; soporte para teléfono. Top ventas en Amazon.es: 4,1★ con 950 valoraciones.",
+    "img": "https://m.media-amazon.com/images/I/61UBZ43oraL._AC_UL320_.jpg",
+    "price": "47",
+    "rating": "4,1★",
+    "reviews": 950
+   },
+   {
+    "asin": "B0G5Y83V3V",
+    "title": "Combo de Teclado Ergonómico y Ratón, Ahorro de Energía, Inalámbrico, USB, Accesorios de Ordenador, 78 Teclas, 4 Botones, para el Hogar y la Oficina, A",
+    "note": "Ahorro de Energía; Inalámbrico. Top ventas en Amazon.es: 4,4★ con 950 valoraciones.",
+    "img": "https://m.media-amazon.com/images/I/61f1REdFOzL._AC_UL320_.jpg",
+    "price": "25",
+    "rating": "4,4★",
+    "reviews": 950
    }
   ],
   "iluminacion-escritorio": [
@@ -102,6 +210,33 @@ module.exports = {
     "price": "67",
     "rating": "4,4★",
     "reviews": 428
+   },
+   {
+    "asin": "B0CKQS1V8D",
+    "title": "Quntis 40cm Lámpara Monitor con Retroiluminadas y Control Inalámbrico",
+    "note": "Top ventas en Amazon.es: 4,6★ con 13.602 valoraciones. 200+ comprados el último mes.",
+    "img": "https://m.media-amazon.com/images/I/51Ynd09+JsL._AC_UL320_.jpg",
+    "price": "58",
+    "rating": "4,6★",
+    "reviews": 13602
+   },
+   {
+    "asin": "B0DRX9H1LM",
+    "title": "Honeywell Lámpara de Escritorio, Lámparas de Escritorio Negras para Oficina",
+    "note": "Lámparas de Escritorio Negras para Oficina. Top ventas en Amazon.es: 4,8★ con 236 valoraciones.",
+    "img": "https://m.media-amazon.com/images/I/61IAYgT4xsL._AC_UL320_.jpg",
+    "price": "50",
+    "rating": "4,8★",
+    "reviews": 236
+   },
+   {
+    "asin": "B0CTK746GP",
+    "title": "AmazLit Lámpara de escritorio LED regulable para cuidado de ojos, lámpara de arquitecto de doble fuente de luz, ajustable en temperatura de color, 16W",
+    "note": "lámpara de arquitecto de doble fuente de luz; ajustable en temperatura de color. Top ventas en Amazon.es: 4,8★ con 236 valoraciones. 700+ comprados el último mes.",
+    "img": "https://m.media-amazon.com/images/I/716Lg8YE05L._AC_UL320_.jpg",
+    "price": "60",
+    "rating": "4,8★",
+    "reviews": 236
    }
   ],
   "organizacion-cables-y-espacio": [
@@ -122,6 +257,51 @@ module.exports = {
     "price": "10",
     "rating": "4,1★",
     "reviews": 857
+   },
+   {
+    "asin": "B0CB5RQQKD",
+    "title": "URAQT 70 Piezas Clip de Cable Autoadhesivo, Organizador de Cables, Transparente Organizador Cables Escritorio, Mini Grapas Cable Pared, Sujeta Cables ",
+    "note": "Organizador de Cables; Transparente Organizador Cables Escritorio. Top ventas en Amazon.es: 4,1★ con 82.324 valoraciones. 500+ comprados el último mes.",
+    "img": "https://m.media-amazon.com/images/I/51be2IcqGUL._AC_UL320_.jpg",
+    "price": "8",
+    "rating": "4,1★",
+    "reviews": 82324
+   },
+   {
+    "asin": "B0GWCWR2JL",
+    "title": "Lote de 100 Bridas Reutilizables con Velcro, 15cm Cintas Multicolor para Gestión de Cables, Organizador de Cables Ajustable para Oficina y Hogar",
+    "note": "15cm Cintas Multicolor para Gestión de Cables; Organizador de Cables Ajustable para Oficina y Hogar. Top ventas en Amazon.es: 5,0★ con 13.750 valoraciones.",
+    "img": "https://m.media-amazon.com/images/I/81ai09yf2EL._AC_UL320_.jpg",
+    "price": "10",
+    "rating": "5,0★",
+    "reviews": 13750
+   },
+   {
+    "asin": "B0F2MXY2FP",
+    "title": "42 bridas de silicona reutilizables, correas ajustables, organizador de cables elástico multiusos para agrupar cables de carga, auriculares, cables de",
+    "note": "correas ajustables; organizador de cables elástico multiusos para agrupar cables de carga. Top ventas en Amazon.es: 4,6★ con 13.750 valoraciones.",
+    "img": "https://m.media-amazon.com/images/I/71WSMUTlW8L._AC_UL320_.jpg",
+    "price": "9",
+    "rating": "4,6★",
+    "reviews": 13750
+   },
+   {
+    "asin": "B09HC6Y3YQ",
+    "title": "SOULWIT 200PCS Kit de organización de cables,4 fundas para cables,37 clips,7 soportes para cables,10 soportes para bridas,20 clavos para clips,100 bri",
+    "note": "4 fundas para cables; 37 clips. Top ventas en Amazon.es: 4,7★ con 435 valoraciones. 50+ comprados el último mes.",
+    "img": "https://m.media-amazon.com/images/I/718C5CAITFL._AC_UL320_.jpg",
+    "price": "21",
+    "rating": "4,7★",
+    "reviews": 435
+   },
+   {
+    "asin": "B0BJ5YNPLV",
+    "title": "DIGITUS Canal Organizador de Cables - Montaje bajo encimera - para Cables, regletas de enchufes - Soporte de Cables - Bandeja de Cables - guía de Cabl",
+    "note": "Montaje bajo encimera; para Cables. Top ventas en Amazon.es: 4,7★ con 435 valoraciones.",
+    "img": "https://m.media-amazon.com/images/I/41X9-IlxY9L._AC_UL320_.jpg",
+    "price": "21",
+    "rating": "4,7★",
+    "reviews": 435
    }
   ],
   "mesas-elevables": [
@@ -142,6 +322,33 @@ module.exports = {
     "price": "149",
     "rating": "4,4★",
     "reviews": 580
+   },
+   {
+    "asin": "B0DPQFGH1Y",
+    "title": "HLFURNIEU Escritorio Elevable Electrico con Enchufes 120 x 60 cm, Negro",
+    "note": "Negro. Top ventas en Amazon.es: 4,2★ con 742 valoraciones.",
+    "img": "https://m.media-amazon.com/images/I/61pIu-G0IaL._AC_UL320_.jpg",
+    "price": "130",
+    "rating": "4,2★",
+    "reviews": 742
+   },
+   {
+    "asin": "B0BB1P6V6F",
+    "title": "Estructura Mesa Elevable, Patas Escritorio Elevable con 3 Funciones de Memoria y Cargador Type C, Mesa Electrico Soporte de Escritorio Ajustable en Al",
+    "note": "Patas Escritorio Elevable con 3 Funciones de Memoria y Cargador Type C; Mesa Electrico Soporte de Escritorio Ajustable en Altura. Top ventas en Amazon.es: 4,4★ con 742 valoraciones.",
+    "img": "https://m.media-amazon.com/images/I/51CzB5vQAjL._AC_UL320_.jpg",
+    "price": "140",
+    "rating": "4,4★",
+    "reviews": 742
+   },
+   {
+    "asin": "B0F9ZDHRR2",
+    "title": "Acrolix Mesa Escritorio Elevable Eléctrico, 150 x 100 CM Secretaria Elevatoria, Regulación Continua, con Portavasos y Gancho, para Trabajo, Redacción ",
+    "note": "150 x 100 CM Secretaria Elevatoria; Regulación Continua. Top ventas en Amazon.es: 4,2★ con 188 valoraciones. 50+ comprados el último mes.",
+    "img": "https://m.media-amazon.com/images/I/61JpkC8dasL._AC_UL320_.jpg",
+    "price": "230",
+    "rating": "4,2★",
+    "reviews": 188
    }
   ],
   "auriculares-videollamadas": [
@@ -162,6 +369,51 @@ module.exports = {
     "price": "37",
     "rating": "4,5★",
     "reviews": 966
+   },
+   {
+    "asin": "B01M0V6VPG",
+    "title": "Trust Primo Auriculares Estéreo con Micrófono Flexible, Negro",
+    "note": "Negro. Top ventas en Amazon.es: 4,2★ con 26.273 valoraciones. 200+ comprados el último mes.",
+    "img": "https://m.media-amazon.com/images/I/71512NThv0L._AC_UL320_.jpg",
+    "price": "8",
+    "rating": "4,2★",
+    "reviews": 26273
+   },
+   {
+    "asin": "B0HD1P2N7T",
+    "title": "Manos Libres Auricular Bluetooth V5.4, Auriculares inalambricos Bluetooth con Doble Micrófono Cancelación, 25H de Conversación, 180H en Espera, Manos ",
+    "note": "Auriculares inalambricos Bluetooth con Doble Micrófono Cancelación; 25H de Conversación. Top ventas en Amazon.es: 4,6★ con 26.273 valoraciones. 100+ comprados el último mes.",
+    "img": "https://m.media-amazon.com/images/I/61RH-itUevL._AC_UL320_.jpg",
+    "price": "28",
+    "rating": "4,6★",
+    "reviews": 26273
+   },
+   {
+    "asin": "B0BPNT3RYC",
+    "title": "keephifi KZ EDX Pro KZ In Ear Monitor Auriculares In Ear Headphones KZ Auriculares intraurales con Cable Gaming IEM Auriculare HiFi estéreo Sonido Esc",
+    "note": "Top ventas en Amazon.es: 4,6★ con 26.273 valoraciones. 100+ comprados el último mes.",
+    "img": "https://m.media-amazon.com/images/I/61505PTmQRL._AC_UL320_.jpg",
+    "price": "18",
+    "rating": "4,6★",
+    "reviews": 26273
+   },
+   {
+    "asin": "B0B7X7PK9S",
+    "title": "SteelSeries Arctis Nova 1 - Cascos Gaming Con Cable Multisistema - Controladores Hi-Fi - Audio espacial 360° - Almohadillas de espuma con memoria - Ul",
+    "note": "Cascos Gaming Con Cable Multisistema; Controladores Hi-Fi. Top ventas en Amazon.es: 4,2★ con 26.273 valoraciones. 300+ comprados el último mes.",
+    "img": "https://m.media-amazon.com/images/I/71G7cTO3-TL._AC_UL320_.jpg",
+    "price": "40",
+    "rating": "4,2★",
+    "reviews": 26273
+   },
+   {
+    "asin": "B0FSSSYFBF",
+    "title": "JBL Tune 530 C Auriculares con Cable, Negro",
+    "note": "Negro. Top ventas en Amazon.es: 4,4★ con 8239 valoraciones. 100+ comprados el último mes.",
+    "img": "https://m.media-amazon.com/images/I/6131xxGwvFL._AC_UL320_.jpg",
+    "price": "29",
+    "rating": "4,4★",
+    "reviews": 8239
    }
   ],
   "soportes-para-portatil-y-elevadores": [
@@ -182,6 +434,33 @@ module.exports = {
     "price": "30",
     "rating": "4,7★",
     "reviews": 979
+   },
+   {
+    "asin": "B0FJZSSPSD",
+    "title": "Spigen Slim Fold Soporte Portátil [Ultrafino y Adhesivo] Plegable para Ordenador, Elevador para Laptop con Ángulo ergonómico Doble, Antideslizante, Co",
+    "note": "Elevador para Laptop con Ángulo ergonómico Doble; Antideslizante. Top ventas en Amazon.es: 4,7★ con 4993 valoraciones.",
+    "img": "https://m.media-amazon.com/images/I/51cWrhfNbUL._AC_UL320_.jpg",
+    "price": "22",
+    "rating": "4,7★",
+    "reviews": 4993
+   },
+   {
+    "asin": "B0FKM3YDW5",
+    "title": "OMOTON Soporte vertical para laptop de 3 ranuras, soporte de aluminio de escritorio para MacBook con tamaño de base ajustable, se adapta a todos los M",
+    "note": "soporte de aluminio de escritorio para MacBook con tamaño de base ajustable; se adapta a todos los MacBook. Top ventas en Amazon.es: 4,5★ con 3227 valoraciones.",
+    "img": "https://m.media-amazon.com/images/I/61ucANygDzL._AC_UL320_.jpg",
+    "price": "29",
+    "rating": "4,5★",
+    "reviews": 3227
+   },
+   {
+    "asin": "B086V28W64",
+    "title": "Babacom Soporte Portatil Mesa 5 Ángulos Adjustable, Aleación de Aluminio, Refrigeración Soporte Ordenador Portátil, Plegable Soporte para Portatil, pa",
+    "note": "Aleación de Aluminio; Refrigeración Soporte Ordenador Portátil. Top ventas en Amazon.es: 4,7★ con 819 valoraciones. 400+ comprados el último mes.",
+    "img": "https://m.media-amazon.com/images/I/71LkgWyEP2L._AC_UL320_.jpg",
+    "price": "15",
+    "rating": "4,7★",
+    "reviews": 819
    }
   ],
   "reposapies-y-accesorios-ergonomicos": [
@@ -202,6 +481,15 @@ module.exports = {
     "price": "18",
     "rating": "4,5★",
     "reviews": 721
+   },
+   {
+    "asin": "B0GV7YZ2SW",
+    "title": "Reposapies de Oficina Bambú 3 Alturas Regulables Balanceo 360 Negro",
+    "note": "Top ventas en Amazon.es: 4,7★ con 20 valoraciones.",
+    "img": "https://m.media-amazon.com/images/I/71QJ0tM28NL._AC_UL320_.jpg",
+    "price": "30",
+    "rating": "4,7★",
+    "reviews": 20
    }
   ]
  },
