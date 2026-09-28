@@ -582,3 +582,8 @@ body { counter-reset: sec; }
 .cta-band { background: var(--color-surface-alt); color: var(--color-ink); border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border); }
 .cta-band h2 { color: var(--color-ink); }
 .cta-band p { color: var(--color-ink-muted); }
+
+/* sticky-footer-gap: la barra fija de producto no tapa el final del pie */
+body:has(.seo-sticky) { padding-bottom: 76px; }
+body:has(.seo-sticky) .seo-sticky-space { display: none; }
+@media (max-width: 640px) { body:has(.seo-sticky) { padding-bottom: 96px; } }
