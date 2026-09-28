@@ -1,3 +1,16 @@
+// Etiquetas cortas para los botones de filtro.
+const SHORT_LABELS = {
+  "sillas-ergonomicas": "Sillas",
+  "mesas-de-escritorio": "Escritorios",
+  "monitores": "Monitores",
+  "teclados-y-raton": "Teclado y ratón",
+  "iluminacion-escritorio": "Lámparas",
+  "organizacion-cables-y-espacio": "Organización",
+  "mesas-elevables": "Mesas elevables",
+  "auriculares-videollamadas": "Auriculares",
+  "soportes-para-portatil-y-elevadores": "Soportes portátil",
+  "reposapies-y-accesorios-ergonomicos": "Reposapiés"
+};
 "use strict";
 
 const { SITE } = require("../nav");
@@ -11,7 +24,7 @@ function productosIndex() {
   );
 
   const filters = GUIDES.map(
-    (g) => `<button type="button" class="filter-btn" data-filter="${g.slug}">${escapeHtml(g.title)} (${g.products.length})</button>`
+    (g) => `<button type="button" class="filter-btn" data-filter="${g.slug}">${escapeHtml(SHORT_LABELS[g.slug] || g.title)} (${g.products.length})</button>`
   ).join("\n        ");
 
   const html = `
