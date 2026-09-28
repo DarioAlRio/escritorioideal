@@ -515,3 +515,30 @@ table { border-collapse: collapse; width: 100%; }
 .seo-chips a{border:1px solid var(--color-border);border-radius:999px;padding:4px 12px;font-size:.85rem;background:var(--color-surface)}
 .seo-brand-vs{display:grid;grid-template-columns:1fr 1fr;gap:20px}
 @media (max-width:640px){.seo-related ul{columns:1}.seo-brand-vs{grid-template-columns:1fr}.seo-sticky-txt strong{display:block;overflow:hidden;text-overflow:ellipsis}}
+
+/* ==========================================================================
+   Identidad propia EscritorioIdeal — "estudio minimalista"
+   Fondo con retícula de papel técnico, secciones numeradas, tarjetas de
+   línea fina sin sombra y detalles monoespaciados.
+   ========================================================================== */
+:root { --radius-sm: 8px; --radius-md: 12px; --radius-lg: 16px; }
+body { counter-reset: sec; }
+.site-header { background: color-mix(in srgb, var(--color-bg) 85%, transparent); backdrop-filter: blur(10px); }
+.hero { background-image: none; }
+.hero::before { opacity: 1; background:
+  linear-gradient(color-mix(in srgb, var(--color-brand) 9%, transparent) 1px, transparent 1px) 0 0 / 24px 24px,
+  linear-gradient(90deg, color-mix(in srgb, var(--color-brand) 9%, transparent) 1px, transparent 1px) 0 0 / 24px 24px, var(--color-bg); }
+.eyebrow { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; text-transform: none; letter-spacing: 0; }
+.eyebrow::before { content: "> "; color: var(--color-accent-dark); }
+.hero-art-card { box-shadow: none; }
+.hero-art-card:nth-child(2n) { margin-top: 0; }
+.hero-art-card:hover { box-shadow: none; border-color: var(--color-accent); }
+.btn { border-radius: 10px; }
+.section-head h2::before { counter-increment: sec; content: counter(sec, decimal-leading-zero) " / ";
+  font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 0.6em; vertical-align: middle; color: var(--color-accent-dark); }
+.card { box-shadow: none; }
+.card:hover { transform: none; box-shadow: none; border-color: var(--color-brand); }
+.card-cta::after { content: " →"; }
+.cta-band { background: var(--color-surface-alt); color: var(--color-ink); border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border); }
+.cta-band h2 { color: var(--color-ink); }
+.cta-band p { color: var(--color-ink-muted); }
