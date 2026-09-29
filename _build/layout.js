@@ -67,7 +67,7 @@ function headerHtml(path) {
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="logo" href="/">
-        <span class="logo-mark" aria-hidden="true">${icon("laptop")}</span>
+        <span class="logo-mark" aria-hidden="true">${icon("officechair")}</span>
         <span class="logo-text">${SITE.name}</span>
       </a>
       <nav class="nav-desktop" aria-label="Principal">
@@ -114,7 +114,7 @@ function footerHtml(foot) {
       <div class="foot-grid">
         <div class="foot-brand">
           <a class="logo" href="/">
-            <span class="logo-mark" aria-hidden="true">${icon("laptop")}</span>
+            <span class="logo-mark" aria-hidden="true">${icon("officechair")}</span>
             <span class="logo-text">${SITE.name}</span>
           </a>
           <p>${SITE.claim}.</p>
