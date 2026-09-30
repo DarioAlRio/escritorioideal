@@ -216,6 +216,21 @@
       "permanent": true
     },
     {
+      "source": "/comparativas/gimars-3-en-1-alfombrilla-raton-y-teclad-vs-rii-rk105-teclado-raton-rgb-cableado.html",
+      "destination": "/guias/teclados-y-raton.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/gimars-3-en-1-alfombrilla-raton-y-teclad-vs-tecknet-raton-inalambrico-estandar.html",
+      "destination": "/guias/teclados-y-raton.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/gimars-3-en-1-alfombrilla-raton-y-teclad-vs-trust-verto-raton-vertical.html",
+      "destination": "/guias/teclados-y-raton.html",
+      "permanent": true
+    },
+    {
       "source": "/comparativas/gimars-3-en-1-alfombrilla-raton-y-teclad-vs-yunzii-b75-pro.html",
       "destination": "/guias/teclados-y-raton.html",
       "permanent": true
@@ -771,6 +786,11 @@
       "permanent": true
     },
     {
+      "source": "/productos/gimars-3-en-1-alfombrilla-raton-y-teclado-reposamunecas-ergonomica-espuma-viscoelastica-reposa-munecas-con-posavasos-mouse-pad-gaming-soporte-teclad-b0bn2vjfxd.html",
+      "destination": "/guias/teclados-y-raton.html",
+      "permanent": true
+    },
+    {
       "source": "/:section(guias|blog|comparativas|productos|legal|mejores)/:slug([^/.]+)",
       "destination": "/:section/:slug.html",
       "permanent": true
@@ -792,6 +812,18 @@
         {
           "key": "Referrer-Policy",
           "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=(), payment=()"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "frame-ancestors 'self'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests"
         }
       ]
     },
