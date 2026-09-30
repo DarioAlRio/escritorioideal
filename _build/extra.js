@@ -495,7 +495,7 @@ module.exports = {
  },
  "articles": [
   {
-   "updated": "2026-09-24",
+   "updated": "2026-10-01",
    "slug": "silla-ergonomica-barata-vs-gama-media",
    "guide": "sillas-ergonomicas",
    "title": "Silla ergonómica barata o de gama media: dónde está la diferencia",
@@ -508,11 +508,21 @@ module.exports = {
     "Soporte lumbar regulable, reposabrazos 3D o 4D, asiento con profundidad ajustable y mecanismo sincronizado. Son los ajustes que evitan que tengas que adaptarte tú a la silla.",
     "<h2>Nuestra regla</h2>",
     "Menos de 3 horas al día: una barata bien valorada. Teletrabajo a jornada completa: gama media como mínimo.",
+    "<h2>Cómo probar una silla que compras online</h2>",
+    "Cuando llegue la silla, dedica diez minutos a ajustarla antes de juzgarla. Primero la altura, para que los pies apoyen planos y los muslos queden paralelos al suelo. Después el soporte lumbar, que debe encajar en la curva de tu zona baja de la espalda, más o menos a la altura del cinturón. Por último, los reposabrazos, a la altura de la mesa para que los hombros no suban.",
+    "Úsala varios días seguidos antes de decidir si te la quedas: la primera impresión engaña, y un asiento muy blando que parece cómodo al principio puede molestar después de tres horas.",
+    "<h2>Malla o espuma</h2>",
+    "La malla transpira mejor, algo muy de agradecer en verano, y se adapta a la espalda. La espuma resulta más cálida y mullida, pero con el tiempo puede aplastarse. En sillas baratas, un respaldo de malla con asiento de espuma densa es una combinación razonable.",
+    "<h2>Señales de que tu silla se ha quedado corta</h2>",
+    "<ul><li>Terminas la jornada con molestias en la zona lumbar o en el cuello.</li><li>Te sientas en el borde del asiento sin darte cuenta.</li><li>El pistón baja solo a lo largo del día.</li><li>Los reposabrazos no llegan a la mesa y trabajas con los hombros levantados.</li></ul>",
+    "Si te reconoces en dos o más, subir a gama media es probablemente la mejor inversión que puedes hacer en tu escritorio.",
+    "<h2>Garantía y piezas</h2>",
+    "El pistón de gas y las ruedas son las piezas que más se estropean. Antes de comprar, comprueba que la marca venda recambios o que usen medidas estándar. Así una silla de gama media puede durar muchos años con un par de arreglos baratos.",
     "Compara modelos en el <a href=\"/mejores/sillas-ergonomicas.html\">ranking de sillas ergonómicas 2026</a> y en <a href=\"/mejores/sillas-ergonomicas-baratos.html\">sillas ergonómicas baratas</a>."
    ]
   },
   {
-   "updated": "2026-09-24",
+   "updated": "2026-10-01",
    "slug": "setup-de-teletrabajo-por-menos-de-300-euros",
    "guide": "mesas-de-escritorio",
    "title": "Setup de teletrabajo completo por menos de 300 €",
@@ -523,6 +533,16 @@ module.exports = {
     "<ul><li>Escritorio: 60-90 €.</li><li>Silla ergonómica: 70-100 €.</li><li>Monitor de 24\": 70-80 €.</li><li>Soporte de portátil y teclado/ratón: 30-40 €.</li><li>Lámpara: 20 €.</li></ul>",
     "<h2>Dónde no recortar</h2>",
     "En la silla y en la altura de la pantalla. Un monitor externo o un soporte para portátil a la altura de los ojos evita dolores de cuello.",
+    "<h2>El orden en que conviene comprar</h2>",
+    "Si no puedes comprarlo todo de golpe, prioriza lo que más afecta a tu postura. Primero la silla, porque es la que soporta tu cuerpo ocho horas. Después, lo que pone la pantalla a la altura de los ojos: un soporte de portátil más un teclado y un ratón externos cuestan menos que un monitor y resuelven el problema del cuello. El escritorio va después si ya tienes una mesa estable de altura razonable.",
+    "El monitor externo es el último escalón y el que más mejora la productividad: trabajar con dos pantallas (portátil más monitor) reduce mucho el cambio constante entre ventanas.",
+    "<h2>Cómo ajustar el puesto que ya tienes</h2>",
+    "Antes de gastar, prueba estos ajustes gratuitos:",
+    "<ul><li>La parte superior de la pantalla, a la altura de los ojos o ligeramente por debajo.</li><li>La pantalla, a la distancia de un brazo extendido.</li><li>Los codos, en ángulo recto con los hombros relajados.</li><li>Los pies, apoyados en el suelo o en un reposapiés (una caja firme sirve).</li><li>La luz natural, de lado: nunca a tu espalda, que refleja en la pantalla, ni de frente, que deslumbra.</li></ul>",
+    "<h2>Dónde sí puedes ahorrar</h2>",
+    "La lámpara, los organizadores de cables y la alfombrilla admiten productos muy baratos sin perder nada. El teclado también: un teclado de membrana sencillo y silencioso es perfectamente válido para escribir todo el día. Donde no conviene recortar es en la silla y, si trabajas con texto muchas horas, en la calidad del panel del monitor: un panel IPS cansa menos la vista.",
+    "<h2>Si el presupuesto sube un poco</h2>",
+    "Con 100 o 150 € más, la mejora que más se nota es una silla de gama media con soporte lumbar regulable. La segunda, un brazo de monitor, que libera la mesa y permite ajustar la altura exacta.",
     "Tienes opciones concretas en el <a href=\"/mejores/mesas-de-escritorio.html\">top de escritorios</a>, <a href=\"/mejores/monitores.html\">monitores</a> y <a href=\"/mejores/soportes-para-portatil-y-elevadores.html\">soportes para portátil</a>."
    ]
   }
